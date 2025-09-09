@@ -1,0 +1,160 @@
+{
+  "HomePage": {
+    "Header": {
+      "whatsapp": "Whatsapp"
+    },
+    "Hero": {
+      "slogan": "Financing your car is now easier",
+      "p1": "Installments at cash price – Easy and convenient terms and solutions",
+      "p2": "Toyota and other brands – New and used",
+      "btns": {
+        "b1": "Book now",
+        "b2": "Contact Us"
+      }
+    },
+    "Why": {
+      "heading": "Why Sahl Cars?",
+      "0": {
+        "heading": "Fast Approval",
+        "p": "Quick approvals within 24 hours"
+      },
+      "1": {
+        "heading": "Easy Installments",
+        "p": "Installments at cash price with flexible terms"
+      },
+      "2": {
+        "heading": "Trust & Guarantee",
+        "p": "Reliable and guaranteed service"
+      },
+      "3": {
+        "heading": "Zero Percent Commission",
+        "p": "Zero commission throughout the financing process."
+      }
+    },
+    "Cars": {
+      "heading": "Some Models",
+      "imgLink": "Contact to Order",
+      "currency": "SAR"
+    },
+    "Steps": {
+      "heading": "Application Steps",
+      "0": {
+        "heading": "Submit your financing application",
+        "p": "موافقات سريعة خلال 24 ساعة"
+      },
+      "1": {
+        "heading": "Receive available offers",
+        "p": "تقسيط بسعر الكاش مع شروط مرنة"
+      },
+      "2": {
+        "heading": "Choose the most suitable offer",
+        "p": "خدمة موثوقة ومضمونة"
+      },
+      "3": {
+        "heading": "Get final approval",
+        "p": "صفر عمولة خلال عملية التمويل"
+      }
+    },
+    "Partners": {
+      "heading": "Out Partners"
+    },
+    "Contact": {
+      "heading": "Contact Us",
+      "form": {
+        "formHeading": {
+          "h4": "Contact Us Now!",
+          "p": "Fill out the form and we will contact you within 24 hours."
+        },
+        "name": {
+          "label": "Name",
+          "placeholder": "Type Your full name"
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "+966xxxxxxxxx"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "username@example.com"
+        },
+        "dateOfBirth": {
+          "label": "Date of Birth"
+        },
+        "gender": {
+          "label": "Gender",
+          "options": {
+            "male": "Male",
+            "female": "Female"
+          }
+        },
+        "carBrand": {
+          "label": "Car Brand",
+          "placeholder": "Select car Brand"
+        },
+        "carModel": {
+          "label": "Car Model",
+          "placeholder": "Select car model",
+          "disabledPlaceholder": "Select car Brand first",
+          "customPlaceholder": "Enter car Brand and model"
+        },
+        "work": {
+          "label": "Employer (Company/Organization)",
+          "options": {
+            "gov": "Government",
+            "private": "Private",
+            "other": "Other"
+          }
+        },
+        "insurence": {
+          "label": "Are you registered with Social Insurance?",
+          "options": {
+            "yes": "Yes",
+            "no": "No"
+          }
+        },
+        "salarySrc": {
+          "label": "Salary Transfer Bank",
+          "placeholder": "Select bank"
+        },
+        "salary": {
+          "label": "Net Salary",
+          "placeholder": "Net salary in Saudi Riyals"
+        },
+        "obligations": {
+          "label": "Do you have any financial obligations?",
+          "options": {
+            "state": "Mortgage",
+            "personal": "Personal Loan",
+            "other": "Other"
+          }
+        },
+        "otherObligations": {
+          "label": "Other Obligations",
+          "placeholder": "What are your obligations?"
+        },
+        "sema": {
+          "label": "Do you have any credit issues in SAMA?",
+          "options": {
+            "yes": "Yes",
+            "no": "No"
+          }
+        },
+        "totalObl": {
+          "label": "Total Monthly Financial Obligations",
+          "placeholder": "In Saudi Riyals"
+        },
+        "message": {
+          "label": "Additional Message (Optional)",
+          "placeholder": ""
+        },
+        "requiredMsg": "Please fill all required fields",
+        "submit": "Send via WhatsApp",
+        "whatsappLink": {
+          "p": "Want to chat via WhatsApp?",
+          "a": "Contact Us"
+        }
+        },
+        "location": "Where Are We?"
+    }
+  }
+}

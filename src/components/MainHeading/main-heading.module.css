@@ -1,0 +1,51 @@
+.mainHeading{
+    position: relative;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.mainHeading span{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--lighter-color);
+    transform: translateY(50%);
+}
+.mainHeading span:last-of-type{
+    left: unset;
+    right: 10px;
+}
+.mainHeading::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    width: calc(100% - 20px);
+    transform: translateY(50%) translateX(-50%);
+    background-color: var(--lighter-color);
+}
+.mainHeading h2{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 0px #000;
+    color: var(--lighter-color);
+}
+.mainHeading.inverted h2{
+    color: var(--bg-color);
+}
+.mainHeading.inverted span,
+.mainHeading.inverted::before{
+    background-color: var(--bg-color);
+}
+@media (max-width: 992px) {
+    .mainHeading h2{
+        font-size: 40px;
+    }
+}

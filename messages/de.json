@@ -1,0 +1,160 @@
+{
+  "HomePage": {
+    "Header": {
+      "whatsapp": "WhatsApp"
+    },
+    "Hero": {
+      "slogan": "Die Autofinanzierung ist jetzt einfacher",
+      "p1": "Ratenzahlung zum Barpreis - einfache und flexible Bedingungen",
+      "p2": "Finanzierung von Toyota und anderen Autos zu den besten Preisen und mit den einfachsten Verfahren",
+      "btns": {
+        "b1": "Buchen Sie jetzt Ihre Beratung",
+        "b2": "Kontaktieren Sie uns"
+      }
+    },
+    "Why": {
+      "heading": "Warum Sahel Cars?",
+      "0": {
+        "heading": "Schnelle Genehmigung",
+        "p": "Schnelle Genehmigungen innerhalb von 24 Stunden"
+      },
+      "1": {
+        "heading": "Einfache Raten",
+        "p": "Ratenzahlung zum Barpreis mit flexiblen Bedingungen"
+      },
+      "2": {
+        "heading": "Garantie und Vertrauen",
+        "p": "Zuverlässiger und garantierter Service"
+      },
+      "3": {
+        "heading": "Keine Provision",
+        "p": "Null Provision während des Finanzierungsprozesses"
+      }
+    },
+    "Cars": {
+      "heading": "Einige Modelle",
+      "imgLink": "Kontakt zur Bestellung",
+      "currency": "Riyal"
+    },
+    "Steps": {
+      "heading": "Schritte zur Finanzierungsanfrage",
+      "0": {
+        "heading": "Stellen Sie den Finanzierungsantrag",
+        "p": "Schnelle Genehmigungen innerhalb von 24 Stunden"
+      },
+      "1": {
+        "heading": "Erhalten Sie die verfügbaren Angebote",
+        "p": "Ratenzahlung zum Barpreis mit flexiblen Bedingungen"
+      },
+      "2": {
+        "heading": "Wählen Sie das passende Angebot",
+        "p": "Zuverlässiger und garantierter Service"
+      },
+      "3": {
+        "heading": "Erhalten Sie die endgültige Genehmigung",
+        "p": "Null Provision während des Finanzierungsprozesses"
+      }
+    },
+    "Partners": {
+      "heading": "Erfolgspartner"
+    },
+    "Contact": {
+      "heading": "Kontaktieren Sie uns",
+      "form": {
+        "formHeading": {
+          "h4": "Kontaktieren Sie uns jetzt",
+          "p": "Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden bei Ihnen"
+        },
+        "name": {
+          "label": "Vollständiger Name",
+          "placeholder": "Geben Sie Ihren vollständigen Namen ein"
+        },
+        "phone": {
+          "label": "Telefonnummer",
+          "placeholder": "+966xxxxxxxxx"
+        },
+        "email": {
+          "label": "E-Mail",
+          "placeholder": "username@example.com"
+        },
+        "dateOfBirth": {
+          "label": "Geburtsdatum"
+        },
+        "gender": {
+          "label": "Geschlecht",
+          "options": {
+            "male": "Männlich",
+            "female": "Weiblich"
+          }
+        },
+        "carBrand": {
+          "label": "Automarke",
+          "placeholder": "Wählen Sie die Automarke"
+        },
+        "carModel": {
+          "label": "Automodell",
+          "placeholder": "Wählen Sie das Automodell",
+          "disabledPlaceholder": "Wählen Sie zuerst die Automarke",
+          "customPlaceholder": "Geben Sie Marke und Modell des Autos ein"
+        },
+        "work": {
+          "label": "Arbeitgeber",
+          "options": {
+            "gov": "Regierung",
+            "private": "Privat",
+            "other": "Andere"
+          }
+        },
+        "insurence": {
+          "label": "Sind Sie bei der Sozialversicherung registriert?",
+          "options": {
+            "yes": "Ja",
+            "no": "Nein"
+          }
+        },
+        "salarySrc": {
+          "label": "Gehaltseingangsstelle",
+          "placeholder": "Wählen Sie die Bank"
+        },
+        "salary": {
+          "label": "Nettoeinkommen",
+          "placeholder": "Nettoeinkommen in Saudi-Riyal"
+        },
+        "obligations": {
+          "label": "Haben Sie Verpflichtungen?",
+          "options": {
+            "state": "Immobilienfinanzierung",
+            "personal": "Persönliche Finanzierung",
+            "other": "Andere"
+          }
+        },
+        "otherObligations": {
+          "label": "Andere Verpflichtungen",
+          "placeholder": "Welche Verpflichtungen haben Sie?"
+        },
+        "sema": {
+          "label": "Haben Sie Zahlungsausfälle bei SIMAH?",
+          "options": {
+            "yes": "Ja",
+            "no": "Nein"
+          }
+        },
+        "totalObl": {
+          "label": "Gesamte monatliche finanzielle Verpflichtungen",
+          "placeholder": "In Saudi-Riyal"
+        },
+        "message": {
+          "label": "Zusätzliche Nachricht (optional)",
+          "placeholder": ""
+        },
+        "requiredMsg": "Bitte füllen Sie alle erforderlichen Felder aus",
+        "submit": "Über WhatsApp senden",
+        "whatsappLink": {
+          "p": "Möchten Sie in einem offenen WhatsApp-Chat kommunizieren?",
+          "a": "Kontaktieren Sie uns"
+        }
+      },
+      "location": "Wo finden Sie uns?"
+    }
+  }
+}

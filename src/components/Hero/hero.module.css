@@ -1,0 +1,183 @@
+.hero{
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    min-height: 100dvh;
+    background-image: url("../../../public/images/hero-bg.svg");
+    background-image: url("../../../public/images/hero-bg-2.svg");
+    background-image: url("../../../public/images/hero-bg-3.svg");
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    /* isolation: isolate; */
+    padding-top: 59px;
+}
+.hero.ar{
+    direction: rtl;
+}
+.hero .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--text-color);
+    background-color: var(--bg-color);
+    opacity: 0.85;
+    z-index: -1;
+    /* display: none; */
+}
+/* .hero::before{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 200%;
+    width: 400px;
+    background-color: var(--main-color);
+    opacity: 0.3;
+    transform: rotateZ(30deg);
+}
+.hero::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 200%;
+    width: 400px;
+    background-color: var(--main-color);
+    opacity: 0.3;
+    transform: rotateZ(-30deg);
+} */
+.hero > div:first-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* height: 100dvh; */
+    min-height: calc(100dvh - 59px);
+    /* text-align: center; */
+    /* background-color: red; */
+}
+.hero > div:first-of-type > *{
+    height: 500px;
+    /* background-color: red; */
+}
+.hero > div:first-of-type h2{
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    max-width: 100%;
+    color: var(--main-color);
+    text-shadow: 2px 2px 0px var(--text-color);
+    text-wrap: wrap;
+    /* text-wrap: nowrap; */
+    /* text-align: center; */
+    z-index: 2;
+}
+.hero > div:first-of-type h2{
+    font-size: 80px;
+}
+.hero > div:first-of-type p{
+    font-size: 24px;
+    color: var(--text-color);
+    /* color: #fff; */
+}
+
+.hero > div:first-of-type .btns{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* direction: rtl; */
+    gap: 10px;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+.hero > div:first-of-type .btns a{
+    padding: 4px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: var(--main-shadow);
+    transition: var(--main-transition);
+    border: 1px solid var(--main-color);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.hero > div:first-of-type .btns a:first-child{
+    background-image: var(--main-gradient);
+    color: #fff;
+}
+.hero > div:first-of-type .btns a:last-child{
+    color: var(--main-color);
+    background-image: linear-gradient(90deg, white 0%, white 100%);
+}
+.hero > div:first-of-type .btns a:last-child:hover{
+    background-image: var(--main-gradient);
+    color: #fff;
+}
+.hero > div:first-of-type .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero > div:first-of-type .img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+}
+.hero > div:first-of-type .img *{
+    /* transform: scale(1.2);      */
+    object-fit: contain;
+    /* background-color: red; */
+    max-width: 100%;
+}
+@media (max-width: 992px) {
+
+    .hero > div:first-of-type{
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 100px;
+        text-align: center;
+        gap: 100px;
+    }
+    .hero > div:first-of-type .text{
+        width: 100%;
+    }
+    .hero > div:first-of-type .img{
+        width: 100%;
+        /* display: none; */
+    }
+    .hero > div:first-of-type h2{
+        font-size: 76px;
+        width: 100%;
+    }
+    .hero > div:first-of-type .btns{
+        justify-content: center;
+    }
+    .hero::before{
+        transform: translateY(200px) rotateZ(30deg);
+    } 
+    .hero::after{
+        transform: translateY(200px) rotateZ(-30deg);
+    }
+}
+@media (max-width: 767px) {
+    .hero > div:first-of-type h2{
+        font-size: 50px;
+    }
+    .hero > div:first-of-type p{
+        font-size: 20px;
+    }
+    .hero::before{
+        transform: translateY(400px) rotateZ(30deg);
+    } 
+    .hero::after{
+        transform: translateY(400px) rotateZ(-30deg);
+    }
+}
