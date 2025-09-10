@@ -25,30 +25,6 @@
     z-index: -1;
     /* display: none; */
 }
-/* .hero::before{
-    content: "";
-    z-index: -1;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 200%;
-    width: 400px;
-    background-color: var(--main-color);
-    opacity: 0.3;
-    transform: rotateZ(30deg);
-}
-.hero::after{
-    content: "";
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 200%;
-    width: 400px;
-    background-color: var(--main-color);
-    opacity: 0.3;
-    transform: rotateZ(-30deg);
-} */
 .hero > div:first-of-type{
     display: flex;
     align-items: center;
@@ -94,9 +70,8 @@
     /* background-color: red; */
 }
 .hero > div:first-of-type .btns a{
-    padding: 4px 20px;
+    padding: 5px 20px;
     border-radius: 8px;
-    font-size: 18px;
     box-shadow: var(--main-shadow);
     transition: var(--main-transition);
     border: 1px solid var(--main-color);

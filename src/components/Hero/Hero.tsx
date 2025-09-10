@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import Image from 'next/image'
 import heroImg from "../../../public/images/hero-img.png"
+import { PopupButton } from 'react-calendly'
 
 const Hero = ({
   lo
@@ -61,16 +62,20 @@ const Hero = ({
                     }
                 </p>
                 <div className={styles.btns + " " + "stagger-text"}>
-                    <a href="#contact">
-                        {
-                            t("Hero.btns.b1")
-                        }
-                    </a>
+                    <PopupButton
+                        className='book-btn main'
+                        url="https://calendly.com/mo32000a/30min"
+                        /*
+                        * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+                        * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+                        */
+                        rootElement={document.getElementsByTagName("body")[0]}
+                        text="Book Appointment"
+                    />
                     <a href="https://wa.me/+966505638988" target='_blank'>
                         {
                             t("Hero.btns.b2")
                         }
-                        <FontAwesomeIcon icon={faWhatsapp} />
                     </a>
                 </div>
             </div>

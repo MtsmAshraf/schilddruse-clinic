@@ -3,7 +3,6 @@
 import Contact from "@/components/Contact/Contact";
 import "./globals.css";
 import Hero from "@/components/Hero/Hero";
-import Loader from "@/components/Loader/Loader";
 import BlogCards from "@/components/BlogCards/BlogCards";
 
 export default async function Home({
@@ -16,7 +15,7 @@ export default async function Home({
   // const t = await getTranslations('HomePage');
   return (
     <main>
-      <Loader />
+      {/* <Loader /> */}
       <Hero lo={locale} />
       <BlogCards />
       <Contact lo={locale}/>

@@ -63,6 +63,31 @@ button, button:focus, button:focus-visible, button:active{
   padding-right: 20px;
   padding-left: 20px;
 }
+.book-btn{
+    background-color: #fff;
+    padding: 5px 20px;
+    border-radius: 8px;
+    transition: var(--main-transition);
+    transition-duration: 0.2s;
+    /* font-size: 14px; */
+    border: 1px solid var(--main-color);
+}
+.book-btn:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
+.book-btn.main{
+    background-color: var(--main-color);
+    color: #fff;
+}
+.book-btn:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
+.book-btn.main:hover{
+    background-image: var(--main-gradient);
+    color: #fff;
+}
 @media (min-width: 767px) {
   .container{
     width: 750px;

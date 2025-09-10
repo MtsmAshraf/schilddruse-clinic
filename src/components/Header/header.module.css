@@ -37,22 +37,6 @@
 .header > div .smCtrl{
     display: none;
 }
-.header .bookBtn button{
-    background-color: #fff;
-    padding: 5px 20px;
-    border-radius: 20px;
-    transition: var(--main-transition);
-    transition-duration: 0.2s;
-    font-size: 14px;
-    border: 1px solid var(--main-color);
-}
-.calendlyWidget{
-    background-color: red;
-}
-.header .bookBtn button:hover{
-    background-color: var(--main-color);
-    color: #fff;
-}
 .header .close{
     color: #fff;
     width: 26px;

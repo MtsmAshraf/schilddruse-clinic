@@ -29,7 +29,7 @@ const blogPosts: BlogPost[] = [
     },
     {
         id: "3",
-        title: "Blog Post Title",
+        title: "Blog Post Post Post Title",
         brief: "Blog Post brief Blog Post brief Blog Post brief Blog Post brief",
         body: "Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body. Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body.",
         img: blogTestImg
