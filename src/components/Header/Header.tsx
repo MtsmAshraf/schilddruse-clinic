@@ -52,17 +52,6 @@ const Header = ({
                 text="Book Appointment"
               />
             </div>
-            <PopupWidget
-              url="https://calendly.com/mo32000a/30min"
-              /*
-              * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-              * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-              */
-              rootElement={document.getElementsByTagName("body")[0]}
-              text="Book Appointment"
-              textColor="#ffffff"
-              color="var(--main-color)"
-            />
         </div>
     </header>
   )

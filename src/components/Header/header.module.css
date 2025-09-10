@@ -46,6 +46,9 @@
     font-size: 14px;
     border: 1px solid var(--main-color);
 }
+.calendlyWidget{
+    background-color: red;
+}
 .header .bookBtn button:hover{
     background-color: var(--main-color);
     color: #fff;
