@@ -1,49 +1,69 @@
-import { Link } from '@/i18n/navigation'
-import Image from 'next/image'
-import React from 'react'
-import logo from "../../../public/images/logo.webp"
+"use client"
+import React, { useEffect, useState } from 'react'
 import styles from "./header.module.css"
-import LangSwitch from '../LangSwitch/LangSwitch'
+import Image from 'next/image'
+import logo from "../../../public/imgs/logo-placeholder.png"
+import Nav from '../Nav/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons/faWhatsapp'
-import { useTranslations } from 'next-intl'
-
+import { faArrowRight, faBars } from '@fortawesome/free-solid-svg-icons'
+import VerticalNav from '../VerticalNav/VerticalNav'
+import LangSwitch from '../Nav/LangSwitch/LangSwitch'
+import { usePathname } from 'next/navigation'
+import { PopupButton, PopupWidget } from 'react-calendly'
+// import { Link } from '@/i18n/navigation'
 
 const Header = ({
-  lo
-} : {
-  lo: string
-}) => {
-  const t = useTranslations("HomePage.Header")
+    lo
+  }: {
+    lo: string
+  }) => {
+    const [showVNav, setShowVNav] = useState(false)
+    const pathname = usePathname()
+    useEffect(() => {
+      setShowVNav(false)
+      console.log("false")
+    },[pathname])
   return (
     <header className={lo === "ar" ? styles.header + " " + styles.ar : styles.header}>
-      <div className="container">
-        <div>
-          <LangSwitch lo={lo}></LangSwitch>
-        </div>
-        <div>
-          <Link id="logo" href={"/"} className={styles.logo}>
-            <Image src={logo} alt='Sahl Cars Logo'></Image>
-          </Link>
-        </div>
-        <div className={styles.links}>
-          <div>
-            <a href="https://wa.me/+966505638988" target='_blank'>
-              <FontAwesomeIcon icon={faWhatsapp} />
-              <span>
-                {t("whatsapp")}
-              </span>
+        <div className="container">
+            <a className={styles.logo} href={"/"}>
+                <Image loading='lazy' src={logo} alt='Al Assema Logo'></Image>
             </a>
-            <a href="tel:+966505638988">
-              <FontAwesomeIcon icon={faPhone} />
-              <span>
-                +966505638988
-              </span>
-            </a>
-          </div>
+            <Nav lo={lo}></Nav>
+            <div className={styles.smCtrl}>
+              <LangSwitch lo={lo}></LangSwitch>
+              <button className={styles.bars} onClick={() => {setShowVNav(!showVNav)}}>
+                  <FontAwesomeIcon icon={faBars} />
+              </button>
+            </div>
+            <button className={showVNav ? styles.close + " " + styles.shown : styles.close} onClick={() => {setShowVNav(!showVNav)}}>
+                <FontAwesomeIcon icon={faArrowRight} />
+            </button>
+            <VerticalNav lo={lo} shown={showVNav}></VerticalNav>
+            {/* <SocialUl></SocialUl> */}
+            <div className={styles.bookBtn}>
+              <PopupButton
+                url="https://calendly.com/mo32000a/30min"
+                /*
+                * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+                * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+                */
+                rootElement={document.getElementsByTagName("body")[0]}
+                text="Book Appointment"
+              />
+            </div>
+            <PopupWidget
+              url="https://calendly.com/mo32000a/30min"
+              /*
+              * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+              * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+              */
+              rootElement={document.getElementsByTagName("body")[0]}
+              text="Book Appointment"
+              textColor="#ffffff"
+              color="var(--main-color)"
+            />
         </div>
-      </div>
     </header>
   )
 }

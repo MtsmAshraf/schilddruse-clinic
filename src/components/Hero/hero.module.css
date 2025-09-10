@@ -71,7 +71,7 @@
     width: 900px;
     max-width: 100%;
     color: var(--main-color);
-    text-shadow: 2px 2px 0px var(--text-color);
+    /* text-shadow: 2px 2px 0px var(--text-color); */
     text-wrap: wrap;
     /* text-wrap: nowrap; */
     /* text-align: center; */
