@@ -3,8 +3,6 @@
     isolation: isolate;
     overflow: hidden;
     min-height: 100dvh;
-    background-image: url("../../../public/images/hero-bg.svg");
-    background-image: url("../../../public/images/hero-bg-2.svg");
     background-image: url("../../../public/images/hero-bg-3.svg");
     background-size: cover;
     background-position: 100%;
