@@ -9,7 +9,7 @@ import { faArrowRight, faBars } from '@fortawesome/free-solid-svg-icons'
 import VerticalNav from '../VerticalNav/VerticalNav'
 import LangSwitch from '../Nav/LangSwitch/LangSwitch'
 import { usePathname } from 'next/navigation'
-import { PopupButton, PopupWidget } from 'react-calendly'
+import { PopupButton } from 'react-calendly'
 // import { Link } from '@/i18n/navigation'
 
 const Header = ({
