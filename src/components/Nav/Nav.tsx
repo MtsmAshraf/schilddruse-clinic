@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./nav.module.css"
 import LangSwitch from './LangSwitch/LangSwitch'
-import { useTranslations } from 'next-intl'
+// import { useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
 import { Link } from '@/i18n/navigation'
 
@@ -10,7 +10,7 @@ const Nav = ({
 }: {
     lo: string
 }) => {
-    const t = useTranslations("HomePage.Header")
+    // const t = useTranslations("HomePage.Header")
     const pathname = usePathname()
   return (
     <nav className={lo === "ar" ? styles.nav + " " + styles.ar : styles.nav}>

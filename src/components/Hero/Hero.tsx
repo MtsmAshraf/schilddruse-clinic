@@ -4,10 +4,11 @@ import styles from "./hero.module.css"
 import { useTranslations } from 'next-intl'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
-import { DotLottieReact } from '@lottiefiles/dotlottie-react'
+// import { DotLottieReact } from '@lottiefiles/dotlottie-react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-
+import Image from 'next/image'
+import heroImg from "../../../public/images/hero-img.png"
 
 const Hero = ({
   lo
@@ -74,19 +75,20 @@ const Hero = ({
                 </div>
             </div>
             <div id='hero-img' className={styles.img}>
-                <DotLottieReact 
-                // src="https://lottie.host/cbab1bf0-9443-4f8d-8fa7-46489702ba56/xVHiC3sM2T.json" 
-                // src="https://lottie.host/5fe284c4-cfee-4d60-8d30-e6b4a11c89d9/v1W3TAjATe.lottie"
-                // src="https://lottie.host/a3947af8-c0f4-441f-acca-ea58103508c8/gDpkHmD0bg.lottie"
-                // src="https://lottie.host/3a20c431-7c70-4a9c-99ad-8de45d81059f/f6YXjvbjfH.lottie"
-                // src="https://lottie.host/34e99b35-c67b-4d9f-b801-bfe7aa53d4a6/7QrwMwQvdK.lottie"
-                // src="https://lottie.host/34e99b35-c67b-4d9f-b801-bfe7aa53d4a6/7QrwMwQvdK.lottie"
+                {/* <DotLottieReact 
+                src="https://lottie.host/cbab1bf0-9443-4f8d-8fa7-46489702ba56/xVHiC3sM2T.json" 
+                src="https://lottie.host/5fe284c4-cfee-4d60-8d30-e6b4a11c89d9/v1W3TAjATe.lottie"
+                src="https://lottie.host/a3947af8-c0f4-441f-acca-ea58103508c8/gDpkHmD0bg.lottie"
+                src="https://lottie.host/3a20c431-7c70-4a9c-99ad-8de45d81059f/f6YXjvbjfH.lottie"
+                src="https://lottie.host/34e99b35-c67b-4d9f-b801-bfe7aa53d4a6/7QrwMwQvdK.lottie"
+                src="https://lottie.host/34e99b35-c67b-4d9f-b801-bfe7aa53d4a6/7QrwMwQvdK.lottie"
                 src="https://lottie.host/238ba0cf-59df-434b-a65b-8b7bfb6a3edf/3d9L2RYgTm.lottie"
                 speed={1}
                 style={{width: "100%",height: "100%"}}
                 loop 
                 backgroundColor='transparent'
-                autoplay></DotLottieReact>
+                autoplay></DotLottieReact> */}
+                <Image src={heroImg} alt='Doctor and Schilddrüse Image'></Image>
 
             </div>
         </div>

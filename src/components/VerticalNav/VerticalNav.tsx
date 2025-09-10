@@ -3,7 +3,7 @@ import styles from "./vertical-nav.module.css"
 import SocialUl from '../SocialUl/SocialUl'
 import LangSwitch from '../Nav/LangSwitch/LangSwitch'
 import { usePathname } from 'next/navigation'
-import { useTranslations } from 'next-intl'
+// import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 const VerticalNav = ({
     shown,
@@ -13,7 +13,7 @@ const VerticalNav = ({
     lo: string
 }) => {
     const pathname = usePathname()
-    const t = useTranslations("HomePage.Header")
+    // const t = useTranslations("HomePage.Header")
    
     return (
     <div className={shown ? styles.verticalNav + " " + styles.shown : styles.verticalNav}>
