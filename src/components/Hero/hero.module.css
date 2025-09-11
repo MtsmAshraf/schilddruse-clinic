@@ -115,7 +115,7 @@
     .hero > div:first-of-type{
         flex-direction: column;
         justify-content: center;
-        padding-top: 100px;
+        /* padding-top: 100px; */
         text-align: center;
         gap: 100px;
     }
@@ -124,7 +124,7 @@
     }
     .hero > div:first-of-type .img{
         width: 100%;
-        /* display: none; */
+        display: none;
     }
     .hero > div:first-of-type h2{
         font-size: 76px;
