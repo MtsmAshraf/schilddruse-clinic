@@ -16,6 +16,9 @@
   --main-card-animation-color: #38207f;
   --card-bg-semi-trans: #eaeaeac2;
   --important-text-color: var(--main-color);
+
+  --animation-transition: all 0.8s 0s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
 }
 
 body{
