@@ -40,38 +40,38 @@ const Header = ({
     // GSAP
     const headerRef = useRef<HTMLElement | null>(null);
 
-    // useEffect(() => {
-    //   if (!headerRef.current) return;
+    useEffect(() => {
+      if (!headerRef.current) return;
 
-    //   const header = headerRef.current;
-    //   const trigger = ScrollTrigger.create({
-    //     start: "top top",
-    //     end: 99999,
-    //     onUpdate: (self) => {
-    //       if (self.direction === 1 && self.scroll() > 50) {
-    //         // scrolling down
-    //         gsap.to(header, { 
-    //           backgroundColor: "#fff", 
-    //           boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-    //           duration: 0.3, 
-    //           ease: "power2.out" 
-    //         });
-    //       } else if (self.scroll() <= 50) {
-    //         // near top
-    //         gsap.to(header, { 
-    //           backgroundColor: "transparent", 
-    //           boxShadow: "none",
-    //           duration: 0.3, 
-    //           ease: "power2.out" 
-    //         });
-    //       }
-    //     },
-    //   });
+      const header = headerRef.current;
+      const trigger = ScrollTrigger.create({
+        start: "top top",
+        end: 99999,
+        onUpdate: (self) => {
+          if (self.direction === 1 && self.scroll() > 50) {
+            // scrolling down
+            gsap.to(header, { 
+              backgroundColor: "#fff", 
+              boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+              duration: 0.3, 
+              ease: "power2.out" 
+            });
+          } else if (self.scroll() <= 50) {
+            // near top
+            gsap.to(header, { 
+              backgroundColor: "transparent", 
+              boxShadow: "none",
+              duration: 0.3, 
+              ease: "power2.out" 
+            });
+          }
+        },
+      });
 
-    //   return () => {
-    //     trigger.kill();
-    //   };
-    // }, []);
+      return () => {
+        trigger.kill();
+      };
+    }, []);
 
   return (
     <header ref={headerRef} className={lo === "ar" ? styles.header + " " + styles.ar : styles.header}>
