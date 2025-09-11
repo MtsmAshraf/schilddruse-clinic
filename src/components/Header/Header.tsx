@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from "./header.module.css"
 import Image from 'next/image'
-import logo from "../../../public/imgs/logo-placeholder.png"
+import logo from "../../../public/images/logo-placeholder.png"
 import Nav from '../Nav/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faBars } from '@fortawesome/free-solid-svg-icons'
@@ -23,6 +23,19 @@ const Header = ({
       setShowVNav(false)
       console.log("false")
     },[pathname])
+
+    // getting root element on the client side
+    
+    const [rootElement, setRootElement] = useState<HTMLElement | null>(null);
+
+    useEffect(() => {
+      // Runs only on client
+      const el: HTMLElement = document.body;
+      if (el) {
+        setRootElement(el);
+      }
+    }, []); 
+
   return (
     <header className={lo === "ar" ? styles.header + " " + styles.ar : styles.header}>
         <div className="container">
@@ -49,7 +62,7 @@ const Header = ({
                 * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
                 * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
                 */
-                rootElement={document.getElementsByTagName("body")[0]}
+                rootElement={rootElement!}
                 text="Book Appointment"
               />
             </div>

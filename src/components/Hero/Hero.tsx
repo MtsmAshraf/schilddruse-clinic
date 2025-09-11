@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from "./hero.module.css"
 import { useTranslations } from 'next-intl'
 import gsap from 'gsap'
@@ -42,6 +42,18 @@ const Hero = ({
         delay: 0.6
     })
      }, [])
+     
+    // getting root element on the client side
+    
+    const [rootElement, setRootElement] = useState<HTMLElement>();
+
+    useEffect(() => {
+    // Runs only on client
+    const el: HTMLElement = document.body;
+    if (el) {
+        setRootElement(el);
+    }
+    }, []); 
   return (
     <section className={lo === "ar" ? styles.hero + " " + styles.ar : styles.hero} id='hero'>
         <div className='container'>
@@ -69,7 +81,7 @@ const Hero = ({
                         * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
                         * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
                         */
-                        rootElement={document.getElementsByTagName("body")[0]}
+                        rootElement={rootElement!}
                         text="Book Appointment"
                     />
                     <a href="https://wa.me/+966505638988" target='_blank'>
