@@ -8,7 +8,7 @@ const MainHeading = ({
     inverted? : boolean
 }) => {
   return (
-    <div className={inverted ? styles.mainHeading + " " + styles.inverted : styles.mainHeading}>
+    <div id='main-heading' className={inverted ? styles.mainHeading + " " + styles.inverted : styles.mainHeading}>
         <span></span>
         <span></span>
         <h2>

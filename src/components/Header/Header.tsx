@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import styles from "./header.module.css"
 import Image from 'next/image'
 import logo from "../../../public/images/logo-placeholder.png"
@@ -10,7 +10,11 @@ import VerticalNav from '../VerticalNav/VerticalNav'
 import LangSwitch from '../Nav/LangSwitch/LangSwitch'
 import { usePathname } from 'next/navigation'
 import { PopupButton } from 'react-calendly'
-// import { Link } from '@/i18n/navigation'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
+
+gsap.registerPlugin(ScrollTrigger);
+
 
 const Header = ({
     lo
@@ -21,13 +25,10 @@ const Header = ({
     const pathname = usePathname()
     useEffect(() => {
       setShowVNav(false)
-      console.log("false")
     },[pathname])
 
     // getting root element on the client side
-    
     const [rootElement, setRootElement] = useState<HTMLElement | null>(null);
-
     useEffect(() => {
       // Runs only on client
       const el: HTMLElement = document.body;
@@ -36,8 +37,44 @@ const Header = ({
       }
     }, []); 
 
+    // GSAP
+    const headerRef = useRef<HTMLElement | null>(null);
+
+    useEffect(() => {
+      if (!headerRef.current) return;
+
+      const header = headerRef.current;
+      const trigger = ScrollTrigger.create({
+        start: "top top",
+        end: 99999,
+        onUpdate: (self) => {
+          if (self.direction === 1 && self.scroll() > 50) {
+            // scrolling down
+            gsap.to(header, { 
+              backgroundColor: "#fff", 
+              boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+              duration: 0.3, 
+              ease: "power2.out" 
+            });
+          } else if (self.scroll() <= 50) {
+            // near top
+            gsap.to(header, { 
+              backgroundColor: "transparent", 
+              boxShadow: "none",
+              duration: 0.3, 
+              ease: "power2.out" 
+            });
+          }
+        },
+      });
+
+      return () => {
+        trigger.kill();
+      };
+    }, []);
+
   return (
-    <header className={lo === "ar" ? styles.header + " " + styles.ar : styles.header}>
+    <header ref={headerRef} className={lo === "ar" ? styles.header + " " + styles.ar : styles.header}>
         <div className="container">
             <a className={styles.logo} href={"/"}>
                 <Image loading='lazy' src={logo} alt='Al Assema Logo'></Image>
