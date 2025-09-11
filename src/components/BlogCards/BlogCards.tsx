@@ -21,6 +21,18 @@ const BlogCards = () => {
                                 <h3>
                                     {post.title}
                                 </h3>
+                                <div>
+                                    <h5>
+                                        {
+                                            post.author
+                                        }
+                                    </h5>
+                                    <span>
+                                        {
+                                            post.date
+                                        }
+                                    </span>
+                                </div>
                                 <p>
                                     {
                                         post.brief

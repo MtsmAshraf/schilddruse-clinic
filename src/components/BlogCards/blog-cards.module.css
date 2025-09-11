@@ -71,6 +71,19 @@
 .blogCards .cards .card .cardText h3{
     font-size: 30px;
 }
+.blogCards .cards .card .cardText div{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.blogCards .cards .card .cardText div h5{
+    font-weight: bold;
+    color: var(--main-color);
+    font-size: 14px;
+}
+.blogCards .cards .card .cardText div span{
+    font-size: 12px;
+}
 .blogCards .cards .card .cardText p{
     margin-top: 10px;
     margin-bottom: 10px;

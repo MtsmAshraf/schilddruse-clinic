@@ -11,8 +11,8 @@ const blogPostPage = async ({
 }) => {
 
     const { blogId } = await params
-    const blogPost = blogPosts.find((ele: BlogPost) => ele.id === blogId)
-    if(!blogPost){
+    const post = blogPosts.find((ele: BlogPost) => ele.id === blogId)
+    if(!post){
         return notFound()
     }
 
@@ -22,15 +22,27 @@ const blogPostPage = async ({
         <div className="container">
             <h2 className={styles.postTitle}>
                 {
-                    blogPost.title
+                    post.title
                 }
             </h2>
+            <div className={styles.postInfo}>
+                <span>
+                    {
+                        post.author + ` | `
+                    }
+                </span>
+                <span>
+                    {
+                        post.date
+                    }
+                </span>
+            </div>
             <div className={styles.postImg}>
-                <Image src={blogPost.img.src} alt={blogPost.title + " cover image"} width={400} height={300}></Image>
+                <Image src={post.img.src} alt={post.title + " cover image"} width={400} height={300}></Image>
             </div>
             <div className={styles.postBody}>
                 {
-                    blogPost.body
+                    post.body
                 }
             </div>
         </div>
