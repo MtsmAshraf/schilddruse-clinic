@@ -17,7 +17,7 @@
         grid-template-columns: repeat(2,minmax(200px, 1fr));
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .blogCards .cards{
         grid-template-columns: repeat(1,minmax(200px, 1fr));
     }

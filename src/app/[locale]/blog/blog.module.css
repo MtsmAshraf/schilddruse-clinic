@@ -7,7 +7,6 @@
     background-attachment: fixed;   
     position: relative;
     isolation: isolate;
-    height: 200vh;
 }
 .blog .overlay{
     position: absolute;

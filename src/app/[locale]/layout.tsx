@@ -4,11 +4,12 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 // import icon from "../../../public/images/logo.png"
 import icon from "./favicon.ico"
-import { Footer } from "@/components/Footer/Footer";
 // import Script from "next/script";
 import { Montserrat } from "next/font/google";
+import Contact from "@/components/Contact/Contact";
 
 
 
@@ -43,7 +44,8 @@ export default async function RootLayout({
         <NextIntlClientProvider>
           <Header lo={locale}></Header>
           {children}
-          <Footer></Footer>
+          <Contact lo={locale}/>
+          <Footer lo={locale}></Footer>
         </NextIntlClientProvider>
       </body>
     </html>

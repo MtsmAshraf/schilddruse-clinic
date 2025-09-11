@@ -1,6 +1,3 @@
-// import { useTranslations } from "next-intl";
-// import { getTranslations } from "next-intl/server";
-import Contact from "@/components/Contact/Contact";
 import "./globals.css";
 import Hero from "@/components/Hero/Hero";
 import BlogCards from "@/components/BlogCards/BlogCards";
@@ -27,7 +24,6 @@ export default async function Home({
           <BlogCards />
         </div>
       </section>
-      <Contact lo={locale}/>
     </main>
   );
 }
