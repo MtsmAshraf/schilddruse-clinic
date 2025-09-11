@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import styles from "./contact.module.css"
 import MainHeading from '../MainHeading/MainHeading'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faLocationPin } from '@fortawesome/free-solid-svg-icons'
+import { faLocationPin } from '@fortawesome/free-solid-svg-icons'
 import SocialUl from '../SocialUl/SocialUl'
 
 const Contact = ({
@@ -40,26 +40,16 @@ const Contact = ({
         </MainHeading>
         <div className="container">
             <div className={styles.info}>
-                <div>
-                    <SocialUl />
-                </div>
-                <div>
-                    <a href="mailto:mohamed.biotech98@gmail.com" target='_blank'>
-                        <span>
-                            <FontAwesomeIcon icon={faEnvelope} />
-                        </span>
-                        <h4>
-                            mohamed.biotech98@gmail.com
-                        </h4>
-                    </a>
-                </div>
                 <div className={styles.address}>
                     <span>
                         <FontAwesomeIcon icon={faLocationPin}></FontAwesomeIcon>
                     </span>
                     <address>
-                        City, Austria 
+                        Street, City, Austria 
                     </address>
+                </div>
+                <div>
+                    <SocialUl />
                 </div>
             </div>
             <div className={styles.location}>
