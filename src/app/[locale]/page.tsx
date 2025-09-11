@@ -4,6 +4,8 @@ import Contact from "@/components/Contact/Contact";
 import "./globals.css";
 import Hero from "@/components/Hero/Hero";
 import BlogCards from "@/components/BlogCards/BlogCards";
+import styles from "./home.module.css"
+import MainHeading from "@/components/MainHeading/MainHeading";
 
 export default async function Home({
   params
@@ -14,10 +16,17 @@ export default async function Home({
   // const t = useTranslations('HomePage');
   // const t = await getTranslations('HomePage');
   return (
-    <main>
+    <main className={styles.home}>
       {/* <Loader /> */}
       <Hero lo={locale} />
-      <BlogCards />
+      <section className={styles.blogCards}>
+        <MainHeading>
+            Blog
+        </MainHeading>
+        <div className="container">
+          <BlogCards />
+        </div>
+      </section>
       <Contact lo={locale}/>
     </main>
   );

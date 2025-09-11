@@ -1,9 +1,7 @@
 .blogCards{
-    background-color: #fff;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
 }
-
 .blogCards .cards{
     display: grid;
     grid-template-columns: repeat(4,minmax(200px, 1fr));
