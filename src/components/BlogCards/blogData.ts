@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image";
 
 
-import blogTestImg from "../../../public/images/blog-post-img.jpg"
+import blogTestImg from "../../../public/images/blog-post-img.webp"
 
 export type BlogPost = {
     id: string;

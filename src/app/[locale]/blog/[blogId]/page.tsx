@@ -27,13 +27,16 @@ const blogPostPage = async ({
             </h2>
             <div className={styles.postInfo}>
                 <span>
+                    By:
+                </span>
+                <span>
                     {
-                        post.author + ` | `
+                        ` ${post.author}`
                     }
                 </span>
                 <span>
                     {
-                        post.date
+                        ` | ${post.date}`
                     }
                 </span>
             </div>
