@@ -1,5 +1,4 @@
-"use client"
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 import styles from "./contact.module.css"
 import MainHeading from '../MainHeading/MainHeading'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -12,15 +11,13 @@ const Contact = ({
     lo: string
 }) => {
 
-    const contact: any = useRef(null)
-
     const classNames = [
         lo === "ar" ? styles.ar : null,
         styles.contact
     ] 
 
   return (
-    <section ref={contact} className={classNames.join(" ")}>
+    <section className={classNames.join(" ")}>
         <MainHeading>
             {/* {t("Heading")} */}
             Contact Us
