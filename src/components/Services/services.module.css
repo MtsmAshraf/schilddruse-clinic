@@ -1,0 +1,97 @@
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.services > div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 20px;
+}
+@media (max-width: 1200px) {
+    .services > div:nth-child(2){
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+    }
+}
+@media (max-width: 992px) {
+    .services > div:nth-child(2){
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+}
+@media (max-width: 600px) {
+    .services > div:nth-child(2){
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+}
+.services .card{
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    transition: var(--main-transition);
+}
+.services .card:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
+.services .card .cardIcon svg{
+    font-size: 70px;
+    color: var(--main-color);
+    transition: var(--main-transition);
+}
+.services .card:hover .cardIcon svg{
+    color: #fff;
+}
+.services .card h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--lighter-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: var(--main-transition);
+}
+.services .card:hover h4{
+    color: #fff;
+}
+.services .card p{
+    margin-bottom: 20px;
+}
+.services .card a{
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    width: fit-content;
+    transition: var(--main-transition);
+    border: 1px solid #ddd;
+}
+.services .card a:hover{
+    background-color: var(--main-color);
+    color: #fff;
+    border: 1px solid var(--main-color);
+    gap: 10px;
+}
+.services .card:hover a{
+    background-color: #fff;
+}
+.services .card a span{
+    transition: var(--main-transition);
+    width: 0;
+    text-wrap: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    color: var(--main-color);
+}
+.services .card a:hover span{
+    width: 87px;
+    opacity: 1;
+}
+.services .card a svg{
+    transition: var(--main-transition);
+    color: #fff;
+}
+.services .card:hover a svg{
+    color: var(--main-color);
+}

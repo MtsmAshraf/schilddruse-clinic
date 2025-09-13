@@ -47,6 +47,9 @@ const blogPostPage = async ({
                 {
                     post.body
                 }
+                <br />
+                <br />
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum voluptatum suscipit velit officiis enim? Facilis veritatis eligendi pariatur aperiam. Rerum, aut alias temporibus cumque maxime delectus fugit laudantium dolor qui.
             </div>
         </div>
     </section>

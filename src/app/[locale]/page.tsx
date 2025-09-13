@@ -3,6 +3,8 @@ import Hero from "@/components/Hero/Hero";
 import BlogCards from "@/components/BlogCards/BlogCards";
 import styles from "./home.module.css"
 import MainHeading from "@/components/MainHeading/MainHeading";
+import Loader from "@/components/Loader/Loader";
+import Services from "@/components/Services/Services";
 
 export default async function Home({
   params
@@ -14,7 +16,7 @@ export default async function Home({
   // const t = await getTranslations('HomePage');
   return (
     <main className={styles.home}>
-      {/* <Loader /> */}
+      <Loader />
       <Hero lo={locale} />
       <section className={styles.blogCards}>
         <MainHeading>
@@ -23,6 +25,7 @@ export default async function Home({
         <div className="container">
           <BlogCards />
         </div>
+        <Services />
       </section>
     </main>
   );

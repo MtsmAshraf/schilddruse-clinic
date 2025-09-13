@@ -70,7 +70,7 @@
     /* background-color: red; */
 }
 .hero > div:first-of-type .btns a{
-    padding: 5px 20px;
+    padding: 8px 20px;
     border-radius: 8px;
     box-shadow: var(--main-shadow);
     transition: var(--main-transition);

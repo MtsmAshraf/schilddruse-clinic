@@ -13,22 +13,9 @@ const Contact = ({
 }) => {
 
     const contact: any = useRef(null)
-    const [contactScrolled, setContactScrolled] = useState(false)
-    const scrollContactiSection = () => {
-        if(contact.current){
-            if(contact.current.offsetTop <= (window.scrollY + 500)){
-                setContactScrolled(true)
-            }
-        }
-    }
-    useEffect(() => {
-        window.addEventListener("scroll", scrollContactiSection)
-    },[])
 
-    
     const classNames = [
         lo === "ar" ? styles.ar : null,
-        contactScrolled ? styles.scrolled : null,
         styles.contact
     ] 
 

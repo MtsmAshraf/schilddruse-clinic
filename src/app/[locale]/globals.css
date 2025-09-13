@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
 :root {
   --bg-color: #f8f5ff;
@@ -22,7 +22,6 @@
 }
 
 body{
-  /* font-family: "Montserrat", sans-serif; */
   background-color: var(--bg-color);
   overflow-x: hidden;
 }
@@ -36,7 +35,9 @@ html{
   padding: 0;
   margin: 0;
 }
-
+a{
+  text-decoration: none;
+}
 ul{
   list-style: none;
 }
@@ -47,6 +48,8 @@ button, button:focus, button:focus-visible, button:active{
   border: none;
   outline: none;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
 }
 ::selection{
   background-color: var(--main-color);
@@ -60,20 +63,14 @@ button, button:focus, button:focus-visible, button:active{
   background-color: var(--main-color);
   border-radius: 6px;
 }
-.container{
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 20px;
-  padding-left: 20px;
-}
 .book-btn{
     background-color: #fff;
-    padding: 5px 20px;
+    padding: 8px 20px;
     border-radius: 8px;
     transition: var(--main-transition);
     transition-duration: 0.2s;
     /* font-size: 14px; */
-    border: 1px solid var(--main-color);
+    border: 1px solid #ccc;
 }
 .book-btn:hover{
     background-color: var(--main-color);
@@ -90,6 +87,12 @@ button, button:focus, button:focus-visible, button:active{
 .book-btn.main:hover{
     background-image: var(--main-gradient);
     color: #fff;
+}
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 @media (min-width: 767px) {
   .container{

@@ -18,10 +18,14 @@
     direction: rtl;
     font-family: "Zain", sans-serif;
 }
-.contact.scrolled > div:nth-child(2){
+.contact > div:nth-child(2){
     opacity: 1;
     transform: translateY(0px);
 }
+/* .contact.scrolled > div:nth-child(2){
+    opacity: 1;
+    transform: translateY(0px);
+} */
 .contact > div:nth-child(2) > div{
     width: 100%;
 }
@@ -127,11 +131,16 @@
         border-right: none;
         padding-right: 0;
     }
-    .contact.scrolled > div:nth-child(2) .info > div:nth-child(2) a h4,
-    .contact.ar.scrolled > div:nth-child(2) .info > div:nth-child(2) a h4{
+    .contact > div:nth-child(2) .info > div:nth-child(2) a h4,
+    .contact.ar > div:nth-child(2) .info > div:nth-child(2) a h4{
         border-left: none;
         border-right: none;
     }
+    /* .contact.scrolled > div:nth-child(2) .info > div:nth-child(2) a h4,
+    .contact.ar.scrolled > div:nth-child(2) .info > div:nth-child(2) a h4{
+        border-left: none;
+        border-right: none;
+    } */
     .contact > div:nth-child(2) .location{
         /* height: 600px !important; */
         max-width: 100%;
