@@ -5,6 +5,7 @@ import styles from "./home.module.css"
 import MainHeading from "@/components/MainHeading/MainHeading";
 import Loader from "@/components/Loader/Loader";
 import Services from "@/components/Services/Services";
+import About from "@/components/About/About";
 
 export default async function Home({
   params
@@ -26,6 +27,7 @@ export default async function Home({
           <BlogCards />
         </div>
         <Services />
+        <About />
       </section>
     </main>
   );

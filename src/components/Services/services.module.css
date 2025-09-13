@@ -24,6 +24,7 @@
 }
 .services .card{
     background-color: #f7f7f7;
+    border: 1px solid #ccc;
     padding: 30px;
     border-radius: 10px;
     transition: var(--main-transition);
