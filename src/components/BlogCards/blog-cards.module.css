@@ -29,6 +29,7 @@
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #fff;
+    box-shadow: var(--main-shadow);
 }
 .blogCards .cards .card .cardImg{
     display: flex;

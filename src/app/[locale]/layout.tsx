@@ -10,6 +10,7 @@ import icon from "./favicon.ico"
 // import Script from "next/script";
 import { Montserrat } from "next/font/google";
 import Contact from "@/components/Contact/Contact";
+import FloatingContact from "@/components/FloatingContact/FloatingContact";
 
 
 
@@ -45,6 +46,7 @@ export default async function RootLayout({
           <Header lo={locale}></Header>
           {children}
           <Contact lo={locale}/>
+          <FloatingContact />
           <Footer lo={locale}></Footer>
         </NextIntlClientProvider>
       </body>

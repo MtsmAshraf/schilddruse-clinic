@@ -1,6 +1,6 @@
 .services{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 .services > div:nth-child(2){
     display: grid;
@@ -23,11 +23,12 @@
     }
 }
 .services .card{
-    background-color: #f7f7f7;
+    background-color: #fff;
     border: 1px solid #ccc;
     padding: 30px;
     border-radius: 10px;
     transition: var(--main-transition);
+    box-shadow: var(--main-shadow);
 }
 .services .card:hover{
     background-color: var(--main-color);

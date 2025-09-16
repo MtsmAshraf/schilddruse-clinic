@@ -1,7 +1,7 @@
 /* @import "tailwindcss"; */
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
 :root {
-  --bg-color: #f8f5ff;
+  --bg-color: #fcfcfc;
   --foreground: #171717;
   --main-color: #074866;
   --lighter-color: #0d6088;
@@ -23,6 +23,9 @@
 
 body{
   background-color: var(--bg-color);
+  background-image: url("../../../public/images/body-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow-x: hidden;
 }
 html{
@@ -62,6 +65,9 @@ button, button:focus, button:focus-visible, button:active{
 ::-webkit-scrollbar-thumb{
   background-color: var(--main-color);
   border-radius: 6px;
+}
+section{
+  margin-bottom: 30px;
 }
 .book-btn{
     background-color: #fff;

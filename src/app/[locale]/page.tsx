@@ -2,7 +2,6 @@ import "./globals.css";
 import Hero from "@/components/Hero/Hero";
 import BlogCards from "@/components/BlogCards/BlogCards";
 import styles from "./home.module.css"
-import MainHeading from "@/components/MainHeading/MainHeading";
 import Loader from "@/components/Loader/Loader";
 import Services from "@/components/Services/Services";
 import About from "@/components/About/About";
@@ -20,12 +19,7 @@ export default async function Home({
       <Loader />
       <Hero lo={locale} />
       <section className={styles.blogCards}>
-        <MainHeading>
-            Blog
-        </MainHeading>
-        <div className="container">
-          <BlogCards />
-        </div>
+        <BlogCards />
         <Services />
         <About />
       </section>
