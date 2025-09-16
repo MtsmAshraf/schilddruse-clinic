@@ -82,7 +82,6 @@
     .about .text .textHeading h2{ 
         text-align: center;
         font-size: 30px;
-        text-wrap: nowrap;
     }
     .about .text .textHeading span{ 
         width: fit-content;
