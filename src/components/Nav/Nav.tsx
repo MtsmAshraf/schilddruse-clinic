@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./nav.module.css"
-import LangSwitch from './LangSwitch/LangSwitch'
+// import LangSwitch from './LangSwitch/LangSwitch'
 // import { useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
 import { Link } from '@/i18n/navigation'
