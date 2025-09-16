@@ -7,7 +7,7 @@ import Nav from '../Nav/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faBars } from '@fortawesome/free-solid-svg-icons'
 import VerticalNav from '../VerticalNav/VerticalNav'
-import LangSwitch from '../Nav/LangSwitch/LangSwitch'
+// import LangSwitch from '../Nav/LangSwitch/LangSwitch'
 import { usePathname } from 'next/navigation'
 import { PopupButton } from 'react-calendly'
 import gsap from 'gsap'
@@ -81,7 +81,7 @@ const Header = ({
             </a>
             <Nav lo={lo}></Nav>
             <div className={styles.smCtrl}>
-              <LangSwitch lo={lo}></LangSwitch>
+              {/* <LangSwitch lo={lo}></LangSwitch> */}
               <button className={styles.bars} onClick={() => {setShowVNav(!showVNav)}}>
                   <FontAwesomeIcon icon={faBars} />
               </button>

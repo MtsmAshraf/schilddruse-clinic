@@ -4,6 +4,9 @@ import LangSwitch from './LangSwitch/LangSwitch'
 // import { useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
 import { Link } from '@/i18n/navigation'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 const Nav = ({
     lo
@@ -28,7 +31,17 @@ const Nav = ({
                 <Link className={pathname === `/${lo}/about` ? styles.active : ""} href={'/about'}>About Us</Link>
             </li>
         </ul>
-        <LangSwitch lo={lo}></LangSwitch>
+        <div className={styles.navSocialLinks}>
+            <a href="/" title='Phone'>
+                <FontAwesomeIcon icon={faPhone} />
+            </a>
+            <a href="/" title='Whatsapp'>
+                <FontAwesomeIcon icon={faWhatsapp} />
+            </a>
+            <a href="/" title='Email'>
+                <FontAwesomeIcon icon={faEnvelope} />
+            </a>
+        </div>
     </nav>
   )
 }

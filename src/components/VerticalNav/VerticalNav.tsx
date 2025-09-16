@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./vertical-nav.module.css"
 import SocialUl from '../SocialUl/SocialUl'
-import LangSwitch from '../Nav/LangSwitch/LangSwitch'
+// import LangSwitch from '../Nav/LangSwitch/LangSwitch'
 import { usePathname } from 'next/navigation'
 // import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
@@ -17,8 +17,8 @@ const VerticalNav = ({
    
     return (
     <div className={shown ? styles.verticalNav + " " + styles.shown : styles.verticalNav}>
-        <h3>Language</h3>
-        <LangSwitch lo={lo}></LangSwitch>
+        {/* <h3>Language</h3> */}
+        {/* <LangSwitch lo={lo}></LangSwitch> */}
         <h3>Pages</h3>
         <ul className={styles.links}>
             <li>
