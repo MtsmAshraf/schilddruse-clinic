@@ -7,8 +7,8 @@ import { useGSAP } from '@gsap/react'
 // import { DotLottieReact } from '@lottiefiles/dotlottie-react'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import Image from 'next/image'
-import heroImg from "../../../public/images/hero-img.png"
+// import Image from 'next/image'
+// import heroImg from "../../../public/images/hero-img.png"
 import { PopupButton } from 'react-calendly'
 
 const Hero = ({
@@ -91,7 +91,7 @@ const Hero = ({
                     </a>
                 </div>
             </div>
-            <div id='hero-img' className={styles.img}>
+            {/* <div id='hero-img' className={styles.img}> */}
                 {/* <DotLottieReact 
                 src="https://lottie.host/cbab1bf0-9443-4f8d-8fa7-46489702ba56/xVHiC3sM2T.json" 
                 src="https://lottie.host/5fe284c4-cfee-4d60-8d30-e6b4a11c89d9/v1W3TAjATe.lottie"
@@ -105,9 +105,9 @@ const Hero = ({
                 loop 
                 backgroundColor='transparent'
                 autoplay></DotLottieReact> */}
-                <Image src={heroImg} alt='Doctor and Schilddrüse Image'></Image>
+                {/* <Image src={heroImg} alt='Doctor and Schilddrüse Image'></Image> */}
 
-            </div>
+            {/* </div> */}
         </div>
         <div className={styles.overlay}>
         </div>

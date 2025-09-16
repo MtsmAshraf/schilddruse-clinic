@@ -4,11 +4,10 @@
     overflow: hidden;
     min-height: 100dvh;
     background-image: url("../../../public/images/hero-bg-3.svg");
+    background-image: url("../../../public/images/hero-bg.jpg");
     background-size: cover;
     background-position: 100%;
     background-repeat: no-repeat;
-    /* isolation: isolate; */
-    padding-top: 59px;
 }
 .hero.ar{
     direction: rtl;
@@ -21,53 +20,40 @@
     height: 100%;
     background-color: var(--text-color);
     background-color: var(--bg-color);
-    opacity: 0.7;
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
     z-index: -1;
-    /* display: none; */
 }
 .hero > div:first-of-type{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* flex-direction: column; */
-    /* height: 100dvh; */
-    min-height: calc(100dvh - 59px);
-    /* text-align: center; */
-    /* background-color: red; */
+    min-height: 100dvh;
+    backdrop-filter: blur(10px);
+    width: 100%;
 }
 .hero > div:first-of-type > *{
     height: 500px;
-    /* background-color: red; */
 }
 .hero > div:first-of-type h2{
     font-size: 70px;
     font-weight: bold;
-    width: 900px;
     max-width: 100%;
     color: var(--main-color);
-    /* text-shadow: 2px 2px 0px var(--text-color); */
     text-wrap: wrap;
-    /* text-wrap: nowrap; */
-    /* text-align: center; */
     z-index: 2;
-}
-.hero > div:first-of-type h2{
     font-size: 80px;
 }
 .hero > div:first-of-type p{
     font-size: 24px;
     color: var(--text-color);
-    /* color: #fff; */
 }
 
 .hero > div:first-of-type .btns{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    /* direction: rtl; */
     gap: 10px;
     margin-top: 20px;
-    /* background-color: red; */
 }
 .hero > div:first-of-type .btns a{
     padding: 8px 20px;
@@ -92,22 +78,23 @@
     color: #fff;
 }
 .hero > div:first-of-type .text{
-    width: 50%;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+.hero .text{
+    width: 100%;
+    /* width: 50%; */
 }
 .hero > div:first-of-type .img{
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rebeccapurple; */
 }
 .hero > div:first-of-type .img *{
-    /* transform: scale(1.2);      */
     object-fit: contain;
-    /* background-color: red; */
     max-width: 100%;
 }
 @media (max-width: 992px) {
@@ -115,7 +102,6 @@
     .hero > div:first-of-type{
         flex-direction: column;
         justify-content: center;
-        /* padding-top: 100px; */
         text-align: center;
         gap: 100px;
     }
@@ -143,9 +129,10 @@
 @media (max-width: 767px) {
     .hero > div:first-of-type h2{
         font-size: 50px;
+        margin-bottom: 10px;
     }
     .hero > div:first-of-type p{
-        font-size: 20px;
+        font-size: 16px;
     }
     .hero::before{
         transform: translateY(400px) rotateZ(30deg);
