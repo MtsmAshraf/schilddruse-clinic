@@ -32,13 +32,13 @@ const Nav = ({
             </li>
         </ul>
         <div className={styles.navSocialLinks}>
-            <a href="/" title='Phone'>
+            <a href="www.facebook.com" title='Phone'>
                 <FontAwesomeIcon icon={faPhone} />
             </a>
-            <a href="/" title='Whatsapp'>
+            <a href="www.facebook.com" title='Whatsapp'>
                 <FontAwesomeIcon icon={faWhatsapp} />
             </a>
-            <a href="/" title='Email'>
+            <a href="www.facebook.com" title='Email'>
                 <FontAwesomeIcon icon={faEnvelope} />
             </a>
         </div>
