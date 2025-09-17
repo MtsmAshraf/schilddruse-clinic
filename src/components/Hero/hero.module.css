@@ -140,6 +140,7 @@
     .hero > div:first-of-type .btns button{
         font-size: 14px;
         padding: 8px 15px;
+        white-space: nowrap;
     }
     .hero::before{
         transform: translateY(400px) rotateZ(30deg);
