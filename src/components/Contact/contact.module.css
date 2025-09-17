@@ -72,7 +72,7 @@
 }
 .contact > div:nth-child(2) .location{
     height: 400px;
-    max-width: 50%;
+    /* max-width: 50%; */
 }
 .contact > div:nth-child(2) .location iframe{
     border-radius: 20px;
@@ -90,56 +90,27 @@
         align-items: center;
     }
     .contact > div:nth-child(2) .info > div{
-        width: 100%;
+        /* width: 100%; */
     }
-    .contact > div:nth-child(2) .info > div:nth-child(2) a{
-        /* justify-content: center; */
+    .contact > div:nth-child(2) .info .address{
+        align-items: center;
     }
+
     .contact > div:nth-child(2) .location{
         /* height: 600px !important; */
         max-width: 100%;
-        width: 70%;
+        /* width: 70%; */
     }
 }
 @media (max-width: 600px) {
     .contact > div:nth-child(2){
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 40px;
     }
     .contact > div:nth-child(2) .info{
         max-width: 100%;
         align-items: center;
     }
-    .contact > div:nth-child(2) .info > div{
-        width: 100%;
-    }
-    .contact > div:nth-child(2) .info > div:nth-child(2){
-        gap: 0 !important;
-    }
-    .contact > div:nth-child(2) .info > div:nth-child(2) a{
-        justify-content: center;
-        flex-direction: column;
-        gap: 10px;
-        padding: 20px;
-        margin-bottom: 0;
-    }
-    .contact > div:nth-child(2) .info > div:nth-child(2) a h4,
-    .contact.ar > div:nth-child(2) .info > div:nth-child(2) a h4{
-        border-left: none;
-        padding-left: 0;
-        border-right: none;
-        padding-right: 0;
-    }
-    .contact > div:nth-child(2) .info > div:nth-child(2) a h4,
-    .contact.ar > div:nth-child(2) .info > div:nth-child(2) a h4{
-        border-left: none;
-        border-right: none;
-    }
-    /* .contact.scrolled > div:nth-child(2) .info > div:nth-child(2) a h4,
-    .contact.ar.scrolled > div:nth-child(2) .info > div:nth-child(2) a h4{
-        border-left: none;
-        border-right: none;
-    } */
     .contact > div:nth-child(2) .location{
         /* height: 600px !important; */
         max-width: 100%;
