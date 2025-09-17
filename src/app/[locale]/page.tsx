@@ -18,11 +18,9 @@ export default async function Home({
     <main className={styles.home}>
       <Loader />
       <Hero lo={locale} />
-      <section className={styles.blogCards}>
-        <BlogCards />
-        <Services />
-        <About />
-      </section>
+      <Services />
+      <BlogCards />
+      <About />
     </main>
   );
 }

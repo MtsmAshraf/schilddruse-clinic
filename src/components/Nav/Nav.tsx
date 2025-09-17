@@ -22,10 +22,10 @@ const Nav = ({
                 <Link className={pathname === `/${lo}` ? styles.active : ""} href={'/'}>Home</Link>
             </li>
             <li>
-                <Link className={pathname.split("/").includes("blog") ? styles.active : ""} href={'/blog'}>Blog</Link>
+                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'/services'}>Services</Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'/services'}>Services</Link>
+                <Link className={pathname.split("/").includes("blog") ? styles.active : ""} href={'/blog'}>Blog</Link>
             </li>
             <li>
                 <Link className={pathname === `/${lo}/about` ? styles.active : ""} href={'/about'}>About Us</Link>
