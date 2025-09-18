@@ -2,8 +2,7 @@ import React from 'react'
 import MainHeading from '../MainHeading/MainHeading'
 import styles from "./services.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleArrowRight, faStethoscope } from '@fortawesome/free-solid-svg-icons'
-import { Link } from '@/i18n/navigation'
+import { faStethoscope } from '@fortawesome/free-solid-svg-icons'
 
 const Services = () => {
   return (
@@ -22,12 +21,6 @@ const Services = () => {
                 <p>
                     Complete oral care for every smile with cleanings, exams, and more.
                 </p>
-                <Link href={"/"}>
-                    <span>
-                        Read More
-                    </span>
-                    <FontAwesomeIcon icon={faCircleArrowRight} />
-                </Link>
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
@@ -39,12 +32,6 @@ const Services = () => {
                 <p>
                     Complete oral care for every smile with cleanings, exams, and more.
                 </p>
-                <Link href={"/"}>
-                    <span>
-                        Read More
-                    </span>
-                    <FontAwesomeIcon icon={faCircleArrowRight} />
-                </Link>
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
@@ -56,12 +43,6 @@ const Services = () => {
                 <p>
                     Complete oral care for every smile with cleanings, exams, and more.
                 </p>
-                <Link href={"/"}>
-                    <span>
-                        Read More
-                    </span>
-                    <FontAwesomeIcon icon={faCircleArrowRight} />
-                </Link>
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
@@ -73,12 +54,6 @@ const Services = () => {
                 <p>
                     Complete oral care for every smile with cleanings, exams, and more.
                 </p>
-                <Link href={"/"}>
-                    <span>
-                        Read More
-                    </span>
-                    <FontAwesomeIcon icon={faCircleArrowRight} />
-                </Link>
             </div>
         </div>
     </section>
