@@ -12,6 +12,7 @@ import { usePathname } from 'next/navigation'
 import { PopupButton } from 'react-calendly'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
+import LangSwitch from '../LangSwitch/LangSwitch'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -90,19 +91,15 @@ const Header = ({
                 <FontAwesomeIcon icon={faArrowRight} />
             </button>
             <VerticalNav lo={lo} shown={showVNav}></VerticalNav>
-            {/* <SocialUl></SocialUl> */}
-            <div className={styles.bookBtn}>
+            {/* <div className={styles.bookBtn}>
               <PopupButton
                 className='book-btn'
                 url="https://calendly.com/mo32000a/schilddruse"
-                /*
-                * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-                * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-                */
                 rootElement={rootElement!}
                 text="Book Appointment"
               />
-            </div>
+            </div> */}
+            <LangSwitch lo={lo} />
         </div>
     </header>
   )

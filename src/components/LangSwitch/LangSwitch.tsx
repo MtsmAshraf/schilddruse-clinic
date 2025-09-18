@@ -21,7 +21,7 @@ const LangSwitch = ({
     <button className={styles.langSwitch}>
       <span onClick={() => {changeLanguage("de")}} className={lo === "de" ? styles.active : ""}>De</span>
       <span onClick={() => {changeLanguage("en")}} className={lo === "en" ? styles.active : ""}>En</span>
-      <span onClick={() => {changeLanguage("ar")}} className={lo === "ar" ? styles.active : ""}>Ar</span>
+      {/* <span onClick={() => {changeLanguage("ar")}} className={lo === "ar" ? styles.active : ""}>Ar</span> */}
     </button>
   )
 }

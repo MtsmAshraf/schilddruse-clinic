@@ -11,19 +11,20 @@
     height: 30px;
     border-radius: 50%; */
     overflow: hidden;
+    height: 24px;
     background-color: var(--bg-color);
-    background-color: #fff;
     border: 1px solid var(--main-color);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .langSwitch, .langSwitch:focus, .langSwitch:focus-visible, .langSwitch:active{
     border: 1px solid var(--main-color);
 }
 .langSwitch span{
-    /* padding: 3px 10px; */
-    width: calc(100% / 3);
-    /* color: var(--main-color); */
-    /* background-color: var(--bg-color); */
+    width: calc(100% / 2);
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
 }
