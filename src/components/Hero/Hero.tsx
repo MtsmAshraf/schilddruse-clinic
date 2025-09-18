@@ -4,12 +4,17 @@ import styles from "./hero.module.css"
 import { useTranslations } from 'next-intl'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
-// import { DotLottieReact } from '@lottiefiles/dotlottie-react'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-// import Image from 'next/image'
-// import heroImg from "../../../public/images/hero-img.png"
 import { PopupButton } from 'react-calendly'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay, EffectCoverflow, Navigation, Pagination } from 'swiper/modules'
+import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import testImg from "../../../public/images/hero-bg.jpg"
+import 'swiper/css';
+import "swiper/css/bundle";
+import 'swiper/css/navigation'; 
+import 'swiper/css/pagination'; 
 
 const Hero = ({
   lo
@@ -56,60 +61,128 @@ const Hero = ({
     }, []); 
   return (
     <section className={lo === "ar" ? styles.hero + " " + styles.ar : styles.hero} id='hero'>
-        <div className='container'>
-            <div className={styles.text}>
-                <h2 className='stagger-text'>
-                    {
-                        t("Hero.slogan")
-                    }
-                </h2>
-                <p className='stagger-text'>
-                    {
-                        t("Hero.p1")
-                    }
-                </p>
-                <p className='stagger-text'>
-                    {
-                        t("Hero.p2")
-                    }
-                </p>
-                <div className={styles.btns + " " + "stagger-text"}>
-                    <PopupButton
-                        className='book-btn main'
-                        url="https://calendly.com/mo32000a/schilddruse"
-                        /*
-                        * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-                        * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-                        */
-                        rootElement={rootElement!}
-                        text="Book Appointment"
-                    />
-                    <a href="https://wa.me/+966505638988" target='_blank'>
-                        {
-                            t("Hero.btns.b2")
-                        }
-                    </a>
-                </div>
+        <div className={styles.swiper}>
+            <Swiper
+                loop
+                autoplay={{
+                    delay: 5000
+                }}
+                slidesPerView= {1}
+                spaceBetween={10}
+                pagination={{
+                    clickable: true,
+                    el: `.heroPagination`
+                }}
+                modules={[Navigation, Pagination, Autoplay, EffectCoverflow]}
+                navigation={{
+                    nextEl: '.featured-swiper-button-next',
+                    prevEl: '.featured-swiper-button-prev'
+                }}
+                effect='coverflow'
+                className='mySwiperProdHero'
+                autoHeight={true}
+                >
+                <SwiperSlide className={styles.slide}>
+                    <div className={styles.text}>
+                        <h2 className='stagger-text'>
+                            {
+                                t("Hero.slogan")
+                            } 1
+                        </h2>
+                        <p className='stagger-text'>
+                            {
+                                t("Hero.p1")
+                            }
+                        </p>
+                        <p className='stagger-text'>
+                            {
+                                t("Hero.p2")
+                            }
+                        </p>
+                        <div className={styles.btns + " " + "stagger-text"}>
+                            <PopupButton
+                                className='book-btn main'
+                                url="https://calendly.com/mo32000a/schilddruse"
+                                /*
+                                * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+                                * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+                                */
+                                rootElement={rootElement!}
+                                text="Book Appointment"
+                            />
+                            <a href="https://wa.me/+966505638988" target='_blank'>
+                                {
+                                    t("Hero.btns.b2")
+                                }
+                            </a>
+                        </div>
+                    </div>
+                    <div className={styles.img}>
+                        <video 
+                            loop
+                            muted
+                            playsInline
+                            autoPlay 
+                        >
+                            <source src="/hero-bg-video.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        {/* <Image src={testImg} alt='Test Image'></Image> */}
+                    </div>
+                    <div className={styles.overlay}>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                    <div className={styles.text}>
+                        <h2 className='stagger-text'>
+                            {
+                                t("Hero.slogan")
+                            } 2
+                        </h2>
+                        <p className='stagger-text'>
+                            {
+                                t("Hero.p1")
+                            }
+                        </p>
+                        <p className='stagger-text'>
+                            {
+                                t("Hero.p2")
+                            }
+                        </p>
+                        <div className={styles.btns + " " + "stagger-text"}>
+                            <PopupButton
+                                className='book-btn main'
+                                url="https://calendly.com/mo32000a/schilddruse"
+                                /*
+                                * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+                                * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+                                */
+                                rootElement={rootElement!}
+                                text="Book Appointment"
+                            />
+                            <a href="https://wa.me/+966505638988" target='_blank'>
+                                {
+                                    t("Hero.btns.b2")
+                                }
+                            </a>
+                        </div>
+                    </div>
+                    <div className={styles.img}>
+                        <Image src={testImg} alt='Test Image'></Image>
+                    </div>
+                    <div className={styles.overlay}>
+                    </div>
+                </SwiperSlide>
+            </Swiper>
+            <div className={styles.heroPagination}>
+                <div className={`heroPagination`}></div>
             </div>
-            {/* <div id='hero-img' className={styles.img}> */}
-                {/* <DotLottieReact 
-                src="https://lottie.host/cbab1bf0-9443-4f8d-8fa7-46489702ba56/xVHiC3sM2T.json" 
-                src="https://lottie.host/5fe284c4-cfee-4d60-8d30-e6b4a11c89d9/v1W3TAjATe.lottie"
-                src="https://lottie.host/a3947af8-c0f4-441f-acca-ea58103508c8/gDpkHmD0bg.lottie"
-                src="https://lottie.host/3a20c431-7c70-4a9c-99ad-8de45d81059f/f6YXjvbjfH.lottie"
-                src="https://lottie.host/34e99b35-c67b-4d9f-b801-bfe7aa53d4a6/7QrwMwQvdK.lottie"
-                src="https://lottie.host/34e99b35-c67b-4d9f-b801-bfe7aa53d4a6/7QrwMwQvdK.lottie"
-                src="https://lottie.host/238ba0cf-59df-434b-a65b-8b7bfb6a3edf/3d9L2RYgTm.lottie"
-                speed={1}
-                style={{width: "100%",height: "100%"}}
-                loop 
-                backgroundColor='transparent'
-                autoplay></DotLottieReact> */}
-                {/* <Image src={heroImg} alt='Doctor and Schilddrüse Image'></Image> */}
-
-            {/* </div> */}
-        </div>
-        <div className={styles.overlay}>
+            <button className='featured-swiper-button-prev'>
+                <FontAwesomeIcon icon={faChevronLeft} />
+            </button>
+            <button className='featured-swiper-button-next'>
+                <FontAwesomeIcon icon={faChevronRight} />
+            </button>
         </div>
     </section>
   )

@@ -3,14 +3,62 @@
     isolation: isolate;
     overflow: hidden;
     min-height: 100dvh;
-    background-image: url("../../../public/images/hero-bg-3.svg");
-    background-image: url("../../../public/images/hero-bg.jpg");
-    background-size: cover;
-    background-position: 100%;
-    background-repeat: no-repeat;
 }
 .hero.ar{
     direction: rtl;
+}
+.hero .swiper{
+    position: relative;
+}
+.hero .slide{
+    position: relative;
+    min-height: 100dvh;
+}
+.hero .slide .img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.hero .slide .img img,
+.hero .slide .img video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.hero .swiper > button{
+    /* position: absolute; */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #00000051;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .swiper > button:first-of-type{
+    left: 20px;
+}
+.hero .swiper > button:last-of-type{
+    right: 20px;
+}
+.hero .heroPagination{
+    position: absolute;
+    bottom: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.hero .heroPagination span{
+    background-color: var(--main-color);
 }
 .hero .overlay{
     position: absolute;
@@ -18,24 +66,21 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--text-color);
     background-color: var(--bg-color);
     opacity: 0.8;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     z-index: -1;
 }
-.hero > div:first-of-type{
+.hero .text{
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
-    min-height: 100dvh;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     width: 100%;
+    min-height: 100dvh;
 }
-.hero > div:first-of-type > *{
-    height: 500px;
-}
-.hero > div:first-of-type h2{
+.hero .text h2{
     font-weight: bold;
     max-width: 100%;
     color: var(--main-color);
@@ -46,18 +91,18 @@
     padding-left: 20px;
     padding-right: 20px;
 }
-.hero > div:first-of-type p{
+.hero .text p{
     font-size: 24px;
     color: var(--text-color);
 }
 
-.hero > div:first-of-type .btns{
+.hero .text .btns{
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 20px;
 }
-.hero > div:first-of-type .btns a{
+.hero .text .btns a{
     padding: 8px 20px;
     border-radius: 8px;
     box-shadow: var(--main-shadow);
@@ -67,85 +112,78 @@
     align-items: center;
     gap: 5px;
 }
-.hero > div:first-of-type .btns a:first-child{
+.hero .text .btns a:first-child{
     background-image: var(--main-gradient);
     color: #fff;
 }
-.hero > div:first-of-type .btns a:last-child{
+.hero .text .btns a:last-child{
     color: var(--main-color);
     background-image: linear-gradient(90deg, white 0%, white 100%);
 }
-.hero > div:first-of-type .btns a:last-child:hover{
+.hero .text .btns a:last-child:hover{
     background-image: var(--main-gradient);
     color: #fff;
 }
-.hero > div:first-of-type .text{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-.hero .text{
-    width: 100%;
-    /* width: 50%; */
-}
-.hero > div:first-of-type .img{
+.hero .text .img{
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.hero > div:first-of-type .img *{
-    object-fit: contain;
-    max-width: 100%;
-}
 @media (max-width: 992px) {
 
-    .hero > div:first-of-type{
-        flex-direction: column;
+    .hero .text{
+        /* flex-direction: column;
         justify-content: center;
+        text-align: center; */
+        /* gap: 100px; */
+    }
+    .hero .text{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
         text-align: center;
-        gap: 100px;
     }
-    .hero > div:first-of-type .text{
+    .hero .text h2{
+        font-size: 66px;
         width: 100%;
     }
-    .hero > div:first-of-type .img{
-        width: 100%;
-        display: none;
+    .hero .text p{
+        font-size: 18px;
     }
-    .hero > div:first-of-type h2{
-        font-size: 76px;
-        width: 100%;
-    }
-    .hero > div:first-of-type .btns{
+    .hero .text .btns{
         justify-content: center;
-    }
-    .hero::before{
-        transform: translateY(200px) rotateZ(30deg);
-    } 
-    .hero::after{
-        transform: translateY(200px) rotateZ(-30deg);
     }
 }
 @media (max-width: 767px) {
-    .hero > div:first-of-type h2{
-        font-size: 40px;
-        margin-bottom: 10px;
+    .hero .text{
+        width: 80%;
     }
-    .hero > div:first-of-type p{
+    .hero .text h2{
+        font-size: 50px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .hero .text p{
         font-size: 16px;
     }
-    .hero > div:first-of-type .btns a,
-    .hero > div:first-of-type .btns button{
+    .hero .text .btns a,
+    .hero .text .btns button{
         font-size: 14px;
         padding: 8px 15px;
         white-space: nowrap;
     }
-    .hero::before{
-        transform: translateY(400px) rotateZ(30deg);
-    } 
-    .hero::after{
-        transform: translateY(400px) rotateZ(-30deg);
+    .hero .swiper > button{
+        top: unset;
+        bottom: 120px;
+        transform: translateY(0px);
+    }
+    .hero .swiper > button:first-of-type{
+        right: 52%;
+        left: unset;
+    }
+    .hero .swiper > button:last-of-type{
+        right: unset;
+        left: 52%;
     }
 }
