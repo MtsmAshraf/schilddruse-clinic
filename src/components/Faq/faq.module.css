@@ -39,6 +39,7 @@
 .faq ul li button span{
     font-size: 24px;
     color: var(--main-color);
+    transition: var(--main-transition);
 }
 .faq ul li p{
     padding: 0px 20px;
@@ -55,7 +56,9 @@
     padding: 20px;
     color: #000;
 } 
-/* .faq ul li button:hover span , */
+.faq ul li button:hover span{
+    color: #fff;
+}
 .faq ul li button:focus span ,
 .faq ul li button:focus-visible span {
     transform: rotateZ(180deg);
