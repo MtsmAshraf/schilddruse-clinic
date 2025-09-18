@@ -27,16 +27,6 @@ const Header = ({
       setShowVNav(false)
     },[pathname])
 
-    // getting root element on the client side
-    const [rootElement, setRootElement] = useState<HTMLElement | null>(null);
-    useEffect(() => {
-      // Runs only on client
-      const el: HTMLElement = document.body;
-      if (el) {
-        setRootElement(el);
-      }
-    }, []); 
-
     // GSAP
     const headerRef = useRef<HTMLElement | null>(null);
 
