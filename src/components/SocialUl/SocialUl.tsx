@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from "./social-ul.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faCommentSms, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 const SocialUl = () => {
   return (
     <ul className={styles.socialUl}>
@@ -22,8 +22,8 @@ const SocialUl = () => {
             </a>
         </li>
         <li>
-            <a title="Facebook" target='_blank' href="https://www.facebook.com/assimacompressors">
-                <FontAwesomeIcon icon={faFacebookF}/>
+            <a title="SMS" target='_blank' href="https://www.facebook.com/assimacompressors">
+                <FontAwesomeIcon icon={faCommentSms}/>
             </a>
         </li>
     </ul>

@@ -5,7 +5,7 @@ import styles from "./nav.module.css"
 import { usePathname } from 'next/navigation'
 import { Link } from '@/i18n/navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faCommentSms, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 const Nav = ({
@@ -32,15 +32,18 @@ const Nav = ({
             </li>
         </ul>
         <div className={styles.navSocialLinks}>
-            <a href="www.facebook.com" target='_blank' title='Phone'>
-                <FontAwesomeIcon icon={faPhone} />
-            </a>
-            <a href="www.facebook.com" target='_blank' title='Whatsapp'>
-                <FontAwesomeIcon icon={faWhatsapp} />
-            </a>
-            <a href="www.facebook.com" target='_blank' title='Email'>
-                <FontAwesomeIcon icon={faEnvelope} />
-            </a>
+                <a title="Phone" target='_blank' href="tel:2020">
+                    <FontAwesomeIcon icon={faPhone} />
+                </a>
+                <a title="Whatsapp" target='_blank' href="https://wa.me/201096953160">
+                    <FontAwesomeIcon icon={faWhatsapp}/>
+                </a>
+                <a title="Gmail" target='_blank' href="mailto:assemaforcompressor@gmail.com?subject=AlAsema-website">
+                    <FontAwesomeIcon icon={faEnvelope}/>
+                </a>
+                <a title="SMS" target='_blank' href="https://www.facebook.com/assimacompressors">
+                    <FontAwesomeIcon icon={faCommentSms}/>
+                </a>
         </div>
     </nav>
   )
