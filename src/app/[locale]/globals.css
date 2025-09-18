@@ -26,6 +26,7 @@ body{
   background-image: url("../../../public/images/body-bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow-x: hidden;
 }
 html{

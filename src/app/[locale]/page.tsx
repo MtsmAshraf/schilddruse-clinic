@@ -5,6 +5,7 @@ import styles from "./home.module.css"
 import Loader from "@/components/Loader/Loader";
 import Services from "@/components/Services/Services";
 import About from "@/components/About/About";
+import Faq from "@/components/Faq/Faq";
 
 export default async function Home({
   params
@@ -20,6 +21,7 @@ export default async function Home({
       <Hero lo={locale} />
       <Services />
       <BlogCards />
+      <Faq />
       <About />
     </main>
   );

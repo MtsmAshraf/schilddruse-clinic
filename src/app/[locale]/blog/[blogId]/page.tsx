@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import styles from "./blog-post.module.css"
 import React from 'react'
 import Image from 'next/image'
+import Faq from '@/components/Faq/Faq'
 
 const blogPostPage = async ({
     params,
@@ -17,42 +18,45 @@ const blogPostPage = async ({
     }
 
   return (
-    <section className={styles.blogPost}>
-        <div className={styles.overlay}></div>
-        <div className="container">
-            <h2 className={styles.postTitle}>
-                {
-                    post.title
-                }
-            </h2>
-            <div className={styles.postInfo}>
-                <span>
-                    By:
-                </span>
-                <span>
+    <>
+        <section className={styles.blogPost}>
+            <div className={styles.overlay}></div>
+            <div className="container">
+                <h2 className={styles.postTitle}>
                     {
-                        ` ${post.author}`
+                        post.title
                     }
-                </span>
-                <span>
+                </h2>
+                <div className={styles.postInfo}>
+                    <span>
+                        By:
+                    </span>
+                    <span>
+                        {
+                            ` ${post.author}`
+                        }
+                    </span>
+                    <span>
+                        {
+                            ` | ${post.date}`
+                        }
+                    </span>
+                </div>
+                <div className={styles.postImg}>
+                    <Image src={post.img.src} alt={post.title + " cover image"} width={400} height={300}></Image>
+                </div>
+                <div className={styles.postBody}>
                     {
-                        ` | ${post.date}`
+                        post.body
                     }
-                </span>
+                    <br />
+                    <br />
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum voluptatum suscipit velit officiis enim? Facilis veritatis eligendi pariatur aperiam. Rerum, aut alias temporibus cumque maxime delectus fugit laudantium dolor qui.
+                </div>
             </div>
-            <div className={styles.postImg}>
-                <Image src={post.img.src} alt={post.title + " cover image"} width={400} height={300}></Image>
-            </div>
-            <div className={styles.postBody}>
-                {
-                    post.body
-                }
-                <br />
-                <br />
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum voluptatum suscipit velit officiis enim? Facilis veritatis eligendi pariatur aperiam. Rerum, aut alias temporibus cumque maxime delectus fugit laudantium dolor qui.
-            </div>
-        </div>
-    </section>
+        </section>
+        <Faq />
+    </>
   )
 }
 

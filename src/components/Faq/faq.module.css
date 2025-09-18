@@ -1,0 +1,63 @@
+.faq{
+    padding-top: 50px;
+}
+.faq ul{
+    width: 800px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: var(--main-shadow);
+}
+.faq ul li button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    padding: 10px 20px;
+    transition: var(--main-transition);
+}
+.faq ul li button h3{
+    text-align: left;
+    font-size: 18px;
+}
+@media (max-width: 767px) {
+    .faq ul li button h3{
+        font-size: 16px;
+    }
+}
+.faq ul li button:hover,
+.faq ul li button:focus,
+.faq ul li button:focus-visible{
+    background-color: var(--main-color);
+    color: #fff;
+}
+.faq ul li button span{
+    font-size: 24px;
+    color: var(--main-color);
+}
+.faq ul li p{
+    padding: 0px 20px;
+    transition: var(--main-transition);
+    overflow: hidden;
+    height: 0;
+    padding: 0;
+    color: #fff;
+}
+/* .faq ul li:has(button:hover) p, */
+.faq ul li:has(button:focus) p,
+.faq ul li:has(button:focus-visible) p{
+    height: auto;
+    padding: 20px;
+    color: #000;
+} 
+/* .faq ul li button:hover span , */
+.faq ul li button:focus span ,
+.faq ul li button:focus-visible span {
+    transform: rotateZ(180deg);
+    color: #fff;
+} 
