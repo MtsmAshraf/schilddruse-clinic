@@ -55,6 +55,28 @@ const Services = () => {
                     Complete oral care for every smile with cleanings, exams, and more.
                 </p>
             </div>
+            <div className={styles.card}>
+                <div className={styles.cardIcon}>
+                    <FontAwesomeIcon icon={faStethoscope} />
+                </div>
+                <h4>
+                    General Dentistry
+                </h4>
+                <p>
+                    Complete oral care for every smile with cleanings, exams, and more.
+                </p>
+            </div>
+            <div className={styles.card}>
+                <div className={styles.cardIcon}>
+                    <FontAwesomeIcon icon={faStethoscope} />
+                </div>
+                <h4>
+                    General Dentistry
+                </h4>
+                <p>
+                    Complete oral care for every smile with cleanings, exams, and more.
+                </p>
+            </div>
         </div>
     </section>
   )
