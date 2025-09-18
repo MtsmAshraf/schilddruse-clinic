@@ -59,12 +59,15 @@ button, button:focus, button:focus-visible, button:active{
   color: #fff;
 }
 ::-webkit-scrollbar{
+  background-color: #fff;
   width: 10px;
-  background-color: var(--bg-color);
 }
 ::-webkit-scrollbar-thumb{
   background-color: var(--main-color);
   border-radius: 6px;
+}
+::-webkit-scrollbar-track{
+  background-color: #fff;
 }
 section{
   margin-bottom: 30px;
