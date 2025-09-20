@@ -3,14 +3,16 @@
 :root {
   --bg-color: #fcfcfc;
   --foreground: #171717;
-  --main-color: #074866;
-  --lighter-color: #0d6088;
+  --main-color: #1197f0;
+  --darker-color: #0d6088;
+  --sec-color: #fec410;
+  --third-color: #ac1b15;  
   --text-color: #000;
   --main-shadow: 0px 4px 14px -3px #ccc;
   --inset-shadow: 0px 0px 10px -3px var(--main-color) inset;
   --sec-shadow: 0px 4px 14px -3px #222;
   --main-transition: all 0.3s 0s cubic-bezier(.47,.65,.33,.87);
-  --main-gradient: linear-gradient(90deg, var(--lighter-color) 0%, var(--main-color) 100%);
+  --main-gradient: linear-gradient(90deg, var(--main-color) 0%, var(--main-color) 100%);
 
   --features-card-bg: rgba(8, 7, 7, 0.2);
   --main-card-animation-color: #38207f;
@@ -23,7 +25,7 @@
 
 body{
   background-color: var(--bg-color);
-  background-image: url("../../../public/images/body-bg.svg");
+  /* background-image: url("../../../public/images/body-bg.svg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

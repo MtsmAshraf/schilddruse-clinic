@@ -14,7 +14,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: var(--lighter-color);
+    background-color: var(--darker-color);
     /* transform: translateY(50%); */
 }
 .mainHeading span:last-of-type{
