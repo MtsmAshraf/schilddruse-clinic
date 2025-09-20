@@ -10,7 +10,7 @@ import { Autoplay, EffectCoverflow, Navigation, Pagination } from 'swiper/module
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
-import testImg from "../../../public/images/hero-bg.jpg"
+import pregnantImg from "../../../public/images/pregnant.jpeg"
 import 'swiper/css';
 import "swiper/css/bundle";
 import 'swiper/css/navigation'; 
@@ -65,7 +65,7 @@ const Hero = ({
             <Swiper
                 loop
                 autoplay={{
-                    delay: 5000
+                    delay: 7000
                 }}
                 slidesPerView= {1}
                 spaceBetween={10}
@@ -82,39 +82,41 @@ const Hero = ({
                 className='mySwiperProdHero'
                 autoHeight={true}
                 >
-                <SwiperSlide className={styles.slide}>
-                    <div className={styles.text}>
-                        <h2 className='stagger-text'>
-                            {
-                                t("Hero.slogan")
-                            } 1
-                        </h2>
-                        <p className='stagger-text'>
-                            {
-                                t("Hero.p1")
-                            }
-                        </p>
-                        <p className='stagger-text'>
-                            {
-                                t("Hero.p2")
-                            }
-                        </p>
-                        <div className={styles.btns + " " + "stagger-text"}>
-                            <PopupButton
-                                className='book-btn main'
-                                url="https://calendly.com/mo32000a/schilddruse"
-                                /*
-                                * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-                                * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-                                */
-                                rootElement={rootElement!}
-                                text="Book Appointment"
-                            />
-                            <a href="https://wa.me/+966505638988" target='_blank'>
+                <SwiperSlide className={styles.slide + " " + styles.main}>
+                    <div className="container">
+                        <div className={styles.text}>
+                            <h2 className='stagger-text'>
                                 {
-                                    t("Hero.btns.b2")
+                                    t("Hero.slogan")
+                                } 1
+                            </h2>
+                            <p className='stagger-text'>
+                                {
+                                    t("Hero.p1")
                                 }
-                            </a>
+                            </p>
+                            <p className='stagger-text'>
+                                {
+                                    t("Hero.p2")
+                                }
+                            </p>
+                            <div className={styles.btns + " " + "stagger-text"}>
+                                <PopupButton
+                                    className='book-btn main'
+                                    url="https://calendly.com/mo32000a/schilddruse"
+                                    /*
+                                    * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+                                    * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+                                    */
+                                    rootElement={rootElement!}
+                                    text="Book Appointment"
+                                />
+                                <a href="https://wa.me/+966505638988" target='_blank'>
+                                    {
+                                        t("Hero.btns.b2")
+                                    }
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className={styles.img}>
@@ -124,51 +126,53 @@ const Hero = ({
                             playsInline
                             autoPlay 
                         >
-                            <source src="/hero-bg-video.mp4" type="video/mp4" />
+                            <source src="/butterfly.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
-                        {/* <Image src={testImg} alt='Test Image'></Image> */}
+                        {/* <Image src={pregnantImg} alt='Test Image'></Image> */}
                     </div>
                     <div className={styles.overlay}>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
-                    <div className={styles.text}>
-                        <h2 className='stagger-text'>
-                            {
-                                t("Hero.slogan")
-                            } 2
-                        </h2>
-                        <p className='stagger-text'>
-                            {
-                                t("Hero.p1")
-                            }
-                        </p>
-                        <p className='stagger-text'>
-                            {
-                                t("Hero.p2")
-                            }
-                        </p>
-                        <div className={styles.btns + " " + "stagger-text"}>
-                            <PopupButton
-                                className='book-btn main'
-                                url="https://calendly.com/mo32000a/schilddruse"
-                                /*
-                                * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-                                * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-                                */
-                                rootElement={rootElement!}
-                                text="Book Appointment"
-                            />
-                            <a href="https://wa.me/+966505638988" target='_blank'>
+                    <div className="container">
+                        <div className={styles.text}>
+                            <h2 className='stagger-text'>
                                 {
-                                    t("Hero.btns.b2")
+                                    t("Hero.slogan")
+                                } 2
+                            </h2>
+                            <p className='stagger-text'>
+                                {
+                                    t("Hero.p1")
                                 }
-                            </a>
+                            </p>
+                            <p className='stagger-text'>
+                                {
+                                    t("Hero.p2")
+                                }
+                            </p>
+                            <div className={styles.btns + " " + "stagger-text"}>
+                                <PopupButton
+                                    className='book-btn main'
+                                    url="https://calendly.com/mo32000a/schilddruse"
+                                    /*
+                                    * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+                                    * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+                                    */
+                                    rootElement={rootElement!}
+                                    text="Book Appointment"
+                                />
+                                <a href="https://wa.me/+966505638988" target='_blank'>
+                                    {
+                                        t("Hero.btns.b2")
+                                    }
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className={styles.img}>
-                        <Image src={testImg} alt='Test Image'></Image>
+                        <Image src={pregnantImg} alt='Test Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>

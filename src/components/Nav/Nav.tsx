@@ -32,10 +32,10 @@ const Nav = ({
                 <a title="Phone" target='_blank' href="tel:2020">
                     <FontAwesomeIcon icon={faPhone} />
                 </a>
-                <a title="Whatsapp" target='_blank' href="https://wa.me/201096953160">
+                <a title="Whatsapp" target='_blank' href="https://wa.me/06701960112">
                     <FontAwesomeIcon icon={faWhatsapp}/>
                 </a>
-                <a title="Gmail" target='_blank' href="mailto:assemaforcompressor@gmail.com?subject=AlAsema-website">
+                <a title="Gmail" target='_blank' href="mailto:schilddruese.mohammed@outlook.com?subject=Mail-From-Schilddrüse-website">
                     <FontAwesomeIcon icon={faEnvelope}/>
                 </a>
                 <a title="SMS" target='_blank' href="https://www.facebook.com/assimacompressors">
