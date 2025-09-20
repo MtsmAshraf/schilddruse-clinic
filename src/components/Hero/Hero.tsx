@@ -11,6 +11,7 @@ import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import pregnantImg from "../../../public/images/pregnant.jpeg"
+import fatImg from "../../../public/images/fat.jpeg"
 import 'swiper/css';
 import "swiper/css/bundle";
 import 'swiper/css/navigation'; 
@@ -88,7 +89,7 @@ const Hero = ({
                             <h2 className='stagger-text'>
                                 {
                                     t("Hero.slogan")
-                                } 1
+                                }
                             </h2>
                             <p className='stagger-text'>
                                 {
@@ -109,13 +110,8 @@ const Hero = ({
                                     * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
                                     */
                                     rootElement={rootElement!}
-                                    text="Book Appointment"
+                                    text={`${t("Hero.btns.b1")}`}
                                 />
-                                <a href="https://wa.me/+966505638988" target='_blank'>
-                                    {
-                                        t("Hero.btns.b2")
-                                    }
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -140,7 +136,7 @@ const Hero = ({
                             <h2 className='stagger-text'>
                                 {
                                     t("Hero.slogan")
-                                } 2
+                                }
                             </h2>
                             <p className='stagger-text'>
                                 {
@@ -161,18 +157,51 @@ const Hero = ({
                                     * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
                                     */
                                     rootElement={rootElement!}
-                                    text="Book Appointment"
+                                    text={`${t("Hero.btns.b1")}`}
                                 />
-                                <a href="https://wa.me/+966505638988" target='_blank'>
-                                    {
-                                        t("Hero.btns.b2")
-                                    }
-                                </a>
                             </div>
                         </div>
                     </div>
                     <div className={styles.img}>
                         <Image src={pregnantImg} alt='Test Image'></Image>
+                    </div>
+                    <div className={styles.overlay}>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                    <div className="container">
+                        <div className={styles.text}>
+                            <h2 className='stagger-text'>
+                                {
+                                    t("Hero.slogan")
+                                }
+                            </h2>
+                            <p className='stagger-text'>
+                                {
+                                    t("Hero.p1")
+                                }
+                            </p>
+                            <p className='stagger-text'>
+                                {
+                                    t("Hero.p2")
+                                }
+                            </p>
+                            <div className={styles.btns + " " + "stagger-text"}>
+                                <PopupButton
+                                    className='book-btn main'
+                                    url="https://calendly.com/mo32000a/schilddruse"
+                                    /*
+                                    * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+                                    * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+                                    */
+                                    rootElement={rootElement!}
+                                    text={`${t("Hero.btns.b1")}`}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.img}>
+                        <Image src={fatImg} alt='Test Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>

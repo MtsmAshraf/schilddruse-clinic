@@ -9,11 +9,7 @@ import { faArrowRight, faBars } from '@fortawesome/free-solid-svg-icons'
 import VerticalNav from '../VerticalNav/VerticalNav'
 // import LangSwitch from '../Nav/LangSwitch/LangSwitch'
 import { usePathname } from 'next/navigation'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/all'
 import LangSwitch from '../LangSwitch/LangSwitch'
-
-gsap.registerPlugin(ScrollTrigger);
 
 
 const Header = ({
@@ -27,44 +23,9 @@ const Header = ({
       setShowVNav(false)
     },[pathname])
 
-    // GSAP
-    const headerRef = useRef<HTMLElement | null>(null);
-
-    useEffect(() => {
-      if (!headerRef.current) return;
-
-      const header = headerRef.current;
-      const trigger = ScrollTrigger.create({
-        start: "top top",
-        end: 99999,
-        onUpdate: (self) => {
-          if (self.direction === 1 && self.scroll() > 50) {
-            // scrolling down
-            gsap.to(header, { 
-              backgroundColor: "#fff", 
-              boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-              duration: 0.3, 
-              ease: "power2.out" 
-            });
-          } else if (self.scroll() <= 50) {
-            // near top
-            gsap.to(header, { 
-              backgroundColor: "transparent", 
-              boxShadow: "none",
-              duration: 0.3, 
-              ease: "power2.out" 
-            });
-          }
-        },
-      });
-
-      return () => {
-        trigger.kill();
-      };
-    }, []);
 
   return (
-    <header ref={headerRef} className={lo === "ar" ? styles.header + " " + styles.ar : styles.header}>
+    <header className={lo === "ar" ? styles.header + " " + styles.ar : styles.header}>
         <div className="container">
             <a className={styles.logo} href={"/"}>
                 <Image loading='lazy' src={logo} alt='Al Assema Logo'></Image>

@@ -4,12 +4,11 @@
       "whatsapp": "Whatsapp"
     },
     "Hero": {
-      "slogan": "Schilddrüse",
-      "p1": "Specialized thyroid care – Accurate diagnosis and advanced treatment",
+      "slogan": "Gruppenpraxis Medizin Mariahilf",
+      "p1": "I’m looking forward to your visit!",
       "p2": "Expert doctors and modern technology – Personalized healthcare solutions",
       "btns": {
-        "b1": "Book now",
-        "b2": "Contact Us"
+        "b1": "Book an appointment"
       }
     },
     "Why": {

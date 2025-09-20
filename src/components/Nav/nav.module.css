@@ -45,7 +45,7 @@
     gap: 10px;
 }
 .nav .navSocialLinks a{
-    color: #444;
+    color: #666;
     font-size: 20px;
     transition: var(--main-transition);
     padding: 5px;

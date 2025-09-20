@@ -29,7 +29,9 @@ const Contact = ({
                         <FontAwesomeIcon icon={faLocationPin}></FontAwesomeIcon>
                     </span>
                     <address>
-                        Street, City, Austria 
+                        Mariahilfer Straße 95/19, Stiege 1,<br />
+                        1060 Wien (U3 Zieglergasse) <br />
+                        Österreich
                     </address>
                 </div>
                 <div>

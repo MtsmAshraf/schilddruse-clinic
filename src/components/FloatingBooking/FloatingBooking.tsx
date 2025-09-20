@@ -2,9 +2,12 @@
 import React, { useEffect, useState } from 'react'
 import styles from "./floating-booking.module.css"
 import { PopupButton } from 'react-calendly'
+import { useTranslations } from 'next-intl'
 
 
 const FloatingBooking = () => {
+    const t = useTranslations("HomePage")
+
     const [rootElement, setRootElement] = useState<HTMLElement>();
 
     useEffect(() => {
@@ -23,7 +26,7 @@ const FloatingBooking = () => {
             * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
             */
             rootElement={rootElement!}
-            text='Book Appointment'
+            text={`${t("Hero.btns.b1")}`}
         />
 )
 }
