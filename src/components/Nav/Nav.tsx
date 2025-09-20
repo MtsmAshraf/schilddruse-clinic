@@ -29,16 +29,16 @@ const Nav = ({
             </li>
         </ul>
         <div className={styles.navSocialLinks}>
-                <a title="Phone" target='_blank' href="tel:2020">
+                <a title="Phone" target='_blank' href="tel:+436701960112">
                     <FontAwesomeIcon icon={faPhone} />
                 </a>
-                <a title="Whatsapp" target='_blank' href="https://wa.me/06701960112">
+                <a title="Whatsapp" target='_blank' href="https://wa.me/+436701960112">
                     <FontAwesomeIcon icon={faWhatsapp}/>
                 </a>
                 <a title="Gmail" target='_blank' href="mailto:schilddruese.mohammed@outlook.com?subject=Mail-From-Schilddrüse-website">
                     <FontAwesomeIcon icon={faEnvelope}/>
                 </a>
-                <a title="SMS" target='_blank' href="https://www.facebook.com/assimacompressors">
+                <a title="SMS" target='_blank' href="sms:+436701960112">
                     <FontAwesomeIcon icon={faCommentSms}/>
                 </a>
         </div>
