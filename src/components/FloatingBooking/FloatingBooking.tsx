@@ -6,7 +6,8 @@ import { useTranslations } from 'next-intl'
 
 
 const FloatingBooking = () => {
-    const t = useTranslations("HomePage")
+    const t = useTranslations
+    ("HomePage")
 
     const [rootElement, setRootElement] = useState<HTMLElement>();
 
