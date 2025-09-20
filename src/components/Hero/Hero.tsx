@@ -12,7 +12,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import pregnantImg from "../../../public/images/pregnant.jpeg"
 import fatImg from "../../../public/images/fat.jpeg"
-import aroundNeckImg from "../../../public/images/hands-around-neck.jpeg"
+import bigNeckImg from "../../../public/images/big-neck.jpeg"
+import butterFlies from "../../../public/images/slide-inner-2.jpeg"
+import innerImg from "../../../public/images/slide-inner.jpeg"
+import oldImg from "../../../public/images/slide-old.jpeg"
+import thyroid from "../../../public/images/slide-thyroid.jpeg"
+
 import 'swiper/css';
 import "swiper/css/bundle";
 import 'swiper/css/navigation'; 
@@ -102,18 +107,6 @@ const Hero = ({
                                     t("Hero.p2")
                                 }
                             </p>
-                            <div className={styles.btns + " " + "stagger-text"}>
-                                <PopupButton
-                                    className='book-btn main'
-                                    url="https://calendly.com/mo32000a/schilddruse"
-                                    /*
-                                    * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-                                    * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-                                    */
-                                    rootElement={rootElement!}
-                                    text={`${t("Hero.btns.b1")}`}
-                                />
-                            </div>
                             <div className={styles.appts}>
                                 <div className={styles.apptOne}>
                                     <h4>
@@ -137,6 +130,18 @@ const Hero = ({
                                         Leegasse 2/8, 1140 Wien
                                     </h5>
                                 </div>
+                            </div>
+                            <div className={styles.btns + " " + "stagger-text"}>
+                                <PopupButton
+                                    className='book-btn main'
+                                    url="https://calendly.com/mo32000a/schilddruse"
+                                    /*
+                                    * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+                                    * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+                                    */
+                                    rootElement={rootElement!}
+                                    text={`${t("Hero.btns.b1")}`}
+                                />
                             </div>
                         </div>
                     </div>
@@ -159,56 +164,8 @@ const Hero = ({
                     <div className="container">
                         <div className={styles.text}>
                             <h2 className='stagger-text'>
-                                {
-                                    t("Hero.slogan")
-                                }
+                                Schilddrüse bei Kinderwunsch, während der Schwanger-schaft und nach der Geburt
                             </h2>
-                            <p className='stagger-text'>
-                                {
-                                    t("Hero.p1")
-                                }
-                            </p>
-                            <p className='stagger-text'>
-                                {
-                                    t("Hero.p2")
-                                }
-                            </p>
-                            <div className={styles.btns + " " + "stagger-text"}>
-                                <PopupButton
-                                    className='book-btn main'
-                                    url="https://calendly.com/mo32000a/schilddruse"
-                                    /*
-                                    * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-                                    * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-                                    */
-                                    rootElement={rootElement!}
-                                    text={`${t("Hero.btns.b1")}`}
-                                />
-                            </div>
-                            <div className={styles.appts}>
-                                <div className={styles.apptOne}>
-                                    <h4>
-                                        Gruppenpraxis Medizin Mariahilf
-                                    </h4>
-                                    <span>
-                                        Mittwochs : 13:00-19:00 Uhr
-                                    </span>
-                                    <h5>
-                                        Mariahilfer Straße 95/19, Stiege 1, 1060 Wien (U3 Zieglergasse)
-                                    </h5>
-                                </div>
-                                <div className={styles.apptTwo}>
-                                    <h4>
-                                        SchilddrüsenordinationUbl
-                                    </h4>
-                                    <span>
-                                        Freitags: 16:00- 19:00 Uhr 
-                                    </span>
-                                    <h5>
-                                        Leegasse 2/8, 1140 Wien
-                                    </h5>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div className={styles.img}>
@@ -220,57 +177,9 @@ const Hero = ({
                 <SwiperSlide className={styles.slide}>
                     <div className="container">
                         <div className={styles.text}>
-                            <h2 className='stagger-text'>
-                                {
-                                    t("Hero.slogan")
-                                }
+                            <h2>
+                                childdrüse und Veränderungen von Gewicht und Stimmung
                             </h2>
-                            <p className='stagger-text'>
-                                {
-                                    t("Hero.p1")
-                                }
-                            </p>
-                            <p className='stagger-text'>
-                                {
-                                    t("Hero.p2")
-                                }
-                            </p>
-                            <div className={styles.btns + " " + "stagger-text"}>
-                                <PopupButton
-                                    className='book-btn main'
-                                    url="https://calendly.com/mo32000a/schilddruse"
-                                    /*
-                                    * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-                                    * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-                                    */
-                                    rootElement={rootElement!}
-                                    text={`${t("Hero.btns.b1")}`}
-                                />
-                            </div>
-                            <div className={styles.appts}>
-                                <div className={styles.apptOne}>
-                                    <h4>
-                                        Gruppenpraxis Medizin Mariahilf
-                                    </h4>
-                                    <span>
-                                        Mittwochs : 13:00-19:00 Uhr
-                                    </span>
-                                    <h5>
-                                        Mariahilfer Straße 95/19, Stiege 1, 1060 Wien (U3 Zieglergasse)
-                                    </h5>
-                                </div>
-                                <div className={styles.apptTwo}>
-                                    <h4>
-                                        SchilddrüsenordinationUbl
-                                    </h4>
-                                    <span>
-                                        Freitags: 16:00- 19:00 Uhr 
-                                    </span>
-                                    <h5>
-                                        Leegasse 2/8, 1140 Wien
-                                    </h5>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div className={styles.img}>
@@ -282,61 +191,69 @@ const Hero = ({
                 <SwiperSlide className={styles.slide}>
                     <div className="container">
                         <div className={styles.text}>
-                            <h2 className='stagger-text'>
-                                {
-                                    t("Hero.slogan")
-                                }
+                            <h2>
+                                Halsschmerzen und Schilddrüsenhor-monstörungen
                             </h2>
-                            <p className='stagger-text'>
-                                {
-                                    t("Hero.p1")
-                                }
-                            </p>
-                            <p className='stagger-text'>
-                                {
-                                    t("Hero.p2")
-                                }
-                            </p>
-                            <div className={styles.btns + " " + "stagger-text"}>
-                                <PopupButton
-                                    className='book-btn main'
-                                    url="https://calendly.com/mo32000a/schilddruse"
-                                    /*
-                                    * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-                                    * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-                                    */
-                                    rootElement={rootElement!}
-                                    text={`${t("Hero.btns.b1")}`}
-                                />
-                            </div>
-                            <div className={styles.appts}>
-                                <div className={styles.apptOne}>
-                                    <h4>
-                                        Gruppenpraxis Medizin Mariahilf
-                                    </h4>
-                                    <span>
-                                        Mittwochs : 13:00-19:00 Uhr
-                                    </span>
-                                    <h5>
-                                        Mariahilfer Straße 95/19, Stiege 1, 1060 Wien (U3 Zieglergasse)
-                                    </h5>
-                                </div>
-                                <div className={styles.apptTwo}>
-                                    <h4>
-                                        SchilddrüsenordinationUbl
-                                    </h4>
-                                    <span>
-                                        Freitags: 16:00- 19:00 Uhr 
-                                    </span>
-                                    <h5>
-                                        Leegasse 2/8, 1140 Wien
-                                    </h5>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div className={styles.img}>
-                        <Image src={aroundNeckImg} alt='Test Image'></Image>
+                        <Image src={bigNeckImg} alt='Test Image'></Image>
+                    </div>
+                    <div className={styles.overlay}>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                    <div className="container">
+                        <div className={styles.text}>
+                            <h2>
+                                Besprechung und Erklärung von Schilddrüsen-Labortests
+                            </h2>
+                        </div>
+                    </div>
+                    <div className={styles.img}>
+                        <Image src={butterFlies} alt='Test Image'></Image>
+                    </div>
+                    <div className={styles.overlay}>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                    <div className="container">
+                        <div className={styles.text}>
+                            <h2>
+                                Abklärung von Schilddrüsenknoten
+                            </h2>
+                        </div>
+                    </div>
+                    <div className={styles.img}>
+                        <Image src={innerImg} alt='Test Image'></Image>
+                    </div>
+                    <div className={styles.overlay}>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                    <div className="container">
+                        <div className={styles.text}>
+                            <h2>
+                                Konsultation vor und nach einer Schilddrüsen-operation
+                            </h2>
+                        </div>
+                    </div>
+                    <div className={styles.img}>
+                        <Image src={oldImg} alt='Test Image'></Image>
+                    </div>
+                    <div className={styles.overlay}>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                    <div className="container">
+                        <div className={styles.text}>
+                            <h2>
+                                Feinnadelbiopsie bei Bedarf
+                            </h2>
+                        </div>
+                    </div>
+                    <div className={styles.img}>
+                        <Image src={thyroid} alt='Test Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
