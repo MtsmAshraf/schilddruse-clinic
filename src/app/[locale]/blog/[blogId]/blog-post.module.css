@@ -38,18 +38,19 @@
 }
 .blogPost .postImg{
     width: 100%;
-    aspect-ratio: 5/3;
+    /* aspect-ratio: 5/3; */
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
+    box-shadow: var(--main-shadow);
 }
 .blogPost .postImg img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .blogPost .postBody{
     line-height: 1.6;
