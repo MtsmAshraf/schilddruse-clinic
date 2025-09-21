@@ -2,8 +2,8 @@ import React from 'react'
 import styles from "./footer.module.css"
 import { Link } from '@/i18n/navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faGoogleScholar, faLinkedinIn, faOrcid, faTiktok, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faCommentSms, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 const Footer = ({
   lo
 } : {
@@ -32,32 +32,20 @@ const Footer = ({
             </div>
             </div>
             <div>
-            <h4>Social Media</h4>
+            <h4>Contact Us</h4>
             <div className={styles.socials}>
-                <a href="https://www.youtube.com/@MoAbdalfttah" title='Youtube' target='_blank'>
-                    <FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon>
-                </a>
-                <a href="https://www.facebook.com/mohamed.abotreka.547" title='Facebook' target='_blank'>
-                    <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
-                </a>
-                <a href="https://www.linkedin.com/in/mohmed-ahmed/" title='Linlkedin' target='_blank'>
-                    <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
-                </a>
-                <a href="https://www.tiktok.com/@mo_abdalfttah?lang=ar" title='Whatsapp' target='_blank'>
-                    <FontAwesomeIcon icon={faTiktok}></FontAwesomeIcon>
-                </a>
-                <a href="https://scholar.google.com/citations?user=vTOa4sIAAAAJ&hl=ar" title='Google Scholar' target='_blank'>
-                    <FontAwesomeIcon icon={faGoogleScholar}></FontAwesomeIcon>
-                </a>
-                <a href="https://scholar.google.com/citations?user=vTOa4sIAAAAJ&hl=ar" title='ORCID' target='_blank'>
-                    <FontAwesomeIcon icon={faOrcid}></FontAwesomeIcon>
-                </a>
-                <a href="mailto:mohamed.biotech98@gmail.com" title='Gmail' target='_blank'>
-                    <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
-                </a>
-                <a href="https://x.com/mo_abdalfattah" title='X' target='_blank'>
-                    <FontAwesomeIcon icon={faXTwitter}></FontAwesomeIcon>
-                </a>
+              <a title="Phone" target='_blank' href="tel:+436701960112">
+                  <FontAwesomeIcon icon={faPhone} />
+              </a>
+              <a title="Whatsapp" target='_blank' href="https://wa.me/+436701960112">
+                  <FontAwesomeIcon icon={faWhatsapp}/>
+              </a>
+              <a title="Gmail" target='_blank' href="mailto:schilddruese.mohammed@outlook.com?subject=Mail-From-Schilddrüse-website">
+                  <FontAwesomeIcon icon={faEnvelope}/>
+              </a>
+              <a title="SMS" target='_blank' href="sms:+436701960112">
+                  <FontAwesomeIcon icon={faCommentSms}/>
+              </a>
             </div>
             </div>
         </div>
