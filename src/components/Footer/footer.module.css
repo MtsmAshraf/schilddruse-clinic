@@ -1,12 +1,9 @@
 .footer{
-    background-color: var(--main-color);
+    /* background-color: var(--main-color); */
+    background-color: #000;
     color: #fff;
-    background-image: url("../../../public/images/blog-post-bg.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
     isolation: isolate;
-    /* overflow: hidden; */
 }
 .footer.ar{
     font-family: "Zain", sans-serif;
@@ -19,7 +16,7 @@
     width: 100%;
     height: 100%;
     /* background-image: var(--main-gradient); */
-    background-color: var(--main-color);
+    /* background-color: var(--main-color); */
     border-radius: 0px 0px 0px 0px;
     opacity: 0.98;
     z-index: -1;
@@ -185,7 +182,7 @@
     }
 }
 .footer .socials a:hover{
-    background-color: var(--lighter-color);
+    background-color: var(--main-color);
     color: #fff !important;
     box-shadow: var(--sec-shadow);
 }
