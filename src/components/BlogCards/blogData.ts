@@ -187,9 +187,42 @@ const blogPosts: BlogPost[] = [
         body: "Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body. Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body.",
         faqs: [
             {
-                question: "Was ist Hashimoto?",
-                answer: "Hashimoto-Thyreoiditis ist eine Autoimmunerkrankung, bei der das Immunsystem die Schilddrüse angreift. Häufig führt dies zu einer Schilddrüsenunterfunktion."
-            }
+                question: "Warum ist die Schilddrüse in der Schwangerschaft so wichtig?",
+                answer: `Die Schilddrüse produziert Hormone (T4 und T3), die für die Entwicklung des Gehirns und des Nervensystems des Babys entscheidend sind – besonders im 1. Trimester, wenn das Kind noch keine eigenen Hormone bilden kann.`
+            },
+            {
+                question: "Soll ich meine Schilddrüse prüfen lassen, bevor ich schwanger werde?",
+                answer: `Ja. Frauen mit Schilddrüsenerkrankungen oder Risikofaktoren (familiäre Belastung, Autoimmunerkrankungen, Unfruchtbarkeit, Fehlgeburten in der Vorgeschichte) sollten ihre Schilddrüsenfunktion vor der Schwangerschaft testen lassen.`
+            },
+            {
+                question: "Wie verändert die Schwangerschaft die Schilddrüse?",
+                answer: `Der Hormonbedarf steigt. Die Schilddrüse muss stärker arbeiten, und das Schwangerschaftshormon hCG kann die Schilddrüse zusätzlich anregen.`
+            },
+            {
+                question: "Welche Schilddrüsenprobleme können in der Schwangerschaft auftreten?",
+                answer: `• Hypothyreose (Unterfunktion): erhöhtes Risiko für Fehlgeburten, Präeklampsie, Anämie, niedriges Geburtsgewicht und Entwicklungsstörungen beim Kind.
+                        • Hyperthyreose (Überfunktion): erhöhtes Risiko für Frühgeburten, Präeklampsie, niedriges Geburtsgewicht.
+                        • Postpartale Thyreoiditis: vorübergehende Entzündung nach der Geburt mit Über- oder Unterfunktion.
+                        `
+            },
+            {
+                question: "Wie werden Schilddrüsenprobleme in der Schwangerschaft behandelt?",
+                answer: `• Unterfunktion: Levothyroxin ist sicher und notwendig.
+                        • Überfunktion: Thyreostatika werden vorsichtig eingesetzt (Propylthiouracil im 1. Trimester, später Thiamazol).
+                        • Engmaschige Kontrollen mit Bluttests alle 4–6 Wochen sind wichtig.
+                        `
+            },
+            {
+                question: "Was passiert nach der Entbindung?",
+                answer: `• Der Bedarf an Schilddrüsenhormon kann sich ändern.
+                        • Postpartale Thyreoiditis kann Müdigkeit, Stimmungsschwankungen oder Herzklopfen verursachen – oft wird das mit „normalen“ Nachgeburtsbeschwerden verwechselt.
+                        • Frauen mit Schilddrüsenerkrankungen sollten 6–12 Wochen nach der Geburt ihre Werte kontrollieren lassen.
+                        `
+            },
+            {
+                question: "Kann ich mit einer Schilddrüsenerkrankung stillen?",
+                answer: `Ja. Levothyroxin ist unbedenklich. Auch Thyreostatika können in niedriger Dosis unter ärztlicher Aufsicht eingesetzt werden.`
+            },
         ],
         img: pregnancyImg
     },

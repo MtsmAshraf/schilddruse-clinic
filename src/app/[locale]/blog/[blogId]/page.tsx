@@ -4,6 +4,9 @@ import styles from "./blog-post.module.css"
 import React from 'react'
 import Image from 'next/image'
 import FaqComponent from '@/components/Faq/Faq'
+import { Link } from '@/i18n/navigation'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons'
 
 const blogPostPage = async ({
     params,
@@ -56,6 +59,12 @@ const blogPostPage = async ({
             </div>
         </section>
         <FaqComponent faqs={post.faqs}/>
+        <Link className={styles.allPostsLink} href={"/blog"}>
+            <span>
+                See More Posts
+            </span>
+            <FontAwesomeIcon icon={faArrowCircleRight} />
+        </Link>
     </>
   )
 }

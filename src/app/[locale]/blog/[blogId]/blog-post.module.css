@@ -56,6 +56,31 @@
     line-height: 1.6;
     text-align: justify;
 }
+.blogPost .allPostsLink{
+    display: flex;
+}
+
+.allPostsLink{
+    color: var(--main-color);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    transition: var(--main-transition);
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: var(--main-shadow);
+    border: 1px solid var(--main-color);
+}
+.allPostsLink:hover{
+    gap: 20px;
+    background-color: var(--main-color);
+    color: #fff;
+}
 @media (max-width: 767px) {
     .blogPost .postTitle{
         font-size: 40px;
