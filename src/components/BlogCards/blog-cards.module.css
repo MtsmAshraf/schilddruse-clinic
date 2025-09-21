@@ -62,6 +62,8 @@
 .blogCards .cards .card .cardText h3{
     font-size: 30px;
     margin-bottom: 10px;
+    text-wrap: wrap;
+    width: 100%;
 }
 .blogCards .cards .card .cardText div{
     display: flex;

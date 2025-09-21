@@ -178,7 +178,7 @@ const blogPosts: BlogPost[] = [
         ],
         img: morbusImg
     },
-    {
+    {   
         id: "3",
         title: "Thyroid and pregnancy",
         brief: "Die Schilddrüse produziert Hormone (T4 und T3), die für die Entwicklung des Gehirns und des Nervensystems des Babys entscheidend sind – besonders im 1. Trimester, wenn das Kind noch keine eigenen Hormone bilden kann.",
@@ -229,14 +229,47 @@ const blogPosts: BlogPost[] = [
     {
         id: "4",
         title: "Schilddrüsen-knoten",
-        brief: "Blog Post brief Blog Post brief Blog Post brief Blog Post brief",
+        brief: "Schilddrüsenknoten sind Gewebeveränderungen in der Schilddrüse. Sie sind sehr häufig und meist gutartig.",
         date: "Septemper, 2025",
         author: "Dr.in Fairoz Mohammed",
         body: "Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body. Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body.",
         faqs: [
             {
-                question: "Was ist Hashimoto?",
-                answer: "Hashimoto-Thyreoiditis ist eine Autoimmunerkrankung, bei der das Immunsystem die Schilddrüse angreift. Häufig führt dies zu einer Schilddrüsenunterfunktion."
+                question: "Was sind Schilddrüsenknoten?",
+                answer: `Schilddrüsenknoten sind Gewebeveränderungen in der Schilddrüse. Sie sind sehr häufig und meist gutartig.`
+            },
+            {
+                question: "Wie häufig kommen sie vor?",
+                answer: `Etwa jeder dritte Erwachsene entwickelt im Laufe des Lebens Knoten in der Schilddrüse. Frauen sind häufiger betroffen als Männer.`
+            },
+            {
+                question: "Welche Symptome können auftreten?",
+                answer: `•	Oft gar keine Beschwerden
+                        •	Druck- oder Kloßgefühl im Hals
+                        •	Schluckbeschwerden oder Heiserkeit (bei größeren Knoten)
+                        •	In seltenen Fällen Überfunktion (Nervosität, Herzrasen, Gewichtsabnahme)`
+            },
+            {
+                question: "Wie werden Schilddrüsenknoten diagnostiziert?",
+                answer: `•	Ultraschall der Schilddrüse
+                        •	Blutuntersuchungen (TSH, T3, T4)
+                        •	Szintigrafie (Unterscheidung kalte vs. heiße Knoten)
+                        •	Feinnadelpunktion bei Verdacht auf Bösartigkeit`
+            },
+            {
+                question: "Was bedeutet „heißer“ oder „kalter“ Knoten?",
+                answer: `•	Heiße Knoten: produzieren zu viele Hormone → fast immer gutartig.
+                    •	Kalte Knoten: keine Hormonproduktion → selten bösartig, manchmal weitere Abklärung nötig.`
+            },
+            {
+                question: "Wie werden Knoten behandelt?",
+                answer: `•	Kleine, unauffällige Knoten: regelmäßige Kontrolle.
+                        •	Bei Überfunktion: Medikamente, Radiojod oder Operation.
+                        •	Bei Verdacht auf Krebs: operative Entfernung.`
+            },
+            {
+                question: "Wie ist die Prognose?",
+                answer: `Die meisten Knoten sind harmlos. Nur etwa 5 % sind bösartig, und auch Schilddrüsenkrebs ist in vielen Fällen gut behandelbar.`
             }
         ],
         img: thyroidNodulesImg
