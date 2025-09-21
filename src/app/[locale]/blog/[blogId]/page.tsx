@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 import styles from "./blog-post.module.css"
 import React from 'react'
 import Image from 'next/image'
-import Faq from '@/components/Faq/Faq'
+import FaqComponent from '@/components/Faq/Faq'
 
 const blogPostPage = async ({
     params,
@@ -55,7 +55,7 @@ const blogPostPage = async ({
                 </div>
             </div>
         </section>
-        <Faq />
+        <FaqComponent faqs={post.faqs}/>
     </>
   )
 }
