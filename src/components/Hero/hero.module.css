@@ -201,19 +201,18 @@
     }
     .hero .swiper > button{
         top: unset;
-        bottom: 80px;
-        transform: translateY(0px);
+        bottom: 60px;
+        transform: translateY(50%);
     }
     .hero .heroPagination{
-        bottom: 40px;
+        bottom: 60px;
+        transform: translateX(-50%) translateY(50%);
     }
     .hero .swiper > button:first-of-type{
-        right: 52%;
-        left: unset;
+        left: 20px;
     }
     .hero .swiper > button:last-of-type{
-        right: unset;
-        left: 52%;
+        right: 20px;
     }
     .hero .text .appts{
         flex-direction: column;
