@@ -148,7 +148,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 10px;
+    gap: 5px;
     /* justify-content: center; */
 }
 .hero .text .appts > div:nth-child(2){
@@ -221,11 +221,11 @@
         width: 100%;
     }
     .hero .text .appts > div:nth-child(2){
-        border-right: none;
+        border-left: none;
         border-top: 1px solid #fff;
     }
-    .hero .text .appts > div h4{
-        font-size: 18px;
+    .hero .text .appts > div span{
+        font-size: 14px;
     }
     .hero .text .appts > div h4{
         font-size: 14px;
