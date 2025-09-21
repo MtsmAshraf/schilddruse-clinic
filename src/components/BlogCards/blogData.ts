@@ -47,7 +47,7 @@ const blogPosts: BlogPost[] = [
     },
     {
         id: "4",
-        title: "Schilddrüsenknoten",
+        title: "Schilddrüsen-knoten",
         brief: "Blog Post brief Blog Post brief Blog Post brief Blog Post brief",
         date: "Septemper, 2025",
         author: "Dr.in Fairoz Mohammed",
