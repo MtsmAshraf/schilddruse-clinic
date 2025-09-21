@@ -49,7 +49,7 @@
     padding: 0;
     color: #fff;
     white-space: pre-line;
-
+    line-height: 1.5;
 }
 /* .faq ul li:has(button:hover) p, */
 .faq ul li:has(button:focus) p,

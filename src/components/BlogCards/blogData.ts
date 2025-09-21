@@ -101,7 +101,7 @@ const blogPosts: BlogPost[] = [
                     2. Gesunde Lebensweise: ausgewogene Ernährung, Vermeidung von übermäßigem Jod, Stressmanagement, regelmäßige Bewegung.
 
                     3. Ausgleich von Nährstoffmängeln (z. B. Vitamin D, Selen) falls vorhanden.
-                    
+
                     4. Vermeidung von Umweltfaktoren, die Autoimmunreaktionen begünstigen (Rauchen, Schadstoffbelastung etc.).
 
                 `
@@ -128,8 +128,52 @@ const blogPosts: BlogPost[] = [
         body: "Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body. Blog Post body Blog Post body Blog Post body Blog Post body Blog Post body.",
         faqs: [
             {
-                question: "Was ist Hashimoto?",
-                answer: "Hashimoto-Thyreoiditis ist eine Autoimmunerkrankung, bei der das Immunsystem die Schilddrüse angreift. Häufig führt dies zu einer Schilddrüsenunterfunktion."
+                question: "Was ist Morbus Basedow?",
+                answer: "Morbus Basedow ist eine Autoimmunerkrankung, bei der das Immunsystem die Schilddrüse überstimuliert. Dadurch entsteht eine Überfunktion der Schilddrüse (Hyperthyreose)."
+            },
+            {
+                question: "Welche typischen Symptome gibt es?",
+                answer: `• Gewichtsabnahme trotz normalem oder erhöhtem Appetit
+                        • Herzrasen, Herzklopfen
+                        • Schwitzen, Wärmeintoleranz
+                        • Nervosität, Reizbarkeit, Angst
+                        • Zittern der Hände (Tremor)
+                        • Müdigkeit und Muskelschwäche
+                        • Vergrößerte Schilddrüse (Struma)
+                        • Augenveränderungen (Basedow-Ophthalmopathie): Hervortreten der Augen, Doppelbilder, Reizungen
+                        `
+            },
+            {
+                question: "Wie wird Morbus Basedow diagnostiziert?",
+                answer: `• Blutuntersuchung: Niedriges TSH, erhöhtes freies T4/T3, Nachweis von Antikörpern (TRAK).
+                        • Ultraschall der Schilddrüse.
+                        • In manchen Fällen Szintigrafie.
+                        `
+            },
+            {
+                question: "Ist Morbus Basedow vererbbar?",
+                answer: `Eine familiäre Vorbelastung erhöht das Risiko, aber nicht jeder entwickelt die Krankheit. Auch Umwelt- und Lebensstilfaktoren spielen eine Rolle.`
+            },
+            {
+                question: "Wie wird Morbus Basedow behandelt?",
+                answer: `• Medikamente: Thyreostatika (z. B. Thiamazol, Carbimazol, Propylthiouracil).
+                        • Radiojodtherapie: Zerstört gezielt Schilddrüsengewebe.
+                        • Operation: In speziellen Fällen.
+                        • Augensymptome benötigen oft eine zusätzliche Therapie (Augentropfen, Kortison, ggf. Operation).
+                        `
+            },
+            {
+                question: "Können Lebensstiländerungen helfen?",
+                answer: `Ja – sie ersetzen zwar keine Therapie, können aber Beschwerden lindern:
+                        • Kein Rauchen (verschlechtert die Augenbeteiligung).
+                        • Stress reduzieren.
+                        • Ausgewogene Ernährung mit Calcium und Vitamin D für die Knochengesundheit.
+                        • Regelmäßige ärztliche Kontrollen.
+                        `
+            },
+            {
+                question: "Wie ist die Langzeitprognose?",
+                answer: `Mit konsequenter Behandlung und Kontrolle können die meisten Patienten ein normales Leben führen. Manche entwickeln im Verlauf eine Schilddrüsenunterfunktion und benötigen dann dauerhaft Schilddrüsenhormone.`
             }
         ],
         img: morbusImg
