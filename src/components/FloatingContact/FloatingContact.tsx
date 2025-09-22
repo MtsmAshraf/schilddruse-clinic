@@ -16,7 +16,8 @@ const FloatingContact = () => {
                     <a 
                         title="Whatsapp" 
                         target='_blank'
-                        href='https://wa.me/2010'>
+                        href="https://wa.me/+436701960112"
+                        >
                         <FontAwesomeIcon icon={faWhatsapp} />
                     </a>
                 </li>
