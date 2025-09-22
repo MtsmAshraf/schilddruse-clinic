@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./social-ul.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import { faCommentSms, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faCommentSms, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 const SocialUl = () => {
   return (
     <ul className={styles.socialUl}>

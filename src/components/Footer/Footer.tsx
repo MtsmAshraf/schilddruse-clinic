@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./footer.module.css"
 import { Link } from '@/i18n/navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCommentSms, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faCommentSms, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 const Footer = ({
   lo
