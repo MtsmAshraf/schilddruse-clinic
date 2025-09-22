@@ -4,7 +4,6 @@ import BlogCards from "@/components/BlogCards/BlogCards";
 import styles from "./home.module.css"
 import Loader from "@/components/Loader/Loader";
 import Services from "@/components/Services/Services";
-import About from "@/components/About/About";
 
 export default async function Home({
   params
@@ -21,7 +20,7 @@ export default async function Home({
       <Services />
       <BlogCards />
       {/* <Faq /> */}
-      <About />
+      {/* <About /> */}
     </main>
   );
 }

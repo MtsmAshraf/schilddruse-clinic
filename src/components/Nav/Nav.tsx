@@ -5,7 +5,7 @@ import styles from "./nav.module.css"
 import { usePathname } from 'next/navigation'
 import { Link } from '@/i18n/navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCommentSms, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faCommentSms, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 const Nav = ({
@@ -25,13 +25,13 @@ const Nav = ({
                 <Link className={pathname.split("/").includes("blog") ? styles.active : ""} href={'/blog'}>Blog</Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/about` ? styles.active : ""} href={'/about'}>About Us</Link>
+                <Link className={pathname === `/${lo}/online-termine` ? styles.active : ""} href={'/online-termine'}>Online-Termine</Link>
+            </li>
+            <li>
+                <Link className={pathname === `/${lo}/die-ordination` ? styles.active : ""} href={'/die-ordination'}>Die Ordination</Link>
             </li>
         </ul>
         <div className={styles.navSocialLinks}>
-                <a title="Phone" target='_blank' href="tel:+436701960112">
-                    <FontAwesomeIcon icon={faPhone} />
-                </a>
                 <a title="Whatsapp" target='_blank' href="https://wa.me/+436701960112">
                     <FontAwesomeIcon icon={faWhatsapp}/>
                 </a>

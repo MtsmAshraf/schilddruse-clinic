@@ -24,6 +24,7 @@
     text-align: center;
     font-size: 16px;
     margin-top: 30px;
+    margin-bottom: 10px;
 }
 .verticalNav .links{
     display: flex;
@@ -56,4 +57,13 @@
 .verticalNav > :last-child{
     margin-right: 20px;
     margin-left: 20px;
+}
+.verticalNav .social{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.verticalNav .language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

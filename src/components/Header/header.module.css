@@ -18,7 +18,7 @@
     justify-content: space-between;
 }
 .header > div .logo{
-    width: 70px;
+    width: 200px;
     height: 70px;
     display: flex;
     align-items: center;
@@ -61,7 +61,7 @@
     transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .header .close.shown{
-    right: 270px;
+    right: 190px;
 }
 @media (max-width: 1200px) {
     .header .bookBtn{

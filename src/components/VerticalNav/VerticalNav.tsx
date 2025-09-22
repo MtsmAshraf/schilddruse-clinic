@@ -5,6 +5,7 @@ import SocialUl from '../SocialUl/SocialUl'
 import { usePathname } from 'next/navigation'
 // import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
+import LangSwitch from '../LangSwitch/LangSwitch'
 const VerticalNav = ({
     shown,
     lo
@@ -14,7 +15,6 @@ const VerticalNav = ({
 }) => {
     const pathname = usePathname()
     // const t = useTranslations("HomePage.Header")
-   
     return (
     <div className={shown ? styles.verticalNav + " " + styles.shown : styles.verticalNav}>
         {/* <h3>Language</h3> */}
@@ -27,12 +27,22 @@ const VerticalNav = ({
             <li>
                 <Link className={pathname === `/${lo}/blog` ? styles.active : ""} href={'/blog'}>Blog</Link>
             </li>
+            
             <li>
-                <Link className={pathname === `/${lo}/about` ? styles.active : ""} href={'/about'}>About Us</Link>
+                <Link className={pathname === `/${lo}/online-termine` ? styles.active : ""} href={'/online-termine'}>Online-Termine</Link>
+            </li>
+            <li>
+                <Link className={pathname === `/${lo}/die-ordination` ? styles.active : ""} href={'/die-ordination'}>Die Ordination</Link>
             </li>
         </ul>
         <h3>Social Media</h3>
-        <SocialUl></SocialUl>
+        <div className={styles.social}>
+            <SocialUl />
+        </div>
+        <h3>Language</h3>
+        <div className={styles.language}>
+            <LangSwitch lo={lo} />
+        </div>
     </div>
   )
 }

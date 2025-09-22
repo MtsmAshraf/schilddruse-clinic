@@ -30,7 +30,7 @@ const Contact = ({
                     </span>
                     <address>
                         Mariahilfer Straße 95/19, Stiege 1,<br />
-                        1060 Wien (U3 Zieglergasse) <br />
+                        1060 Wien (U3 Zieglergasse), <br />
                         Österreich
                     </address>
                 </div>

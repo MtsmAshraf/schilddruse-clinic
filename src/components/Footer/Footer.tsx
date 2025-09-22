@@ -20,23 +20,20 @@ const Footer = ({
                 <Link href={"/"}>
                   Home
                 </Link>
-                <Link href={`/services`}>
-                  Services
-                </Link>
                 <Link href={`/blog`}>
                   Blog
                 </Link>
-                <Link href={`/about`}>
-                  About Us
+                <Link href={'/online-termine'}>
+                  Online-Termine
+                </Link>
+                <Link href={'/die-ordination'}>
+                  Die Ordination
                 </Link>
             </div>
             </div>
             <div>
             <h4>Contact Us</h4>
             <div className={styles.socials}>
-              <a title="Phone" target='_blank' href="tel:+436701960112">
-                  <FontAwesomeIcon icon={faPhone} />
-              </a>
               <a title="Whatsapp" target='_blank' href="https://wa.me/+436701960112">
                   <FontAwesomeIcon icon={faWhatsapp}/>
               </a>

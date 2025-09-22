@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from "./header.module.css"
 import Image from 'next/image'
-import logo from "../../../public/images/logo.png"
+import logo from "../../../public/images/logo-text.png"
 import Nav from '../Nav/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faBars } from '@fortawesome/free-solid-svg-icons'
