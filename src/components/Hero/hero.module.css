@@ -13,6 +13,9 @@
 .hero .slide{
     position: relative;
     min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .hero .slide .img{
     position: absolute;
@@ -77,20 +80,23 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    /* backdrop-filter: blur(10px); */
-    min-height: 100dvh;
+    background-color: #a2a2a27d;
+    border-radius: 10px;
+    padding: 20px;
+
 }
 .hero .text h2{
     font-weight: bold;
     max-width: 100%;
     color: var(--main-color);
     text-shadow: var(--text-shadow);
+    color: #fff;
     z-index: 2;
     font-size: 70px;
     text-align: center;
 }
 .hero .text p{
-    font-size: 24px;
+    font-size: 34px;
     color: #fff;
 }
 
@@ -183,7 +189,7 @@
 }
 @media (max-width: 767px) {
     .hero .text{
-        width: 80%;
+        width: 100%;
     }
     .hero .text h2{
         font-size: 30px;
@@ -191,7 +197,7 @@
         text-align: center;
     }
     .hero .text p{
-        font-size: 16px;
+        font-size: 20px;
     }
     .hero .text .btns a,
     .hero .text .btns button{

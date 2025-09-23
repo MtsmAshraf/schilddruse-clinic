@@ -82,44 +82,11 @@ const Hero = ({
                     <div className="container">
                         <div className={styles.text}>
                             <h2 className='stagger-text'>
-                                {
-                                    t("Hero.slogan")
-                                }
+                                Schilddrüsen-Ordination
                             </h2>
-                            <p className='stagger-text'>
-                                {
-                                    t("Hero.p1")
-                                }
+                            <p>
+                                Dr. Mohammed
                             </p>
-                            <p className='stagger-text'>
-                                {
-                                    t("Hero.p2")
-                                }
-                            </p>
-                            <div className={styles.appts}>
-                                <div className={styles.apptOne}>
-                                    <h4>
-                                        Gruppenpraxis Medizin Mariahilf
-                                    </h4>
-                                    <span>
-                                        Mittwochs : 13:00-19:00 Uhr
-                                    </span>
-                                    <h5>
-                                        Mariahilfer Straße 95/19, Stiege 1, 1060 Wien (U3 Zieglergasse)
-                                    </h5>
-                                </div>
-                                <div className={styles.apptTwo}>
-                                    <h4>
-                                        SchilddrüsenordinationUbl
-                                    </h4>
-                                    <span>
-                                        Freitags: 16:00- 19:00 Uhr 
-                                    </span>
-                                    <h5>
-                                        Leegasse 2/8, 1140 Wien
-                                    </h5>
-                                </div>
-                            </div>
                             <div className={styles.btns + " " + "stagger-text"}>
                                 <BookBtn />
                             </div>
