@@ -31,7 +31,7 @@ const Hero = ({
     const t = useTranslations("HomePage")
    useGSAP(() => {
     gsap.from(".stagger-text", {
-        y: 100,
+        y: 70,
         opacity: 0,
         // ease: "circ",
         duration: 0.8, 
@@ -84,7 +84,7 @@ const Hero = ({
                             <h2 className='stagger-text'>
                                 Schilddrüsen-Ordination
                             </h2>
-                            <p>
+                            <p className='stagger-text'>
                                 Dr. Mohammed
                             </p>
                             <div className={styles.btns + " " + "stagger-text"}>
