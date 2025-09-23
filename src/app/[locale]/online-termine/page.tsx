@@ -3,6 +3,7 @@ import React from 'react'
 import styles from "./online-termine.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faLocationPin } from '@fortawesome/free-solid-svg-icons'
+import BookBtn from '@/components/BookBtn/BookBtn'
 
 const OnlineTermine = () => {
   return (
@@ -49,6 +50,9 @@ const OnlineTermine = () => {
                   </span>
                 </h5>
             </div>
+        </div>
+        <div className={styles.btns + " " + "stagger-text"}>
+            <BookBtn />
         </div>
       </div>
     </section>

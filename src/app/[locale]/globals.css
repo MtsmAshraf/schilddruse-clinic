@@ -85,7 +85,6 @@ section{
     transition: var(--main-transition);
     transition-duration: 0.2s;
     /* font-size: 14px; */
-    border: 1px solid #ccc;
 }
 .book-btn:hover{
     background-color: var(--main-color);
