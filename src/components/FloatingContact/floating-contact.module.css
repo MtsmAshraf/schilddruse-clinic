@@ -18,10 +18,6 @@
     box-shadow: var(--sec-shadow);
     cursor: pointer;
 }
-.floatingContact h4:hover{
-    background-color: var(--main-color);
-    color: #fff;
-}
 .floatingContact ul{
     display: flex;
     align-items: flex-end;
@@ -31,10 +27,6 @@
     margin-right: 5px;
     margin-top: 5px;
     transition: var(--main-transition);
-    transform: translateX(50px);
-}
-.floatingContact:hover ul{
-    transform: translateX(0px);
 }
 .floatingContact a{
     color: #fff;
