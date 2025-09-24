@@ -1,0 +1,101 @@
+.termine h3{
+    text-align: center;
+    color: var(--main-color);
+    text-shadow: var(--text-shadow);
+    font-size: 30px;
+}
+.termine .appts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: var(--main-shadow);
+    min-height: 130px;
+    max-width: 100%;
+    width: 100% ;
+    flex-wrap: wrap;
+}
+.termine .appts > div{
+    width: 50%;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+    gap: 5px;
+    /* justify-content: center; */
+}
+.termine .appts > div:nth-child(2){
+    border-left: 1px solid #ccc;
+}
+.termine .appts > div h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.termine .appts > div p,
+.termine .appts > div h5{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.termine .appts > div p svg,
+.termine .appts > div h5 svg{
+    font-size: 20px;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    aspect-ratio: 1;
+}
+.termine .appts > div h5{
+    font-weight: normal;
+    font-size: 16px;
+}
+.termine .btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.termine .btns button{
+    box-shadow: var(--main-shadow);
+}
+.termine .location {
+    margin-top: 10px;
+}
+.termine .location iframe{
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: var(--main-shadow);
+}
+@media (max-width: 992px) {
+    .termine .appts{
+        flex-direction: column;
+    }
+    .termine .appts > div{
+        width: 100%;
+        text-align: left;
+    }
+    .termine .appts > div h4{
+        text-align: center;
+    }
+    .termine .appts > div:nth-child(2){
+        border-left: none;
+        border-top: 1px solid #ccc;
+    }
+}
+@media (max-width: 600px) {
+    .termine h3{
+        font-size: 26px;
+    }
+    .termine .appts > div h4{
+        font-size: 22px;
+    }
+}
