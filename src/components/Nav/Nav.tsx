@@ -7,6 +7,7 @@ import { Link } from '@/i18n/navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCommentSms, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import LangSwitch from '../LangSwitch/LangSwitch'
 
 const Nav = ({
     lo
@@ -42,6 +43,7 @@ const Nav = ({
                     <FontAwesomeIcon icon={faCommentSms}/>
                 </a>
         </div>
+        <LangSwitch lo={lo} />
     </nav>
   )
 }

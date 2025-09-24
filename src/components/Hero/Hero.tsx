@@ -21,7 +21,6 @@ import 'swiper/css';
 import "swiper/css/bundle";
 import 'swiper/css/navigation'; 
 import 'swiper/css/pagination'; 
-import BookBtn from '../BookBtn/BookBtn'
 
 const Hero = ({
   lo
@@ -88,7 +87,7 @@ const Hero = ({
                                 Dr. Mohammed
                             </p>
                             <div className={styles.btns + " " + "stagger-text"}>
-                                <BookBtn />
+                                {/* <BookBtn /> */}
                             </div>
                         </div>
                     </div>

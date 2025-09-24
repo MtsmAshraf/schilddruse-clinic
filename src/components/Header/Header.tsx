@@ -7,9 +7,7 @@ import Nav from '../Nav/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faBars } from '@fortawesome/free-solid-svg-icons'
 import VerticalNav from '../VerticalNav/VerticalNav'
-// import LangSwitch from '../Nav/LangSwitch/LangSwitch'
 import { usePathname } from 'next/navigation'
-import LangSwitch from '../LangSwitch/LangSwitch'
 
 
 const Header = ({
@@ -32,7 +30,6 @@ const Header = ({
             </a>
             <Nav lo={lo}></Nav>
             <div className={styles.smCtrl}>
-              {/* <LangSwitch lo={lo}></LangSwitch> */}
               <button className={styles.bars} onClick={() => {setShowVNav(!showVNav)}}>
                   <FontAwesomeIcon icon={faBars} />
               </button>
@@ -41,15 +38,6 @@ const Header = ({
                 <FontAwesomeIcon icon={faArrowRight} />
             </button>
             <VerticalNav lo={lo} shown={showVNav}></VerticalNav>
-            {/* <div className={styles.bookBtn}>
-              <PopupButton
-                className='book-btn'
-                url="https://calendly.com/mo32000a/schilddruse"
-                rootElement={rootElement!}
-                text="Book Appointment"
-              />
-            </div> */}
-            <LangSwitch lo={lo} />
         </div>
     </header>
   )
