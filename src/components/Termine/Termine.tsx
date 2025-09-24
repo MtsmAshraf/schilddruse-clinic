@@ -3,7 +3,6 @@ import MainHeading from '../MainHeading/MainHeading'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faLocationPin } from '@fortawesome/free-solid-svg-icons'
 import styles from "./termine.module.css"
-import { Link } from '@/i18n/navigation'
 import BookBtn from '../BookBtn/BookBtn'
 
 const Termine = () => {
