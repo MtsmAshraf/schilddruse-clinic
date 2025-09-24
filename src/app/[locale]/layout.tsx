@@ -16,8 +16,8 @@ import FloatingBooking from "@/components/FloatingBooking/FloatingBooking";
 
 
 export const metadata: Metadata = {
-  title: "Schilddrüse Clinic",
-  description: "Schilddrüse Clinic",
+  title: "Dr.in Fairoz Mohammed | SchilddrüseOrdination",
+  description: "Dr.in Fairoz Mohammed | SchilddrüseOrdination, Fachärztin für Nuklearmedizin und Schilddrüse (Nuclear Medicine and Thyroid specialist)",
   icons: icon.src,
 };
 

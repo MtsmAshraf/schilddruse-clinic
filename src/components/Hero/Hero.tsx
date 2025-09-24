@@ -88,9 +88,6 @@ const Hero = ({
                                 Fachärztin für Nuklearmedizin und Schilddrüse <br />
                                 (Nuclear Medicine and Thyroid specialist)
                             </h4>
-                            <div className={styles.btns + " " + "stagger-text"}>
-                                {/* <BookBtn /> */}
-                            </div>
                         </div>
                     </div>
                     <div className={styles.img}>
