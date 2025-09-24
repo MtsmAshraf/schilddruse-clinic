@@ -4,6 +4,7 @@
     overflow: hidden;
     min-height: calc(100dvh - 70px);
     margin-top: 70px;
+    background-color: var(--slider-bg);
 }
 .hero.ar{
     direction: rtl;

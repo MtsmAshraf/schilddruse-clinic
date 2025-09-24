@@ -4,7 +4,7 @@ import styles from "./hero.module.css"
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay, EffectCoverflow, Navigation, Pagination } from 'swiper/modules'
+import { Autoplay, Navigation, Pagination } from 'swiper/modules'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
@@ -61,17 +61,17 @@ const Hero = ({
                     delay: 7000
                 }}
                 slidesPerView= {1}
-                spaceBetween={10}
+                spaceBetween={0}
                 pagination={{
                     clickable: true,
                     el: `.heroPagination`
                 }}
-                modules={[Navigation, Pagination, Autoplay, EffectCoverflow]}
+                modules={[Navigation, Pagination, Autoplay]}
                 navigation={{
                     nextEl: '.featured-swiper-button-next',
                     prevEl: '.featured-swiper-button-prev'
                 }}
-                effect='coverflow'
+                effect='slide'
                 className='mySwiperProdHero'
                 autoHeight={true}
                 >
