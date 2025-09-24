@@ -79,11 +79,15 @@ const Hero = ({
                     <div className="container">
                         <div className={styles.text}>
                             <h2 className='stagger-text'>
-                                Schilddrüsen-Ordination
+                                Schilddrüsen-ordination
                             </h2>
                             <p className='stagger-text'>
-                                Dr. Mohammed
+                                Dr.in med.univ. Fairoz Mohammed
                             </p>
+                            <h4 className='stagger-text'>
+                                Fachärztin für Nuklearmedizin und Schilddrüse <br />
+                                (Nuclear Medicine and Thyroid specialist)
+                            </h4>
                             <div className={styles.btns + " " + "stagger-text"}>
                                 {/* <BookBtn /> */}
                             </div>
