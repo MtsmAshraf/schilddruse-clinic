@@ -118,6 +118,9 @@
     text-align: center;
     /* text-shadow: none; */
 }
+.hero .slide.main .text p{
+    font-weight: bold;
+}
 .hero .text p{
     font-size: 30px;
     color: #fff;

@@ -77,7 +77,7 @@
         align-items: center;
         gap: 20px;
     }
-    .header > div > :last-child{
+    /* .header > div > :last-child{
         display: none;
-    }
+    } */
 }

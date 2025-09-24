@@ -2,7 +2,7 @@
     text-align: center;
     color: var(--main-color);
     text-shadow: var(--text-shadow);
-    font-size: 30px;
+    font-size: 34px;
 }
 .termine .appts{
     display: flex;
