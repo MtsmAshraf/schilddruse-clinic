@@ -215,7 +215,7 @@
     .hero .slide:not(.main){
         align-items: flex-end;
         justify-content: flex-start;
-        padding-bottom: 150px;
+        padding-bottom: 120px;
     }
     .hero .slide:not(.main) .text{
         width: 100%;
