@@ -2,7 +2,8 @@
     position: relative;
     isolation: isolate;
     overflow: hidden;
-    min-height: 100dvh;
+    min-height: calc(100dvh - 70px);
+    margin-top: 70px;
 }
 .hero.ar{
     direction: rtl;
@@ -12,14 +13,20 @@
 }
 .hero .slide{
     position: relative;
-    min-height: 100dvh;
+    min-height: calc(100dvh - 70px);
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--slider-bg);
+}
+.hero .slide.main{
     align-items: flex-end;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-bottom: 80px;
 }
 .hero .slide .img{
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
     width: 100%;
     height: 100%;
@@ -31,10 +38,13 @@
     height: 100%;
     width: 100%;
 }
+.hero .slide:not(.main) .img{
+    width: 50%;
+}
 .hero .swiper > button{
     /* position: absolute; */
     position: absolute;
-    top: 50%;
+    bottom: 20px;
     transform: translateY(-50%);
     z-index: 3;
     font-size: 24px;
@@ -48,14 +58,16 @@
     justify-content: center;
 }
 .hero .swiper > button:first-of-type{
-    left: 20px;
+    left: 50%;
+    transform: translateX(-150%);
 }
 .hero .swiper > button:last-of-type{
-    right: 20px;
+    right: 50%;
+    transform: translateX(150%);
 }
 .hero .heroPagination{
     position: absolute;
-    top: 100px;
+    top: 40px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
@@ -79,23 +91,34 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: #373737e4;
     border-radius: 10px;
     padding: 20px;
-
+}
+.hero .slide.main .text{
+    background-color: #373737e4;
+}
+.hero .slide:not(.main) .text{
+    width: 50%;
 }
 .hero .text h2{
     font-weight: bold;
     max-width: 100%;
-    color: var(--main-color);
     text-shadow: var(--text-shadow);
-    color: #fff;
     z-index: 2;
-    font-size: 70px;
+    font-size: 50px;
+}
+.hero .slide.main .text h2{
     text-align: center;
+    color: #fff;
+}
+.hero .slide:not(.main) .text h2{
+    color: var(--darker-color);
+    /* color: var(--main-color); */
+    text-align: center;
+    /* text-shadow: none; */
 }
 .hero .text p{
-    font-size: 34px;
+    font-size: 30px;
     color: #fff;
     text-align: center;
     margin-bottom: 10px;
@@ -177,14 +200,9 @@
 }
 @media (max-width: 992px) {
     .hero .text{
-        width: 100%;
-        text-align: center;
-        margin-right: auto;
-        margin-left: auto;
     }
     .hero .text h2{
-        font-size: 56px;
-        width: 100%;
+        font-size: 40px;
     }
     .hero .text p{
         font-size: 18px;
@@ -194,8 +212,18 @@
     }
 }
 @media (max-width: 767px) {
-    .hero .text{
+    .hero .slide:not(.main){
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding-bottom: 150px;
+    }
+    .hero .slide:not(.main) .text{
         width: 100%;
+        height: 50%;
+    }
+    .hero .slide:not(.main) .img{
+        width: 100%;
+        height: 50%;
     }
     .hero .text h2{
         font-size: 30px;
@@ -205,27 +233,25 @@
     .hero .text p{
         font-size: 20px;
     }
+    .hero .text h4{
+        font-size: 16px;
+    }
     .hero .text .btns a,
     .hero .text .btns button{
         font-size: 14px;
         padding: 8px 15px;
         white-space: nowrap;
     }
-    .hero .swiper > button{
-        /* top: unset; */
-        /* bottom: 60px; */
-        transform: translateY(50%);
-    }
     .hero .heroPagination{
         /* bottom: 60px; */
         transform: translateX(-50%) translateY(50%);
     }
-    .hero .swiper > button:first-of-type{
+    /* .hero .swiper > button:first-of-type{
         left: 10px;
     }
     .hero .swiper > button:last-of-type{
         right: 10px;
-    }
+    } */
     .hero .text .appts{
         flex-direction: column;
     }

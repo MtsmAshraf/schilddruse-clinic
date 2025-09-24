@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import pregnantImg from "../../../public/images/pregnant.jpeg"
 import fatImg from "../../../public/images/fat.jpeg"
-import bigNeckImg from "../../../public/images/big-neck.jpeg"
+import bigNeckImg from "../../../public/images/big-neck-2.jpeg"
 import butterFlies from "../../../public/images/slide-inner-2.jpeg"
 import innerImg from "../../../public/images/slide-inner.jpeg"
 import oldImg from "../../../public/images/slide-old.jpeg"
@@ -109,13 +109,11 @@ const Hero = ({
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
-                    <div className="container">
                         <div className={styles.text}>
                             <h2 className='stagger-text'>
                                 Schilddrüse bei Kinderwunsch, während der Schwanger-schaft und nach der Geburt
                             </h2>
                         </div>
-                    </div>
                     <div className={styles.img}>
                         <Image src={pregnantImg} alt='Test Image'></Image>
                     </div>
@@ -123,13 +121,11 @@ const Hero = ({
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
-                    <div className="container">
                         <div className={styles.text}>
                             <h2>
                                 childdrüse und Veränderungen von Gewicht und Stimmung
                             </h2>
                         </div>
-                    </div>
                     <div className={styles.img}>
                         <Image src={fatImg} alt='Test Image'></Image>
                     </div>
@@ -137,13 +133,11 @@ const Hero = ({
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
-                    <div className="container">
                         <div className={styles.text}>
                             <h2>
                                 Halsschmerzen und Schilddrüsenhor-monstörungen
                             </h2>
                         </div>
-                    </div>
                     <div className={styles.img}>
                         <Image src={bigNeckImg} alt='Test Image'></Image>
                     </div>
@@ -151,13 +145,11 @@ const Hero = ({
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
-                    <div className="container">
                         <div className={styles.text}>
                             <h2>
                                 Besprechung und Erklärung von Schilddrüsen-Labortests
                             </h2>
                         </div>
-                    </div>
                     <div className={styles.img}>
                         <Image src={butterFlies} alt='Test Image'></Image>
                     </div>
@@ -165,13 +157,11 @@ const Hero = ({
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
-                    <div className="container">
                         <div className={styles.text}>
                             <h2>
-                                Abklärung von Schilddrüsenknoten
+                                Abklärung von Schilddrüsen-knoten
                             </h2>
                         </div>
-                    </div>
                     <div className={styles.img}>
                         <Image src={innerImg} alt='Test Image'></Image>
                     </div>
@@ -179,13 +169,11 @@ const Hero = ({
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
-                    <div className="container">
                         <div className={styles.text}>
                             <h2>
                                 Konsultation vor und nach einer Schilddrüsen-operation
                             </h2>
                         </div>
-                    </div>
                     <div className={styles.img}>
                         <Image src={oldImg} alt='Test Image'></Image>
                     </div>
@@ -193,13 +181,11 @@ const Hero = ({
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
-                    <div className="container">
                         <div className={styles.text}>
                             <h2>
                                 Feinnadelbiopsie bei Bedarf
                             </h2>
                         </div>
-                    </div>
                     <div className={styles.img}>
                         <Image src={thyroid} alt='Test Image'></Image>
                     </div>
