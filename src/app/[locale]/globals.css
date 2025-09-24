@@ -103,6 +103,10 @@ section{
     background-image: var(--main-gradient);
     color: #fff;
 }
+button.fixed{
+  background-color: red !important;
+  border-radius: 10px !important;
+}
 .container{
   margin-right: auto;
   margin-left: auto;
