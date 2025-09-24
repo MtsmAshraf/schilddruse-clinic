@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import styles from "./hero.module.css"
-import { useTranslations } from 'next-intl'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -27,7 +26,6 @@ const Hero = ({
 } : {
   lo: string
 }) => {
-    const t = useTranslations("HomePage")
    useGSAP(() => {
     gsap.from(".stagger-text", {
         y: 70,
