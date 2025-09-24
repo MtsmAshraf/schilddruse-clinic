@@ -1,7 +1,7 @@
 .floatingContact{
     position: fixed;
     right: 0px;
-    bottom: calc(80% - 170px);
+    top: calc(100px + 70px);
     z-index: 10;
     border-radius: 8px;
 }

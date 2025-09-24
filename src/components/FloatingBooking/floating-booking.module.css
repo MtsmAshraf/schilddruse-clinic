@@ -1,8 +1,13 @@
 .floatingBooking{
     position: fixed;
     right: 0px;
-    bottom: 80%;
+    top: 100px;
     z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.floatingBooking button{
     background-color: var(--main-color);
     border-right: none;
     border-radius: 8px 0px 0px 8px;
@@ -13,7 +18,7 @@
     color: #fff;
     box-shadow: var(--sec-shadow);
 }
-.floatingBooking:hover{
+.floatingBooking button:hover{
     color: var(--main-color);
     background-color: #fff;
 }
