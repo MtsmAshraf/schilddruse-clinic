@@ -3,8 +3,23 @@
     isolation: isolate;
     overflow: hidden;
     min-height: calc(70vh - 70px);
-    margin-top: 70px;
+    margin-top: 123px;
     background-color: var(--slider-bg);
+}
+@media (max-width: 1200px) {
+    .hero{
+        margin-top: 102px;
+    }
+}
+@media (max-width: 992px) {
+    .hero{
+        margin-top: 83px;
+    }
+}
+@media (max-width: 1200px) {
+    .hero{
+        margin-top: 77px;
+    }
 }
 .hero.ar{
     direction: rtl;
@@ -68,7 +83,7 @@
 }
 .hero .heroPagination{
     position: absolute;
-    top: 40px;
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;

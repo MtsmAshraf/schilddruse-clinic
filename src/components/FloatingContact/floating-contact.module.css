@@ -1,7 +1,7 @@
 .floatingContact{
     position: fixed;
     right: 0px;
-    top: calc(100px + 40px);
+    top: calc(130px + 40px);
     z-index: 10;
     border-radius: 8px;
 }
@@ -16,7 +16,7 @@
     text-wrap: nowrap;
     font-weight: normal;
     box-shadow: var(--sec-shadow);
-    font-size: 20px;
+    font-size: 18px;
 }
 .floatingContact ul{
     display: flex;

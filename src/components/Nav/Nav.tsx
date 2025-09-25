@@ -1,12 +1,8 @@
 import React from 'react'
 import styles from "./nav.module.css"
-// import LangSwitch from './LangSwitch/LangSwitch'
-// import { useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
 import { Link } from '@/i18n/navigation'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCommentSms, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+
 import LangSwitch from '../LangSwitch/LangSwitch'
 
 const Nav = ({
@@ -32,7 +28,7 @@ const Nav = ({
                 <Link className={pathname === `/${lo}/die-ordination` ? styles.active : ""} href={'/die-ordination'}>Die Ordination</Link>
             </li>
         </ul>
-        <div className={styles.navSocialLinks}>
+        {/* <div className={styles.navSocialLinks}>
                 <a title="Whatsapp" target='_blank' href="https://wa.me/+436701960112">
                     <FontAwesomeIcon icon={faWhatsapp}/>
                 </a>
@@ -42,7 +38,7 @@ const Nav = ({
                 <a title="SMS" target='_blank' href="sms:+436701960112">
                     <FontAwesomeIcon icon={faCommentSms}/>
                 </a>
-        </div>
+        </div> */}
         <LangSwitch lo={lo} />
     </nav>
   )
