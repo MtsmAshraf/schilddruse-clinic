@@ -15,6 +15,7 @@ import butterFlies from "../../../public/images/slide-inner-2.webp"
 import innerImg from "../../../public/images/thyroid-nodules.webp"
 import oldImg from "../../../public/images/slide-old.webp"
 import thyroid from "../../../public/images/slide-thyroid.webp"
+import childrenImg from "../../../public/images/children-blog.jpeg"
 
 import 'swiper/css';
 import "swiper/css/bundle";
@@ -100,7 +101,6 @@ const Hero = ({
                             <source src="/butterfly.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
-                        {/* <Image src={pregnantImg} alt='Test Image'></Image> */}
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -112,7 +112,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={pregnantImg} alt='Test Image'></Image>
+                        <Image src={pregnantImg} alt='Schilddrüse bei Kinderwunsch, während der Schwanger-schaft und nach der Geburt Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -124,7 +124,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={fatImg} alt='Test Image'></Image>
+                        <Image src={fatImg} alt='childdrüse und Veränderungen von Gewicht und Stimmung Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -136,7 +136,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={bigNeckImg} alt='Test Image'></Image>
+                        <Image src={bigNeckImg} alt='Halsschmerzen und Schilddrüsenhor-monstörungen Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -148,7 +148,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={butterFlies} alt='Test Image'></Image>
+                        <Image src={butterFlies} alt='Besprechung und Erklärung von Schilddrüsen-Labortests Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -160,7 +160,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={innerImg} alt='Test Image'></Image>
+                        <Image src={innerImg} alt='Abklärung von Schilddrüsen-knoten Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -172,7 +172,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={oldImg} alt='Test Image'></Image>
+                        <Image src={oldImg} alt='Konsultation vor und nach einer Schilddrüsen-operation Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -184,7 +184,19 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={thyroid} alt='Test Image'></Image>
+                        <Image src={thyroid} alt='Feinnadelbiopsie bei Bedarf Image'></Image>
+                    </div>
+                    <div className={styles.overlay}>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                        <div className={styles.text}>
+                            <h2>
+                                Schilddrüsenerkrankungen bei Kindern
+                            </h2>
+                        </div>
+                    <div className={styles.img}>
+                        <Image src={childrenImg} alt='Schilddrüsenerkrankungen bei Kindern Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
