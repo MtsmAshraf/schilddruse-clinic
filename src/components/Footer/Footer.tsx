@@ -20,8 +20,8 @@ const Footer = ({
                 <Link href={"/"}>
                   Home
                 </Link>
-                <Link href={`/blog`}>
-                  Blog
+                <Link href={`/services`}>
+                  Services
                 </Link>
                 <Link href={'/online-termine'}>
                   Online-Termine

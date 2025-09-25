@@ -60,7 +60,6 @@
 @media (max-width: 767px) {
     .floatingContact h4{
         transform: translateX(30px);
-        font-size: 16px;
     }
     .floatingContact h4:hover{
         transform: translateX(0px);

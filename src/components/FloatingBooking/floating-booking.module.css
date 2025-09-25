@@ -28,13 +28,14 @@
         bottom: unset;
         top: 50%;
         transform: translateY(-50%);
+    }
+    .floatingBooking button{
         font-size: 14px;
     }
 }
 @media (max-width: 767px) {
     .floatingBooking button{
-        transform: translateX(118px);
-        font-size: 16px;
+        transform: translateX(105px);
     }
     .floatingBooking button:hover{
         transform: translateX(0px);
