@@ -48,14 +48,6 @@ const blogPostPage = async ({
                 <div className={styles.postImg}>
                     <Image src={post.img.src} alt={post.title + " cover image"} width={400} height={300}></Image>
                 </div>
-                {/* <div className={styles.postBody}>
-                    {
-                        post.body
-                    }
-                    <br />
-                    <br />
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum voluptatum suscipit velit officiis enim? Facilis veritatis eligendi pariatur aperiam. Rerum, aut alias temporibus cumque maxime delectus fugit laudantium dolor qui.
-                </div> */}
             </div>
         <FaqComponent faqs={post.faqs}/>
         <Link className={styles.allPostsLink} href={"/blog"}>

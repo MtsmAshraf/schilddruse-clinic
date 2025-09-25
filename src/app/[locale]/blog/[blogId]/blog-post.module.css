@@ -1,5 +1,7 @@
 .blogPost{
-    padding-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 123px;
     padding-bottom: 100px;
     background-image: url("../../../../../public/images/blog-post-bg.svg");
     background-size: cover;
@@ -7,6 +9,21 @@
     background-attachment: fixed;   
     position: relative;
     isolation: isolate;
+}
+@media (max-width: 1200px) {
+    .blogPost{
+        margin-top: 102px;
+    }
+}
+@media (max-width: 992px) {
+    .blogPost{
+        margin-top: 83px;
+    }
+}
+@media (max-width: 1200px) {
+    .blogPost{
+        margin-top: 77px;
+    }
 }
 .blogPost .overlay{
     position: absolute;
@@ -25,7 +42,7 @@
     max-width: 100%;
 }
 .blogPost .postTitle{
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -85,6 +102,6 @@
 }
 @media (max-width: 767px) {
     .blogPost .postTitle{
-        font-size: 40px;
+        font-size: 30px;
     }   
 }
