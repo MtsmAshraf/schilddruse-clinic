@@ -120,7 +120,7 @@ const Hero = ({
                 <SwiperSlide className={styles.slide}>
                         <div className={styles.text}>
                             <h2>
-                                childdrüse und Veränderungen von Gewicht und Stimmung
+                                Schilddrüse und Veränderungen von Gewicht und Stimmung
                             </h2>
                         </div>
                     <div className={styles.img}>
