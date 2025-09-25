@@ -20,7 +20,7 @@ const BlogCards = () => {
                         return(
                             <li key={post.id} className={styles.card}>
                                 <Link href={`/blog/${post.id}`} className={styles.cardImg}>
-                                    <Image src={post.img.src} alt={post.title} width={200} height={200}></Image>
+                                    <Image loading='lazy' src={post.img.src} alt={post.title} width={200} height={200}></Image>
                                 </Link>
                                 <div className={styles.cardText}>
                                     <h3>

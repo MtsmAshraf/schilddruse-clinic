@@ -112,7 +112,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={pregnantImg} alt='Schilddrüse bei Kinderwunsch, während der Schwanger-schaft und nach der Geburt Image'></Image>
+                        <Image loading='lazy' src={pregnantImg} alt='Schilddrüse bei Kinderwunsch, während der Schwanger-schaft und nach der Geburt Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -124,7 +124,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={fatImg} alt='childdrüse und Veränderungen von Gewicht und Stimmung Image'></Image>
+                        <Image loading='lazy' src={fatImg} alt='childdrüse und Veränderungen von Gewicht und Stimmung Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -136,7 +136,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={bigNeckImg} alt='Halsschmerzen und Schilddrüsenhor-monstörungen Image'></Image>
+                        <Image loading='lazy' src={bigNeckImg} alt='Halsschmerzen und Schilddrüsenhor-monstörungen Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -148,7 +148,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={butterFlies} alt='Besprechung und Erklärung von Schilddrüsen-Labortests Image'></Image>
+                        <Image loading='lazy' src={butterFlies} alt='Besprechung und Erklärung von Schilddrüsen-Labortests Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -160,7 +160,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={innerImg} alt='Abklärung von Schilddrüsen-knoten Image'></Image>
+                        <Image loading='lazy' src={innerImg} alt='Abklärung von Schilddrüsen-knoten Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -172,7 +172,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={oldImg} alt='Konsultation vor und nach einer Schilddrüsen-operation Image'></Image>
+                        <Image loading='lazy' src={oldImg} alt='Konsultation vor und nach einer Schilddrüsen-operation Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -184,7 +184,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={thyroid} alt='Feinnadelbiopsie bei Bedarf Image'></Image>
+                        <Image loading='lazy' src={thyroid} alt='Feinnadelbiopsie bei Bedarf Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -196,7 +196,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={childrenImg} alt='Schilddrüsenerkrankungen bei Kindern Image'></Image>
+                        <Image loading='lazy' src={childrenImg} alt='Schilddrüsenerkrankungen bei Kindern Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
