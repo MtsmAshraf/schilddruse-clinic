@@ -3,7 +3,7 @@
     padding-top: 50px;
     padding-bottom: 100px;
 }
-.home section{
+.home section:not(:nth-child(2)){ /* excluding hero section */
     margin-top: 50px;
     margin-bottom: 50px;
 }
