@@ -25,13 +25,13 @@ export default function FloatingBooking() {
         >
             Book Appiontment
         </button>
-        <button data-cal-namespace="follow-up"
+        {/* <button data-cal-namespace="follow-up"
             data-cal-link="moatasim-ashraf-jez60p/follow-up"
             
             data-cal-config='{"layout":"month_view","theme":"light"}'
         >
             Book Follow-up
-        </button>
+        </button> */}
     </div>
   )
 };

@@ -50,7 +50,8 @@
 @media (max-width: 992px) {
     .floatingContact{
         bottom: unset;
-        top: calc(100px + 35px);
+        top: calc(50% + 100px);
+        transform: translateY(-50%);
     }
     .floatingContact h4{
         font-size: 14px;
