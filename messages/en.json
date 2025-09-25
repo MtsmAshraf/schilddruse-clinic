@@ -26,6 +26,47 @@
         "address": "Leegasse 2/8, 1140 Vienna"
       }
     }
+    },
+    "Services": {
+      "Heading": "Our Services",
+      "Cards": {
+        "0": {
+          "Title": "Neck ultrasound & blood tests",
+          "p": "Neck ultrasound & blood tests performed in the clinic"
+        },
+        "1": {
+          "Title": "Scintigraphy",
+          "p": "Scintigraphy if necessary, in cooperation with specialized centers"
+        },
+        "2": {
+          "Title": "Targeted ultrasound-guided fine-needle aspiration",
+          "p": "Targeted ultrasound-guided fine-needle aspiration in selected cases (e.g., suspicious nodules)"
+        },
+        "3": {
+          "Title": "Evaluation & treatment of thyroid dysfunctions",
+          "p": "Targeted ultrasound-guided fine-needle aspiration in selected cases (e.g., suspicious nodules)"
+        },
+        "4": {
+          "Title": "Thyroid and fertility care",
+          "p": "Thyroid and fertility care, including pregnancy management"
+        },
+        "5": {
+          "Title": "Assessment of thyroid nodules",
+          "p": "Assessment of thyroid nodules"
+        },
+        "6": {
+          "Title": "Counseling on therapy options",
+          "p": "Counseling on therapy options (medication, surgery, radioactive iodine therapy)"
+        },
+        "7": {
+          "Title": "Follow-ups",
+          "p": "Follow-up of thyroid cancer patients after surgery"
+        },
+        "8": {
+          "Title": "Children with thyroid dysfunction or nodules",
+          "p": "Children (from 5 years) with thyroid dysfunction or nodules"
+        }
+      }
     }
   }
 }

@@ -26,6 +26,47 @@
           "address": "Leegasse 2/8, 1140 Wien"
         }
       }
+    },
+    "Services": {
+      "Heading": "Unsere Leistungen",
+      "Cards": {
+        "0": {
+          "Title": "Ultraschall Hals & Blutabnahme",
+          "p": "Ultraschall Hals & Blutabnahme in der Ordination"
+        },
+        "1": {
+          "Title": "Szintigraphie",
+          "p": "Szintigraphie bei Bedarf in Kooperation mit spezialisierten Zentren"
+        },
+        "2": {
+          "Title": "Gezielte Ultraschall-gestützte Feinnadelpunktion",
+          "p": "Gezielte Ultraschall-gestützte Feinnadelpunktion in speziellen Fällen (z. B. suspekter Knoten)"
+        },
+        "3": {
+          "Title": "bklärung & Behandlung von Funktionsstörungen",
+          "p": "bklärung & Behandlung von Funktionsstörungen (Überfunktion, Unterfunktion, Hashimoto, Morbus Basedow …)"
+        },
+        "4": {
+          "Title": "Schilddrüse & Kinderwunsch",
+          "p": "Schilddrüse & Kinderwunsch sowie Schwangerschaftsbetreuung"
+        },
+        "5": {
+          "Title": "Beurteilung von Schilddrüsenknoten",
+          "p": "Beurteilung von Schilddrüsenknoten"
+        },
+        "6": {
+          "Title": "Aufklärung zu Therapieoptionen",
+          "p": "Aufklärung zu Therapieoptionen (Medikamente, Operation, Radiojodtherapie)"
+        },
+        "7": {
+          "Title": "Nachsorge",
+          "p": "Nachsorge von Schilddrüsenkrebspatient:innen nach Operation"
+        },
+        "8": {
+          "Title": "Kinder mit Schilddrüsenfunktionsstörungen oder Knoten",
+          "p": "Kinder ab 5 Jahren mit Schilddrüsenfunktionsstörungen oder Knoten"
+        }
+      }
     }
   }
 }

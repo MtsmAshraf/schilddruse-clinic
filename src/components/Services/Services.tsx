@@ -3,12 +3,16 @@ import MainHeading from '../MainHeading/MainHeading'
 import styles from "./services.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCapsules, faChildren, faCircleRadiation, faMagnifyingGlass, faPersonPregnant, faSquarePollVertical, faStethoscope, faSyringe, faVial } from '@fortawesome/free-solid-svg-icons'
+import { useTranslations } from 'next-intl'
 
 const Services = () => {
+    const t = useTranslations("HomePage.Services")
   return (
     <section className={styles.services}>
         <MainHeading>
-            Our Services
+            {
+                t("Heading")
+            }
         </MainHeading>
         <div className="container">
             <div className={styles.card}>
@@ -16,10 +20,14 @@ const Services = () => {
                     <FontAwesomeIcon icon={faVial} />
                 </div>
                 <h4>
-                    Neck ultrasound & blood tests
+                    {
+                        t("Cards.0.Title")
+                    }
                 </h4>
                 <p>
-                    ck ultrasound & blood tests performed in the clinic
+                    {
+                        t("Cards.0.p")
+                    }
                 </p>
             </div>
             <div className={styles.card}>
@@ -27,10 +35,14 @@ const Services = () => {
                     <FontAwesomeIcon icon={faCircleRadiation} />
                 </div>
                 <h4>
-                    Scintigraphy
+                    {
+                        t("Cards.1.Title")
+                    }
                 </h4>
                 <p>
-                    intigraphy if necessary, in cooperation with specialized centers
+                    {
+                        t("Cards.1.p")
+                    }
                 </p>
             </div>
             <div className={styles.card}>
@@ -38,10 +50,14 @@ const Services = () => {
                     <FontAwesomeIcon icon={faSyringe} />
                 </div>
                 <h4>
-                    Targeted ultrasound-guided fine-needle aspiration
+                    {
+                        t("Cards.2.Title")
+                    }
                 </h4>
                 <p>
-                    Targeted ultrasound-guided fine-needle aspiration in selected cases (e.g., suspicious nodules)
+                    {
+                        t("Cards.2.p")
+                    }
                 </p>
             </div>
             <div className={styles.card}>
@@ -49,10 +65,14 @@ const Services = () => {
                     <FontAwesomeIcon icon={faSquarePollVertical} />
                 </div>
                 <h4>
-                    Evaluation & treatment of thyroid dysfunctions
+                    {
+                        t("Cards.3.Title")
+                    }
                 </h4>
                 <p>
-                    Evaluation & treatment of thyroid dysfunctions (hyperthyroidism, hypothyroidism, Hashimoto’s, Graves’ disease …)
+                    {
+                        t("Cards.3.p")
+                    }
                 </p>
             </div>
             <div className={styles.card}>
@@ -60,10 +80,14 @@ const Services = () => {
                     <FontAwesomeIcon icon={faPersonPregnant} />
                 </div>
                 <h4>
-                    Thyroid and fertility care.
+                    {
+                        t("Cards.4.Title")
+                    }
                 </h4>
                 <p>
-                    Thyroid and fertility care, including pregnancy management
+                    {
+                        t("Cards.4.p")
+                    }
                 </p>
             </div>
             <div className={styles.card}>
@@ -71,10 +95,14 @@ const Services = () => {
                     <FontAwesomeIcon icon={faMagnifyingGlass} />
                 </div>
                 <h4>
-                    Assessment of thyroid nodules
+                    {
+                        t("Cards.5.Title")
+                    }
                 </h4>
                 <p>
-                    Assessment of thyroid nodules
+                    {
+                        t("Cards.5.p")
+                    }
                 </p>
             </div>
             <div className={styles.card}>
@@ -82,10 +110,14 @@ const Services = () => {
                     <FontAwesomeIcon icon={faCapsules} />
                 </div>
                 <h4>
-                    Counseling on therapy options
+                    {
+                        t("Cards.6.Title")
+                    }
                 </h4>
                 <p>
-                    Counseling on therapy options (medication, surgery, radioactive iodine therapy)
+                    {
+                        t("Cards.6.p")
+                    }
                 </p>
             </div>
             <div className={styles.card}>
@@ -93,10 +125,14 @@ const Services = () => {
                     <FontAwesomeIcon icon={faStethoscope} />
                 </div>
                 <h4>
-                    Follow-ups
+                    {
+                        t("Cards.7.Title")
+                    }
                 </h4>
                 <p>
-                    Follow-up of thyroid cancer patients after surgery
+                    {
+                        t("Cards.7.p")
+                    }
                 </p>
             </div>
             <div className={styles.card}>
@@ -104,10 +140,14 @@ const Services = () => {
                     <FontAwesomeIcon icon={faChildren} />
                 </div>
                 <h4>
-                    Children with thyroid dysfunction or nodules
+                    {
+                        t("Cards.8.Title")
+                    }
                 </h4>
                 <p>
-                    Children (from 5 years) with thyroid dysfunction or nodules
+                    {
+                        t("Cards.8.p")
+                    }
                 </p>
             </div>
         </div>
