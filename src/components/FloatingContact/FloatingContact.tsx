@@ -3,13 +3,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import styles from "./floating-contact.module.css"
 import { faCommentSms, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { useTranslations } from 'next-intl'
 
 
 const FloatingContact = () => {
+
+    const t = useTranslations("FloatingContact")
+
     return (
         <div className={styles.floatingContact} >
             <h4>
-                Contact Us
+                {
+                    t("Text")
+                }
             </h4>
             <ul>
                 <li>

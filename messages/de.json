@@ -8,6 +8,9 @@
   "BookBtn": {
     "Text":"Termin buchen"
   },
+  "FloatingContact": {
+    "Text": "Kontaktieren Sie uns"
+  },
   "HomePage": {
     "OnlineTermine": {
       "Heading": "Online-Termine",

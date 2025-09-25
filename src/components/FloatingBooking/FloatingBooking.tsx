@@ -2,8 +2,12 @@
 import styles from "./floating-booking.module.css"
 
 import { getCalApi } from "@calcom/embed-react";
+import { useTranslations } from "next-intl";
 import { useEffect } from "react";
 export default function FloatingBooking() {
+  
+  const t = useTranslations("BookBtn") 
+
   useEffect(() => {
     (async function () {
       const cal = await getCalApi({"namespace":"first-visit"});
@@ -23,7 +27,9 @@ export default function FloatingBooking() {
             
             data-cal-config='{"layout":"month_view","theme":"light"}'
         >
-            Book Appiontment
+            {
+              t("Text")
+            }
         </button>
         {/* <button data-cal-namespace="follow-up"
             data-cal-link="moatasim-ashraf-jez60p/follow-up"
