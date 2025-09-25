@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from "./contact.module.css"
 import MainHeading from '../MainHeading/MainHeading'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationPin } from '@fortawesome/free-solid-svg-icons'
 import SocialUl from '../SocialUl/SocialUl'
 
 const Contact = ({
