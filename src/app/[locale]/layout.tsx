@@ -46,6 +46,7 @@ export const metadata: Metadata = {
     "thyroid ultrasound", "Schilddrüsen-Ultraschall", "Feinnadelpunktion", "thyroid surgery consultation",
     "Vienna thyroid clinic", "Schilddrüsenklinik Wien"
   ],
+  
 };
 
 
