@@ -17,6 +17,7 @@
     text-wrap: nowrap;
     color: #fff;
     box-shadow: var(--sec-shadow);
+    font-size: 20px;
 }
 .floatingBooking button:hover{
     color: var(--main-color);
@@ -28,5 +29,14 @@
         top: 50%;
         transform: translateY(-50%);
         font-size: 14px;
+    }
+}
+@media (max-width: 767px) {
+    .floatingBooking button{
+        transform: translateX(118px);
+        font-size: 16px;
+    }
+    .floatingBooking button:hover{
+        transform: translateX(0px);
     }
 }

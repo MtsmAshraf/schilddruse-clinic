@@ -9,7 +9,7 @@ const FloatingContact = () => {
     return (
         <div className={styles.floatingContact} >
             <h4>
-                Anfrage Senden
+                Contact Us
             </h4>
             <ul>
                 <li>
