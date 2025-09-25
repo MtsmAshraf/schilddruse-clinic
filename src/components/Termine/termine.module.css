@@ -54,6 +54,7 @@
 .termine .appts > div h5{
     font-weight: normal;
     font-size: 16px;
+    text-align: left;
 }
 .termine .btns{
     display: flex;

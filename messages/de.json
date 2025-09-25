@@ -1,159 +1,28 @@
 {
+  "Header": {
+    "Home": "Home",
+    "Services": "Leistungen",
+    "OnlineTermine": "Online-Termine",
+    "DieOrdination": "Die Ordination"
+  },
+  "BookBtn": {
+    "Text":"Termin buchen"
+  },
   "HomePage": {
-    "Header": {
-      "whatsapp": "WhatsApp"
-    },
-    "Hero": {
-      "slogan": "Gruppenpraxis Medizin Mariahilf",
-      "p1": "Ich freue mich auf Ihren Besuch!",
-      "p2": "Meine Ordination befindet sich:",
-      "btns": {
-        "b1": "Termin vereinbaren"
-      }
-    },
-    "Why": {
-      "heading": "Warum Sahel Cars?",
-      "0": {
-        "heading": "Schnelle Genehmigung",
-        "p": "Schnelle Genehmigungen innerhalb von 24 Stunden"
-      },
-      "1": {
-        "heading": "Einfache Raten",
-        "p": "Ratenzahlung zum Barpreis mit flexiblen Bedingungen"
-      },
-      "2": {
-        "heading": "Garantie und Vertrauen",
-        "p": "Zuverlässiger und garantierter Service"
-      },
-      "3": {
-        "heading": "Keine Provision",
-        "p": "Null Provision während des Finanzierungsprozesses"
-      }
-    },
-    "Cars": {
-      "heading": "Einige Modelle",
-      "imgLink": "Kontakt zur Bestellung",
-      "currency": "Riyal"
-    },
-    "Steps": {
-      "heading": "Schritte zur Finanzierungsanfrage",
-      "0": {
-        "heading": "Stellen Sie den Finanzierungsantrag",
-        "p": "Schnelle Genehmigungen innerhalb von 24 Stunden"
-      },
-      "1": {
-        "heading": "Erhalten Sie die verfügbaren Angebote",
-        "p": "Ratenzahlung zum Barpreis mit flexiblen Bedingungen"
-      },
-      "2": {
-        "heading": "Wählen Sie das passende Angebot",
-        "p": "Zuverlässiger und garantierter Service"
-      },
-      "3": {
-        "heading": "Erhalten Sie die endgültige Genehmigung",
-        "p": "Null Provision während des Finanzierungsprozesses"
-      }
-    },
-    "Partners": {
-      "heading": "Erfolgspartner"
-    },
-    "Contact": {
-      "heading": "Kontaktieren Sie uns",
-      "form": {
-        "formHeading": {
-          "h4": "Kontaktieren Sie uns jetzt",
-          "p": "Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden bei Ihnen"
+    "OnlineTermine": {
+      "Heading": "Online-Termine",
+      "Appts": {
+        "0": {
+          "day": "Mittwochs",
+          "Uhr": "Uhr",
+          "address": "Mariahilfer Straße 95/19, Stiege 1, 1060 Wien (U3 Zieglergasse)"
         },
-        "name": {
-          "label": "Vollständiger Name",
-          "placeholder": "Geben Sie Ihren vollständigen Namen ein"
-        },
-        "phone": {
-          "label": "Telefonnummer",
-          "placeholder": "+966xxxxxxxxx"
-        },
-        "email": {
-          "label": "E-Mail",
-          "placeholder": "username@example.com"
-        },
-        "dateOfBirth": {
-          "label": "Geburtsdatum"
-        },
-        "gender": {
-          "label": "Geschlecht",
-          "options": {
-            "male": "Männlich",
-            "female": "Weiblich"
-          }
-        },
-        "carBrand": {
-          "label": "Automarke",
-          "placeholder": "Wählen Sie die Automarke"
-        },
-        "carModel": {
-          "label": "Automodell",
-          "placeholder": "Wählen Sie das Automodell",
-          "disabledPlaceholder": "Wählen Sie zuerst die Automarke",
-          "customPlaceholder": "Geben Sie Marke und Modell des Autos ein"
-        },
-        "work": {
-          "label": "Arbeitgeber",
-          "options": {
-            "gov": "Regierung",
-            "private": "Privat",
-            "other": "Andere"
-          }
-        },
-        "insurence": {
-          "label": "Sind Sie bei der Sozialversicherung registriert?",
-          "options": {
-            "yes": "Ja",
-            "no": "Nein"
-          }
-        },
-        "salarySrc": {
-          "label": "Gehaltseingangsstelle",
-          "placeholder": "Wählen Sie die Bank"
-        },
-        "salary": {
-          "label": "Nettoeinkommen",
-          "placeholder": "Nettoeinkommen in Saudi-Riyal"
-        },
-        "obligations": {
-          "label": "Haben Sie Verpflichtungen?",
-          "options": {
-            "state": "Immobilienfinanzierung",
-            "personal": "Persönliche Finanzierung",
-            "other": "Andere"
-          }
-        },
-        "otherObligations": {
-          "label": "Andere Verpflichtungen",
-          "placeholder": "Welche Verpflichtungen haben Sie?"
-        },
-        "sema": {
-          "label": "Haben Sie Zahlungsausfälle bei SIMAH?",
-          "options": {
-            "yes": "Ja",
-            "no": "Nein"
-          }
-        },
-        "totalObl": {
-          "label": "Gesamte monatliche finanzielle Verpflichtungen",
-          "placeholder": "In Saudi-Riyal"
-        },
-        "message": {
-          "label": "Zusätzliche Nachricht (optional)",
-          "placeholder": ""
-        },
-        "requiredMsg": "Bitte füllen Sie alle erforderlichen Felder aus",
-        "submit": "Über WhatsApp senden",
-        "whatsappLink": {
-          "p": "Möchten Sie in einem offenen WhatsApp-Chat kommunizieren?",
-          "a": "Kontaktieren Sie uns"
+        "1": {
+          "day": "Freitags",
+          "Uhr": "Uhr",
+          "address": "Leegasse 2/8, 1140 Wien"
         }
-      },
-      "location": "Wo finden Sie uns?"
+      }
     }
   }
 }

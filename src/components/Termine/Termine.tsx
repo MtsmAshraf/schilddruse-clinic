@@ -4,12 +4,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faLocationPin } from '@fortawesome/free-solid-svg-icons'
 import styles from "./termine.module.css"
 import BookBtn from '../BookBtn/BookBtn'
+import { useTranslations } from 'next-intl'
 
 const Termine = () => {
+
+    const t = useTranslations("HomePage.OnlineTermine")
+    const tBook = useTranslations("BookBtn")
+
   return (
     <section  className={styles.termine}>
         <MainHeading>
-            Online-Termine
+            {
+                t("Heading")
+            }
         </MainHeading>
         <div className="container"> 
             <h3>
@@ -23,13 +30,15 @@ const Termine = () => {
                     <p>
                         <FontAwesomeIcon icon={faClock} />
                         <span>
-                        Mittwochs : 13:00-19:00 Uhr
+                        {t("Appts.0.day")} : 13:00-19:00 {t("Appts.0.Uhr")}
                         </span>
                     </p>
                     <h5>
                         <FontAwesomeIcon icon={faLocationPin} />
                         <span>
-                        Mariahilfer Straße 95/19, Stiege 1, 1060 Wien (U3 Zieglergasse)
+                            {
+                                t("Appts.0.address")
+                            }
                         </span>
                     </h5>
                     <div className={styles.btns}>
@@ -46,18 +55,22 @@ const Termine = () => {
                     <p>
                         <FontAwesomeIcon icon={faClock} />
                         <span>
-                        Freitags: 16:00- 19:00 Uhr 
+                        {t("Appts.1.day")} : 16:00- 19:00 {t("Appts.1.Uhr")}
                         </span>
                     </p>
                     <h5>
                         <FontAwesomeIcon icon={faLocationPin} />
                         <span>
-                        Leegasse 2/8, 1140 Wien
+                            {
+                                t("Appts.1.address")
+                            }
                         </span>
                     </h5>
                     <div className={styles.btns}>
                         <a className='book-btn main' href="https://www.meinarztonline.at/app/api/onlineBookingFrame/24205/bookingStep/1" target='_blank'>
-                            Book Appointment
+                            {
+                                tBook("Text")
+                            }
                         </a>
                     </div>
                     <div className={styles.location}>
@@ -66,7 +79,7 @@ const Termine = () => {
                 </div>
             </div>
             {/* <div className={styles.btns + " " + "stagger-text"}>
-                <BookBtn />
+                <BookBtn lo={lo} />
             </div> */}
         </div>
     </section>

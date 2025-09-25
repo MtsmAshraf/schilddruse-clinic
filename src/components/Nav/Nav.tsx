@@ -4,42 +4,47 @@ import { usePathname } from 'next/navigation'
 import { Link } from '@/i18n/navigation'
 
 import LangSwitch from '../LangSwitch/LangSwitch'
+import { useTranslations } from 'next-intl'
 
 const Nav = ({
     lo
 }: {
     lo: string
 }) => {
-    // const t = useTranslations("HomePage.Header")
+    const t = useTranslations("Header")
     const pathname = usePathname()
   return (
     <nav className={lo === "ar" ? styles.nav + " " + styles.ar : styles.nav}>
         <ul className={styles.links}>
             <li>
-                <Link className={pathname === `/${lo}` ? styles.active : ""} href={'/'}>Home</Link>
+                <Link className={pathname === `/${lo}` ? styles.active : ""} href={'/'}>
+                    {
+                        t("Home")
+                    }
+                </Link>
             </li>
             <li>
-                {/* <Link className={pathname.split("/").includes("blog") ? styles.active : ""} href={'/blog'}>Blog</Link> */}
-                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'/services'}>Services</Link>
+                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'/services'}>
+                    {
+                        t("Services")
+                    }
+                </Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/online-termine` ? styles.active : ""} href={'/online-termine'}>Online-Termine</Link>
+                <Link className={pathname === `/${lo}/online-termine` ? styles.active : ""} href={'/online-termine'}>
+                    {
+                        t("OnlineTermine")
+                    }
+                </Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/die-ordination` ? styles.active : ""} href={'/die-ordination'}>Die Ordination</Link>
+                <Link className={pathname === `/${lo}/die-ordination` ? styles.active : ""} href={'/die-ordination'}>
+                    {
+                        t("DieOrdination")
+                    }
+                </Link>
             </li>
         </ul>
-        {/* <div className={styles.navSocialLinks}>
-                <a title="Whatsapp" target='_blank' href="https://wa.me/+436701960112">
-                    <FontAwesomeIcon icon={faWhatsapp}/>
-                </a>
-                <a title="Gmail" target='_blank' href="mailto:schilddruese.mohammed@outlook.com?subject=Mail-From-Schilddrüse-website">
-                    <FontAwesomeIcon icon={faEnvelope}/>
-                </a>
-                <a title="SMS" target='_blank' href="sms:+436701960112">
-                    <FontAwesomeIcon icon={faCommentSms}/>
-                </a>
-        </div> */}
         <LangSwitch lo={lo} />
     </nav>
   )

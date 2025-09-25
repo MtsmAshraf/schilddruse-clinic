@@ -21,7 +21,6 @@ const Header = ({
       setShowVNav(false)
     },[pathname])
 
-
   return (
     <header className={lo === "ar" ? styles.header + " " + styles.ar : styles.header}>
         <div className="container">

@@ -36,8 +36,14 @@
 
 
 import { getCalApi } from "@calcom/embed-react";
+import { faCalendar } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useTranslations } from "next-intl";
 import { useEffect } from "react";
 export default function BookBtn() {
+
+  const t = useTranslations("BookBtn")
+
   useEffect(() => {
     (async function () {
       const cal = await getCalApi({"namespace":"first-visit"});
@@ -49,7 +55,9 @@ export default function BookBtn() {
     className={"book-btn main"}
     data-cal-config='{"layout":"month_view","theme":"light"}'
   >
-    Book Appiontment
+    {
+      t("Text")
+    }
   </button>;
 };
   
