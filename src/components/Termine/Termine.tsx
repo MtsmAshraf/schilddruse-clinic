@@ -13,7 +13,7 @@ const Termine = () => {
         </MainHeading>
         <div className="container"> 
             <h3>
-                Dr.in Fairoz Mohammed Online-Termine
+                Dr.in Fairoz Mohammed
             </h3>
             <div className={styles.appts}>
                 <div className={styles.apptOne}>

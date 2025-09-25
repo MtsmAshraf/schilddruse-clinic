@@ -4,7 +4,7 @@ import { StaticImageData } from "next/image";
 import hashimotoImg from "../../../public/images/hashimoto.png"
 import morbusImg from "../../../public/images/morbus.png"
 import pregnancyImg from "../../../public/images/thyroid-pregnancy.png"
-import thyroidNodulesImg from "../../../public/images/thyroid-nodules.jpeg"
+import thyroidNodulesImg from "../../../public/images/thyroid-nodules.webp"
 
 export type Faq = {
     question: string;

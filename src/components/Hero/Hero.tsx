@@ -8,13 +8,13 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
-import pregnantImg from "../../../public/images/pregnant.jpeg"
-import fatImg from "../../../public/images/fat.jpeg"
-import bigNeckImg from "../../../public/images/big-neck-2.jpeg"
-import butterFlies from "../../../public/images/slide-inner-2.jpeg"
-import innerImg from "../../../public/images/slide-inner.jpeg"
-import oldImg from "../../../public/images/slide-old.jpeg"
-import thyroid from "../../../public/images/slide-thyroid.jpeg"
+import pregnantImg from "../../../public/images/pregnant.webp"
+import fatImg from "../../../public/images/fat.webp"
+import bigNeckImg from "../../../public/images/big-neck-2.webp"
+import butterFlies from "../../../public/images/slide-inner-2.webp"
+import innerImg from "../../../public/images/thyroid-nodules.webp"
+import oldImg from "../../../public/images/slide-old.webp"
+import thyroid from "../../../public/images/slide-thyroid.webp"
 
 import 'swiper/css';
 import "swiper/css/bundle";
