@@ -15,7 +15,7 @@ import butterFlies from "../../../public/images/slide-inner-2.webp"
 import innerImg from "../../../public/images/thyroid-nodules.webp"
 import oldImg from "../../../public/images/slide-old.webp"
 import thyroid from "../../../public/images/slide-thyroid.webp"
-import childrenImg from "../../../public/images/children-blog.jpeg"
+import childrenImg from "../../../public/images/children-blog.webp"
 
 import 'swiper/css';
 import "swiper/css/bundle";

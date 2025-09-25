@@ -6,7 +6,7 @@ import morbusImg from "../../../public/images/morbus.png"
 import pregnancyImg from "../../../public/images/thyroid-pregnancy.png"
 import thyroidNodulesImg from "../../../public/images/thyroid-nodules.webp"
 import schilddrüsenFeinnadelpunktion from "../../../public/images/slide-thyroid.jpg"
-import schilddrüsenerkrankungenBeiKindern from "../../../public/images/children-blog.jpeg"
+import schilddrüsenerkrankungenBeiKindern from "../../../public/images/children-blog.webp"
 
 export type Faq = {
     question: string;
