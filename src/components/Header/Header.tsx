@@ -1,8 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import styles from "./header.module.css"
-import Image from 'next/image'
-import logo from "../../../public/images/logo-text.webp"
 import Nav from '../Nav/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faBars } from '@fortawesome/free-solid-svg-icons'
