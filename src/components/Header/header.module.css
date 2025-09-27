@@ -1,7 +1,7 @@
 .header{
     position: fixed;
     width: 100dvw;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-bottom: 10px;
     left: 0;
     top: 0;
@@ -15,7 +15,8 @@
 .header > div{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+
 }
 .header > div .logo{
     width: 400px;
@@ -75,6 +76,7 @@
     .header > div .smCtrl{
         display: flex;
         align-items: center;
+        margin-top: 10px;
         gap: 20px;
     }
     .header > div .logo{

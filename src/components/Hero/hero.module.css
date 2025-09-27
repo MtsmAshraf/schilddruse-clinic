@@ -3,22 +3,23 @@
     isolation: isolate;
     overflow: hidden;
     min-height: calc(70vh - 70px);
-    margin-top: 123px;
+    margin-top: 248px;
     background-color: var(--slider-bg);
 }
 @media (max-width: 1200px) {
     .hero{
-        margin-top: 102px;
+        /* margin-top: 2482px; */
+        margin-top: 239px;
     }
 }
 @media (max-width: 992px) {
     .hero{
-        margin-top: 83px;
+        margin-top: 239px;
     }
 }
-@media (max-width: 1200px) {
+@media (max-width: 767px) {
     .hero{
-        margin-top: 77px;
+        margin-top: 189px;
     }
 }
 .hero.ar{

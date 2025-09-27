@@ -36,4 +36,8 @@
     .langSwitch{
         font-size: 12px;
     }
+    .langSwitch, .langSwitch:focus, .langSwitch:focus-visible, .langSwitch:active{
+        border: 1px solid var(--main-color);
+        font-size: 12px;
+    }
 }

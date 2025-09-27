@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 10px;
 }
 .nav .links{
     display: flex;
@@ -68,7 +69,7 @@
     }
 }
 @media (max-width: 992px) {
-    .nav{
+    .nav {
         display: none;
     }
 }

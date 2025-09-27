@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faBars } from '@fortawesome/free-solid-svg-icons'
 import VerticalNav from '../VerticalNav/VerticalNav'
 import { usePathname } from 'next/navigation'
+import LogoHeader from '../LogoHeader/LogoHeader'
 
 
 const Header = ({
@@ -23,10 +24,11 @@ const Header = ({
 
   return (
     <header className={lo === "ar" ? styles.header + " " + styles.ar : styles.header}>
+          <LogoHeader />
         <div className="container">
-            <a className={styles.logo} href={"/"}>
+            {/* <a className={styles.logo} href={"/"}>
                 <Image loading='lazy' src={logo} alt='Al Assema Logo'></Image>
-            </a>
+            </a> */}
             <Nav lo={lo}></Nav>
             <div className={styles.smCtrl}>
               <button className={styles.bars} onClick={() => {setShowVNav(!showVNav)}}>

@@ -1,0 +1,21 @@
+.logoHeader{
+    text-align: center;
+    display: block;
+    background-color: var(--logo-header-bg);
+    background-image: url("../../../public/images/logo-header-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logoHeader img{
+    object-fit: contain;
+    width: 500px;
+    height: 200px;
+}
+
+@media (max-width: 767px) {
+    .logoHeader img{
+        width: 300px;
+        height: 150px;
+    }
+}
