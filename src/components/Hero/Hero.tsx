@@ -97,6 +97,7 @@ const Hero = ({
                             muted
                             playsInline
                             autoPlay 
+                            preload="auto"
                         >
                             <source src="/butterfly.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
@@ -112,7 +113,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image loading='lazy' src={pregnantImg} alt='Schilddrüse bei Kinderwunsch, während der Schwanger-schaft und nach der Geburt Image'></Image>
+                        <Image src={pregnantImg} alt='Schilddrüse bei Kinderwunsch, während der Schwanger-schaft und nach der Geburt Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -124,7 +125,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image loading='lazy' src={fatImg} alt='childdrüse und Veränderungen von Gewicht und Stimmung Image'></Image>
+                        <Image src={fatImg} alt='childdrüse und Veränderungen von Gewicht und Stimmung Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -136,7 +137,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image loading='lazy' src={bigNeckImg} alt='Halsschmerzen und Schilddrüsenhor-monstörungen Image'></Image>
+                        <Image src={bigNeckImg} alt='Halsschmerzen und Schilddrüsenhor-monstörungen Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -148,7 +149,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image loading='lazy' src={butterFlies} alt='Besprechung und Erklärung von Schilddrüsen-Labortests Image'></Image>
+                        <Image src={butterFlies} alt='Besprechung und Erklärung von Schilddrüsen-Labortests Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -160,7 +161,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image loading='lazy' src={innerImg} alt='Abklärung von Schilddrüsen-knoten Image'></Image>
+                        <Image src={innerImg} alt='Abklärung von Schilddrüsen-knoten Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -172,7 +173,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image loading='lazy' src={oldImg} alt='Konsultation vor und nach einer Schilddrüsen-operation Image'></Image>
+                        <Image src={oldImg} alt='Konsultation vor und nach einer Schilddrüsen-operation Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -184,7 +185,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image loading='lazy' src={thyroid} alt='Feinnadelbiopsie bei Bedarf Image'></Image>
+                        <Image src={thyroid} alt='Feinnadelbiopsie bei Bedarf Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -196,7 +197,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image loading='lazy' src={childrenImg} alt='Schilddrüsenerkrankungen bei Kindern Image'></Image>
+                        <Image src={childrenImg} alt='Schilddrüsenerkrankungen bei Kindern Image'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
