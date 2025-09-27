@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation'
 // import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import LangSwitch from '../LangSwitch/LangSwitch'
+import { useTranslations } from 'next-intl'
 const VerticalNav = ({
     shown,
     lo
@@ -14,7 +15,7 @@ const VerticalNav = ({
     lo: string
 }) => {
     const pathname = usePathname()
-    // const t = useTranslations("HomePage.Header")
+    const t = useTranslations("Header")
     return (
     <div className={shown ? styles.verticalNav + " " + styles.shown : styles.verticalNav}>
         {/* <h3>Language</h3> */}
@@ -22,17 +23,33 @@ const VerticalNav = ({
         <h3>Pages</h3>
         <ul className={styles.links}>
             <li>
-                <Link className={pathname === `/${lo}` ? styles.active : ""} href={'/'}>Home</Link>
+                <Link className={pathname === `/${lo}` ? styles.active : ""} href={'/'}>
+                    {
+                        t("Home")
+                    }
+                </Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'/services'}>Services</Link>
+                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'/services'}>
+                    {
+                        t("Services")
+                    }
+                </Link>
             </li>
             
             <li>
-                <Link className={pathname === `/${lo}/online-termine` ? styles.active : ""} href={'/online-termine'}>Online-Termine</Link>
+                <Link className={pathname === `/${lo}/online-termine` ? styles.active : ""} href={'/online-termine'}>
+                    {
+                        t("OnlineTermine")
+                    }
+                </Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/die-ordination` ? styles.active : ""} href={'/die-ordination'}>Die Ordination</Link>
+                <Link className={pathname === `/${lo}/die-ordination` ? styles.active : ""} href={'/die-ordination'}>
+                    {
+                        t("DieOrdination")
+                    }
+                </Link>
             </li>
         </ul>
         <h3>Social Media</h3>
