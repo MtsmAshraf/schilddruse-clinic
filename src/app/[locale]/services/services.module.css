@@ -1,20 +1,23 @@
 .services{
     padding-top: 30px;
     padding-bottom: 50px;
-    margin-top: 123px;
+    margin-top: 248px;
+}
+.services{
 }
 @media (max-width: 1200px) {
     .services{
-        margin-top: 102px;
+        /* margin-top: 2482px; */
+        margin-top: 239px;
     }
 }
 @media (max-width: 992px) {
     .services{
-        margin-top: 83px;
+        margin-top: 239px;
     }
 }
-@media (max-width: 1200px) {
+@media (max-width: 767px) {
     .services{
-        margin-top: 77px;
+        margin-top: 189px;
     }
 }
