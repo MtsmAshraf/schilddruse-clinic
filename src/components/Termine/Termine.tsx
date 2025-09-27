@@ -12,7 +12,6 @@ import centerLogo from "../../../public/images/center-logo.png"
 const Termine = () => {
 
     const t = useTranslations("HomePage.OnlineTermine")
-    const tBook = useTranslations("BookBtn")
 
   return (
     <section  className={styles.termine}>
