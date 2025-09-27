@@ -23,9 +23,6 @@ const BlogCards = () => {
                                     <Image loading='lazy' src={post.img.src} alt={post.title} width={200} height={200}></Image>
                                 </Link>
                                 <div className={styles.cardText}>
-                                    <h3>
-                                        {post.title}
-                                    </h3>
                                     <div>
                                         <h5>
                                             {
