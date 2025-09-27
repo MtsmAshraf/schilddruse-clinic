@@ -40,7 +40,7 @@
         },
         "2": {
           "Title": "Szintigraphie",
-          "p": "Abklärung und Behandlung von Funktionsstörungen der Schilddrüse mit modernen nuklearmedizinischen Verfahren"
+          "p": "Schilddrüsenszintigraphie bei Bedarf in Kooperation mit spezialisierten Zentren"
         },
         "3": {
           "Title": "Feinnadelpunktion",
@@ -52,7 +52,7 @@
         },
         "5": {
           "Title": "Schilddrüse & Schwangerschaft",
-          "p": "Fachgerechte Betreuung und Kontrolle der Schilddrüsenfunktion während der Schwangerschaft"
+          "p": "achgerechte Betreuung und Kontrolle der Schilddrüsenfunktion bei Kinderwunsch, während der Schwangerschaft sowie nach der Entbindung"
         },
         "6": {
           "Title": "Beurteilung von Schilddrüsenknoten",
@@ -64,11 +64,11 @@
         },
         "8": {
           "Title": "Nachsorge nach Schilddrüsenoperation",
-          "p": "Langfristige Kontrolle und Begleitung nach einer operativen Entfernung der Schilddrüse"
+          "p": "Langfristige Kontrolle nach operativer Entfernung der Schilddrüse bei Patient:innen mit Schilddrüsenkrebs"
         },
         "9": {
           "Title": "Kinder mit Schilddrüsen-funktionsstörungen",
-          "p": "Individuelle Diagnostik und Therapie bei auffälligen Schilddrüsenwerten im Kindesalter"
+          "p": "Diagnostik und Therapie von Schilddrüsenerkrankungen bei Kindern (ab 5 Jahren)"
         }
       }
     }

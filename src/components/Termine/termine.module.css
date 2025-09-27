@@ -4,7 +4,12 @@
     text-shadow: var(--text-shadow);
     font-size: 34px;
 }
-.termine .emergency .emergencyHeading{
+.termine > :nth-child(2) > p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.termine .emergency .emergencyBtn{
     margin: 20px auto;
     width: fit-content;
     background-color: var(--third-color);
@@ -13,12 +18,51 @@
     border-radius: 10px;
     box-shadow: var(--main-shadow);
     text-align: center;
+    display: block;
 }
-.termine .emergency p{
+.termine .emergency .emergencyContent{
+    height: 0;
+    overflow: hidden;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    transition: var(--main-transition);
+    transition-duration: 0.4s;
+    position: relative;
+}
+.termine .emergency .emergencyContent.shown{
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.termine .emergency:has() .emergencyContent{
+    height: 0;
+    overflow: hidden;
+}
+.termine .emergency .emergencyContent button.closeContent{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%) translateY(-20px);
+    background-color: var(--third-color);
+    color: #fff;
+    box-shadow: var(--main-shadow);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--main-transition);
+}
+.termine .emergency .emergencyContent.shown button.closeContent{
+    transform: translateX(-50%) translateY(0px);
+}
+.termine .emergency .emergencyContent p{
     text-align: center;
     margin-bottom: 20px;
 }
-.termine .emergency > ul{
+.termine .emergency .emergencyContent > ul{
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -26,7 +70,7 @@
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
-.termine .emergency > ul li{
+.termine .emergency .emergencyContent > ul li{
     width: calc((100% - 20px) / 2);
     /* padding: 10px 20px; */
     height: fit-content;
@@ -35,11 +79,11 @@
     gap: 5px;
 }
 @media (max-width: 992px) {
-    .termine .emergency > ul li{
+    .termine .emergency .emergencyContent > ul li{
         width: 100%;
     }
 }
-.termine .emergency > ul li svg{
+.termine .emergency .emergencyContent > ul li svg{
     background-color: var(--third-color);
     color: #fff;
     /* width: 30px; */
@@ -50,14 +94,14 @@
     padding: 10px;
     box-shadow: var(--main-shadow);
 }
-.termine .emergency > ul li span{
+.termine .emergency .emergencyContent > ul li span{
     box-shadow: var(--main-shadow);
     background-color: #fff;
     padding: 10px 20px;
     flex: 1;
     border-radius: 8px;
 }
-.termine .emergency p span{
+.termine .emergency .emergencyContent p span{
     font-weight: bold;
     color: var(--third-color);
 }
