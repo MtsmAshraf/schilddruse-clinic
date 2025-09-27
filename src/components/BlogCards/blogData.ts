@@ -275,7 +275,7 @@ const blogPosts: BlogPost[] = [
     {
         id: "5",
         title: "Schilddrüsen-Feinnadelpunktion (FNP / Fine Needle Aspiration – FNA)",
-        brief: "n meiner Ordination biete ich die Schilddrüsen-Feinnadelpunktion (FNP) als schonende und zuverlässige Methode an, um unklare Schilddrüsenknoten abzuklären.",
+        brief: "In meiner Ordination biete ich die Schilddrüsen-Feinnadelpunktion (FNP) als schonende und zuverlässige Methode an, um unklare Schilddrüsenknoten abzuklären.",
         date: "Septemper, 2025",
         author: "Dr.in Fairoz Mohammed",
         faqs: [
