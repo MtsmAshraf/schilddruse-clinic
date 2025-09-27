@@ -2,7 +2,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import styles from "./floating-contact.module.css"
-import { faCommentSms, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faComments, faCommentSms, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { useTranslations } from 'next-intl'
 
 
@@ -13,9 +13,12 @@ const FloatingContact = () => {
     return (
         <div className={styles.floatingContact} >
             <h4>
-                {
-                    t("Text")
-                }
+                <FontAwesomeIcon icon={faComments} />
+                <span>
+                    {
+                        t("Text")
+                    }
+                </span>
             </h4>
             <ul>
                 <li>

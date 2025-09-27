@@ -1,5 +1,7 @@
 "use client"
 import { getCalApi } from "@calcom/embed-react";
+import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
 import { useEffect } from "react";
 export default function BookBtn() {
@@ -17,9 +19,12 @@ export default function BookBtn() {
     className={"book-btn main"}
     data-cal-config='{"layout":"month_view","theme":"light"}'
   >
-    {
-      t("Text")
-    }
+    <FontAwesomeIcon icon={faCalendarDays} />
+    <span>
+      {
+        t("Text")
+      }
+    </span>
   </button>;
 };
   

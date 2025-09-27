@@ -15,7 +15,7 @@
   --inset-shadow: 0px 0px 10px -3px var(--main-color) inset;
   --sec-shadow: 0px 4px 14px -6px #6a6a6a;
   --main-transition: all 0.3s 0s cubic-bezier(.47,.65,.33,.87);
-  --main-gradient: linear-gradient(90deg, var(--main-color) 0%, var(--main-color) 100%);
+  --main-gradient: linear-gradient(90deg, var(--main-color), var(--third-color));
 
   --features-card-bg: rgba(8, 7, 7, 0.2);
   --main-card-animation-color: #38207f;
@@ -81,28 +81,20 @@ section{
   margin-bottom: 30px;
 }
 .book-btn{
-    background-color: #fff;
+    background-image: var(--main-gradient);
+    color: #fff;
     padding: 8px 20px;
     border-radius: 8px;
     transition: var(--main-transition);
     transition-duration: 0.2s;
     /* font-size: 14px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
-.book-btn:hover{
-    background-color: var(--main-color);
-    color: #fff;
-}
-.book-btn.main{
-    background-color: var(--main-color);
-    color: #fff;
-}
-.book-btn:hover{
-    background-color: var(--main-color);
-    color: #fff;
-}
-.book-btn.main:hover{
-    background-image: var(--main-gradient);
-    color: #fff;
+.book-btn svg{
+  font-size: 20px;
 }
 button.fixed{
   background-color: red !important;

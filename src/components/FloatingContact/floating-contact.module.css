@@ -17,6 +17,13 @@
     font-weight: normal;
     box-shadow: var(--sec-shadow);
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.floatingContact h4 svg{
+    font-size: 20px;
 }
 .floatingContact ul{
     display: flex;
@@ -52,6 +59,7 @@
         bottom: unset;
         top: calc(50% + 100px);
         transform: translateY(-50%);
+        z-index: 10;
     }
     .floatingContact h4{
         font-size: 14px;
@@ -59,10 +67,10 @@
 }
 @media (max-width: 767px) {
     .floatingContact{
-        top: calc(50% + 85px);
+        top: calc(50% + 90px);
     }
     .floatingContact h4{
-        transform: translateX(30px);
+        transform: translateX(calc(100% - 40px));
     }
     .floatingContact h4:hover{
         transform: translateX(0px);

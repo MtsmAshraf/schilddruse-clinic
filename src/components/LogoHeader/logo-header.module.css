@@ -1,7 +1,6 @@
 .logoHeader{
     text-align: center;
     display: block;
-    background-color: var(--logo-header-bg);
     background-image: url("../../../public/images/logo-header-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;

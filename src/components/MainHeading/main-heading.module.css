@@ -40,7 +40,6 @@
     /* text-shadow: 2px 2px 0px #000; */
     color: var(--bg-color);
     background-color: var(--main-color);
-    background-image: var(--main-gradient);
     padding: 5px 30px;
     border-radius: 10px;
     max-width: calc(100vw - 80px);
