@@ -16,7 +16,7 @@ import FloatingBooking from "@/components/FloatingBooking/FloatingBooking";
 
 
 export const metadata: Metadata = {
-  title: "Dr.in Fairoz Mohammed | SchilddrüseOrdination",
+  title: "Dr.in Fairoz Mohammed | Schilddrüseordination",
   description: "Specialized thyroid clinic in Vienna offering diagnosis, ultrasound, blood tests, treatment of thyroid disorders, Hashimoto, nodules, and pregnancy-related thyroid care. Fachärztin für Schilddrüse in Wien.",
   icons: icon.src,
   keywords: [

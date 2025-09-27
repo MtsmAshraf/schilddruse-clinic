@@ -4,6 +4,63 @@
     text-shadow: var(--text-shadow);
     font-size: 34px;
 }
+.termine .emergency .emergencyHeading{
+    margin: 20px auto;
+    width: fit-content;
+    background-color: var(--third-color);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: var(--main-shadow);
+    text-align: center;
+}
+.termine .emergency p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.termine .emergency > ul{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.termine .emergency > ul li{
+    width: calc((100% - 20px) / 2);
+    /* padding: 10px 20px; */
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+@media (max-width: 992px) {
+    .termine .emergency > ul li{
+        width: 100%;
+    }
+}
+.termine .emergency > ul li svg{
+    background-color: var(--third-color);
+    color: #fff;
+    /* width: 30px; */
+    /* height: 30px; */
+    aspect-ratio: 1;
+    font-size: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: var(--main-shadow);
+}
+.termine .emergency > ul li span{
+    box-shadow: var(--main-shadow);
+    background-color: #fff;
+    padding: 10px 20px;
+    flex: 1;
+    border-radius: 8px;
+}
+.termine .emergency p span{
+    font-weight: bold;
+    color: var(--third-color);
+}
 .termine .appts{
     display: flex;
     align-items: center;

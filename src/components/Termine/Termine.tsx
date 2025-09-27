@@ -1,13 +1,14 @@
 import React from 'react'
 import MainHeading from '../MainHeading/MainHeading'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faClock, faLocationPin } from '@fortawesome/free-solid-svg-icons'
+import { faChildren, faClock, faExclamationCircle, faLocationPin, faPersonPregnant, faSquarePollVertical } from '@fortawesome/free-solid-svg-icons'
 import styles from "./termine.module.css"
 import BookBtn from '../BookBtn/BookBtn'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 
 import centerLogo from "../../../public/images/center-logo.png"
+import SocialUl from '../SocialUl/SocialUl'
 
 const Termine = () => {
 
@@ -24,6 +25,59 @@ const Termine = () => {
             <h3>
                 Dr.in Fairoz Mohammed
             </h3>
+            <div className={styles.emergency}>
+                <div className={styles.emergencyHeading}>
+                    <h2>
+                        Dringender Termin
+                    </h2>
+                    <span>
+                        gilt für Montag–Freitag
+                    </span>
+                </div>
+                <p>
+                    Sie können einen schnellen Termin (Mo–Fr) nach Umorganisation erhalten, <span>wenn eine der folgenden Bedingungen zutrifft</span>:
+                </p>
+                <ul>
+                    <li>
+                        <FontAwesomeIcon icon={faPersonPregnant} />
+                        <span>
+                            Schwangerschaft
+                        </span>
+                    </li>
+                    <li>
+                        <FontAwesomeIcon icon={faChildren} />
+                        <span>
+                            Kind mit auffälligen Schilddrüsenwerten
+                        </span>
+                    </li>
+                    <li>
+                        <FontAwesomeIcon icon={faSquarePollVertical} />
+                        <span>
+                            TSH &lt; 0,1 mIU/L oder TSH &gt; 10 mIU/L
+                        </span>
+                    </li>
+                    <li>
+                        <FontAwesomeIcon icon={faExclamationCircle} />
+                        <span>
+                            Akute Halsschmerzen oder Schwellung am Hals und auffällige Schilddrüsenwerte
+                        </span>
+                    </li>
+                </ul>
+                <p>
+                    <span>
+                        Bitte bringen Sie Ihre aktuellen Laborbefunde mit
+                    </span>
+                </p>
+                <p>
+                    Hinweis: Dieses Angebot gilt an <span>Werktagen (Mo–Fr)</span>
+                </p>
+                <p>
+                    Bitte vereinbaren Sie den Termin über <span>WhatsApp</span>, <span>E-Mail</span> oder <span>SMS</span> und schildern Sie Ihren Fall kurz
+                </p>
+                <div>
+                    <SocialUl />
+                </div>
+            </div>
             <div className={styles.appts}>
                 <div className={styles.apptOne}>
                     <div className={styles.img}>
