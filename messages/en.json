@@ -2,8 +2,8 @@
   "Header": {
     "Home": "Home",
     "Services": "Services",
-    "OnlineTermine": "Online Termine",
-    "DieOrdination": "Die Ordination"
+    "OnlineTermine": "Online Appointments",
+    "DieOrdination": "Practice"
   },
   "BookBtn": {
     "Text": "Book Appointment"
