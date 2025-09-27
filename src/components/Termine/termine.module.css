@@ -28,6 +28,19 @@
     gap: 5px;
     /* justify-content: center; */
 }
+.termine .appts > div .img{
+    /* width: 300px; */
+    height: 130px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.termine .appts > div .img img{
+    object-fit: contain;
+}
 .termine .appts > div:nth-child(2){
     border-left: 1px solid #ccc;
 }
