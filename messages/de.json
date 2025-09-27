@@ -31,40 +31,44 @@
       "Heading": "Unsere Leistungen",
       "Cards": {
         "0": {
-          "Title": "Ultraschall Hals & Blutabnahme",
-          "p": "Ultraschall Hals & Blutabnahme in der Ordination"
+          "Title": "Eine Blutabnahme ist in unserer Ordination möglich",
+          "p": ""
         },
         "1": {
-          "Title": "Szintigraphie",
-          "p": "Szintigraphie bei Bedarf in Kooperation mit spezialisierten Zentren"
+          "Title": "Ultraschall Hals",
+          "p": ""
         },
         "2": {
-          "Title": "Gezielte Ultraschall-gestützte Feinnadelpunktion",
-          "p": "Gezielte Ultraschall-gestützte Feinnadelpunktion in speziellen Fällen (z. B. suspekter Knoten)"
+          "Title": "Szintigraphie",
+          "p": "Abklärung und Behandlung von Funktionsstörungen der Schilddrüse mit modernen nuklearmedizinischen Verfahren"
         },
         "3": {
-          "Title": "bklärung & Behandlung von Funktionsstörungen",
-          "p": "bklärung & Behandlung von Funktionsstörungen (Überfunktion, Unterfunktion, Hashimoto, Morbus Basedow …)"
+          "Title": "Feinnadelpunktion",
+          "p": "Gezielte Gewebeentnahme aus der Schilddrüse zur weiteren Abklärung von Knoten und Gewebeveränderungen"
         },
         "4": {
-          "Title": "Schilddrüse & Kinderwunsch",
-          "p": "Schilddrüse & Kinderwunsch sowie Schwangerschaftsbetreuung"
+          "Title": "Abklärung & Behandlung von Funktionsstörungen",
+          "p": ""
         },
         "5": {
-          "Title": "Beurteilung von Schilddrüsenknoten",
-          "p": "Beurteilung von Schilddrüsenknoten"
+          "Title": "Schilddrüse & Schwangerschaft",
+          "p": "Fachgerechte Betreuung und Kontrolle der Schilddrüsenfunktion während der Schwangerschaft"
         },
         "6": {
-          "Title": "Aufklärung zu Therapieoptionen",
-          "p": "Aufklärung zu Therapieoptionen (Medikamente, Operation, Radiojodtherapie)"
+          "Title": "Beurteilung von Schilddrüsenknoten",
+          "p": "Gründliche Untersuchung und Abklärung von Knoten in der Schilddrüse zur weiteren Diagnostik und Therapieplanung"
         },
         "7": {
-          "Title": "Nachsorge",
-          "p": "Nachsorge von Schilddrüsenkrebspatient:innen nach Operation"
+          "Title": "Aufklärung zu Therapieoptionen",
+          "p": "Umfassende Information über mögliche Behandlungen: Operation, Radiojodtherapie oder medikamentöse Therapie"
         },
         "8": {
-          "Title": "Kinder mit Schilddrüsenfunktionsstörungen oder Knoten",
-          "p": "Kinder ab 5 Jahren mit Schilddrüsenfunktionsstörungen oder Knoten"
+          "Title": "Nachsorge nach Schilddrüsenoperation",
+          "p": "Langfristige Kontrolle und Begleitung nach einer operativen Entfernung der Schilddrüse"
+        },
+        "9": {
+          "Title": "Kinder mit Schilddrüsen-funktionsstörungen",
+          "p": "Individuelle Diagnostik und Therapie bei auffälligen Schilddrüsenwerten im Kindesalter"
         }
       }
     }

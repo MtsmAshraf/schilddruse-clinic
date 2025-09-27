@@ -1,9 +1,19 @@
 import React from 'react'
 import MainHeading from '../MainHeading/MainHeading'
 import styles from "./services.module.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCapsules, faChildren, faCircleRadiation, faMagnifyingGlass, faPersonPregnant, faSquarePollVertical, faStethoscope, faSyringe, faVial } from '@fortawesome/free-solid-svg-icons'
 import { useTranslations } from 'next-intl'
+import Image from 'next/image'
+
+import cardAuf from "../../../public/images/card-anf.png";
+import cardBeur from "../../../public/images/card-beur.png";
+import cardBluta from "../../../public/images/card-bluta.png";
+import cardFein from "../../../public/images/card-fein.png";
+import cardKinder from "../../../public/images/card-kinder.png";
+import cardNach from "../../../public/images/card-nach.png";
+import cardPregnancy from "../../../public/images/card-pregnancy.png";
+import cardSzint from "../../../public/images/card-szint.png";
+import cardTs from "../../../public/images/card-ts.png";
+import cardUltra from "../../../public/images/card-ultra.png";
 
 const Services = () => {
     const t = useTranslations("HomePage.Services")
@@ -17,7 +27,7 @@ const Services = () => {
         <div className="container">
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <FontAwesomeIcon icon={faVial} />
+                    <Image src={cardBluta} alt='card image'></Image>
                 </div>
                 <h4>
                     {
@@ -32,7 +42,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <FontAwesomeIcon icon={faCircleRadiation} />
+                    <Image src={cardUltra} alt='card image'></Image>
                 </div>
                 <h4>
                     {
@@ -47,7 +57,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <FontAwesomeIcon icon={faSyringe} />
+                    <Image src={cardSzint} alt='card image'></Image>
                 </div>
                 <h4>
                     {
@@ -62,7 +72,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <FontAwesomeIcon icon={faSquarePollVertical} />
+                    <Image src={cardFein} alt='card image'></Image>
                 </div>
                 <h4>
                     {
@@ -77,7 +87,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <FontAwesomeIcon icon={faPersonPregnant} />
+                    <Image src={cardTs} alt='card image'></Image>
                 </div>
                 <h4>
                     {
@@ -92,7 +102,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <FontAwesomeIcon icon={faMagnifyingGlass} />
+                    <Image src={cardPregnancy} alt='card image'></Image>
                 </div>
                 <h4>
                     {
@@ -107,7 +117,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <FontAwesomeIcon icon={faCapsules} />
+                    <Image src={cardBeur} alt='card image'></Image>
                 </div>
                 <h4>
                     {
@@ -122,7 +132,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <FontAwesomeIcon icon={faStethoscope} />
+                    <Image src={cardAuf} alt='card image'></Image>
                 </div>
                 <h4>
                     {
@@ -137,7 +147,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <FontAwesomeIcon icon={faChildren} />
+                    <Image src={cardNach} alt='card image'></Image>
                 </div>
                 <h4>
                     {
@@ -147,6 +157,21 @@ const Services = () => {
                 <p>
                     {
                         t("Cards.8.p")
+                    }
+                </p>
+            </div>
+            <div className={styles.card}>
+                <div className={styles.cardIcon}>
+                    <Image src={cardKinder} alt='card image'></Image>
+                </div>
+                <h4>
+                    {
+                        t("Cards.9.Title")
+                    }
+                </h4>
+                <p>
+                    {
+                        t("Cards.9.p")
                     }
                 </p>
             </div>

@@ -31,40 +31,44 @@
       "Heading": "Our Services",
       "Cards": {
         "0": {
-          "Title": "Neck ultrasound & blood tests",
-          "p": "Neck ultrasound & blood tests performed in the clinic"
+          "Title": "Eine Blutabnahme ist in unserer Ordination möglich",
+          "p": ""
         },
         "1": {
-          "Title": "Scintigraphy",
-          "p": "Scintigraphy if necessary, in cooperation with specialized centers"
+          "Title": "Ultraschall Hals",
+          "p": ""
         },
         "2": {
-          "Title": "Targeted ultrasound-guided fine-needle aspiration",
-          "p": "Targeted ultrasound-guided fine-needle aspiration in selected cases (e.g., suspicious nodules)"
+          "Title": "Szintigraphie",
+          "p": "Abklärung und Behandlung von Funktionsstörungen der Schilddrüse mit modernen nuklearmedizinischen Verfahren"
         },
         "3": {
-          "Title": "Evaluation & treatment of thyroid dysfunctions",
-          "p": "Targeted ultrasound-guided fine-needle aspiration in selected cases (e.g., suspicious nodules)"
+          "Title": "Feinnadelpunktion",
+          "p": "Gezielte Gewebeentnahme aus der Schilddrüse zur weiteren Abklärung von Knoten und Gewebeveränderungen"
         },
         "4": {
-          "Title": "Thyroid and fertility care",
-          "p": "Thyroid and fertility care, including pregnancy management"
+          "Title": "Abklärung & Behandlung von Funktionsstörungen",
+          "p": ""
         },
         "5": {
-          "Title": "Assessment of thyroid nodules",
-          "p": "Assessment of thyroid nodules"
+          "Title": "Schilddrüse & Schwangerschaft",
+          "p": "Fachgerechte Betreuung und Kontrolle der Schilddrüsenfunktion während der Schwangerschaft"
         },
         "6": {
-          "Title": "Counseling on therapy options",
-          "p": "Counseling on therapy options (medication, surgery, radioactive iodine therapy)"
+          "Title": "Beurteilung von Schilddrüsenknoten",
+          "p": "Gründliche Untersuchung und Abklärung von Knoten in der Schilddrüse zur weiteren Diagnostik und Therapieplanung"
         },
         "7": {
-          "Title": "Follow-ups",
-          "p": "Follow-up of thyroid cancer patients after surgery"
+          "Title": "Aufklärung zu Therapieoptionen",
+          "p": "Umfassende Information über mögliche Behandlungen: Operation, Radiojodtherapie oder medikamentöse Therapie"
         },
         "8": {
-          "Title": "Children with thyroid dysfunction or nodules",
-          "p": "Children (from 5 years) with thyroid dysfunction or nodules"
+          "Title": "Nachsorge nach Schilddrüsenoperation",
+          "p": "Langfristige Kontrolle und Begleitung nach einer operativen Entfernung der Schilddrüse"
+        },
+        "9": {
+          "Title": "Kinder mit Schilddrüsen-funktionsstörungen",
+          "p": "Individuelle Diagnostik und Therapie bei auffälligen Schilddrüsenwerten im Kindesalter"
         }
       }
     }
