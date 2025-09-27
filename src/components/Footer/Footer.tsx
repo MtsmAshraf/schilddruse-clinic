@@ -4,11 +4,13 @@ import { Link } from '@/i18n/navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCommentSms, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { useTranslations } from 'next-intl'
 const Footer = ({
   lo
 } : {
   lo: string
 }) => {
+  const t = useTranslations("Header")
   return (
     
     <footer className={lo === "ar" ? styles.footer + " " + styles.ar : styles.footer}>
@@ -18,16 +20,24 @@ const Footer = ({
             <h4>Pages</h4>
             <div>
                 <Link href={"/"}>
-                  Home
+                  {
+                    t("Home")
+                  }
                 </Link>
                 <Link href={`/services`}>
-                  Services
+                  {
+                    t("Services")
+                  }
                 </Link>
                 <Link href={'/online-termine'}>
-                  Online-Termine
+                  {
+                    t("OnlineTermine")
+                  }
                 </Link>
                 <Link href={'/die-ordination'}>
-                  Die Ordination
+                  {
+                    t("DieOrdination")
+                  }
                 </Link>
             </div>
             </div>
