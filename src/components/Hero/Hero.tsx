@@ -192,7 +192,7 @@ const Hero = ({
                 <SwiperSlide className={styles.slide}>
                         <div className={styles.text}>
                             <h2>
-                                Schilddrüsenerkrankungen bei Kindern
+                                Schilddrüsen-erkrankungen bei Kindern
                             </h2>
                         </div>
                     <div className={styles.img}>
