@@ -30,17 +30,16 @@ const VerticalNav = ({
                 </Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'/services'}>
-                    {
-                        t("Services")
-                    }
-                </Link>
-            </li>
-            
-            <li>
                 <Link className={pathname === `/${lo}/online-termine` ? styles.active : ""} href={'/online-termine'}>
                     {
                         t("OnlineTermine")
+                    }
+                </Link>
+            </li>
+            <li>
+                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'/services'}>
+                    {
+                        t("Services")
                     }
                 </Link>
             </li>

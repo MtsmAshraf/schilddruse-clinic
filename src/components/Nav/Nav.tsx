@@ -24,16 +24,16 @@ const Nav = ({
                 </Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'/services'}>
+                <Link className={pathname === `/${lo}/online-termine` ? styles.active : ""} href={'/online-termine'}>
                     {
-                        t("Services")
+                        t("OnlineTermine")
                     }
                 </Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/online-termine` ? styles.active : ""} href={'/online-termine'}>
+                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'/services'}>
                     {
-                        t("OnlineTermine")
+                        t("Services")
                     }
                 </Link>
             </li>
