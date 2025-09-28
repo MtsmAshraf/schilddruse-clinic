@@ -11,7 +11,7 @@ import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons'
 const blogPostPage = async ({
     params,
 } : {
-    params: Promise<{blogId: string}> 
+    params: Promise<{blogId: string, locale: string}> 
 }) => {
 
     const { blogId } = await params
@@ -19,6 +19,7 @@ const blogPostPage = async ({
     if(!post){
         return notFound()
     }
+    const { locale } = await params
 
   return (
     <>
@@ -49,7 +50,7 @@ const blogPostPage = async ({
                     <Image src={post.img.src} alt={post.title + " cover image"} width={400} height={300}></Image>
                 </div>
             </div>
-        <FaqComponent faqs={post.faqs}/>
+        <FaqComponent faqs={locale === "en" ? post.faqsEn : post.faqs}/>
         <Link className={styles.allPostsLink} href={"/blog"}>
             <span>
                 See More Posts

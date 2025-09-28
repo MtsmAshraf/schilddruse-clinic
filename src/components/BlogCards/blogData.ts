@@ -345,41 +345,41 @@ const blogPosts: BlogPost[] = [
         ],
         faqsEn: [
             {
-                question: "Warum ist die Schilddrüse in der Schwangerschaft so wichtig?",
-                answer: `Die Schilddrüse produziert Hormone (T4 und T3), die für die Entwicklung des Gehirns und des Nervensystems des Babys entscheidend sind – besonders im 1. Trimester, wenn das Kind noch keine eigenen Hormone bilden kann.`
+                question: "Why is the thyroid important during pregnancy?",
+                answer: `The thyroid produces hormones (T4 and T3) essential for the baby’s brain and nervous system development, especially in the first trimester when the baby cannot produce its own hormones.`
             },
             {
-                question: "Soll ich meine Schilddrüse prüfen lassen, bevor ich schwanger werde?",
-                answer: `Ja. Frauen mit Schilddrüsenerkrankungen oder Risikofaktoren (familiäre Belastung, Autoimmunerkrankungen, Unfruchtbarkeit, Fehlgeburten in der Vorgeschichte) sollten ihre Schilddrüsenfunktion vor der Schwangerschaft testen lassen.`
+                question: "Should I check my thyroid before getting pregnant?",
+                answer: `Yes. Women with thyroid disease or risk factors (family history, autoimmune disease, infertility, previous miscarriage) should have their thyroid function tested before pregnancy.`
             },
             {
-                question: "Wie verändert die Schwangerschaft die Schilddrüse?",
-                answer: `Der Hormonbedarf steigt. Die Schilddrüse muss stärker arbeiten, und das Schwangerschaftshormon hCG kann die Schilddrüse zusätzlich anregen.`
+                question: "How does pregnancy affect the thyroid?",
+                answer: `Pregnancy increases the need for thyroid hormones. The thyroid gland must work harder, and the hormone hCG can temporarily stimulate the thyroid.`
             },
             {
-                question: "Welche Schilddrüsenprobleme können in der Schwangerschaft auftreten?",
-                answer: `• Hypothyreose (Unterfunktion): erhöhtes Risiko für Fehlgeburten, Präeklampsie, Anämie, niedriges Geburtsgewicht und Entwicklungsstörungen beim Kind.
-                        • Hyperthyreose (Überfunktion): erhöhtes Risiko für Frühgeburten, Präeklampsie, niedriges Geburtsgewicht.
-                        • Postpartale Thyreoiditis: vorübergehende Entzündung nach der Geburt mit Über- oder Unterfunktion.
+                question: "What thyroid problems can occur during pregnancy?",
+                answer: `• Hypothyroidism (underactive thyroid): increases risks of miscarriage, preeclampsia, anemia, low birth weight, and developmental delays in the baby.
+                        • Hyperthyroidism (overactive thyroid): increases risks of premature birth, preeclampsia, and low birth weight.
+                        • Postpartum thyroiditis: temporary thyroid inflammation after delivery, may cause over- or underactivity.
                         `
             },
             {
-                question: "Wie werden Schilddrüsenprobleme in der Schwangerschaft behandelt?",
-                answer: `• Unterfunktion: Levothyroxin ist sicher und notwendig.
-                        • Überfunktion: Thyreostatika werden vorsichtig eingesetzt (Propylthiouracil im 1. Trimester, später Thiamazol).
-                        • Engmaschige Kontrollen mit Bluttests alle 4–6 Wochen sind wichtig.
+                question: "How are thyroid problems treated during pregnancy?",
+                answer: `• Hypothyroidism: Levothyroxine is safe and essential.
+                        • Hyperthyroidism: Antithyroid drugs are used carefully (propylthiouracil in the 1st trimester, methimazole later).
+                        • Close monitoring with blood tests every 4–6 weeks is important.
                         `
             },
             {
-                question: "Was passiert nach der Entbindung?",
-                answer: `• Der Bedarf an Schilddrüsenhormon kann sich ändern.
-                        • Postpartale Thyreoiditis kann Müdigkeit, Stimmungsschwankungen oder Herzklopfen verursachen – oft wird das mit „normalen“ Nachgeburtsbeschwerden verwechselt.
-                        • Frauen mit Schilddrüsenerkrankungen sollten 6–12 Wochen nach der Geburt ihre Werte kontrollieren lassen.
+                question: "What about after delivery?",
+                answer: `• Thyroid hormone needs may change.
+                        • Postpartum thyroiditis can cause fatigue, mood swings, or palpitations – sometimes mistaken for normal postpartum changes.
+                        • Women with thyroid disease should recheck thyroid function about 6–12 weeks after birth.
                         `
             },
             {
-                question: "Kann ich mit einer Schilddrüsenerkrankung stillen?",
-                answer: `Ja. Levothyroxin ist unbedenklich. Auch Thyreostatika können in niedriger Dosis unter ärztlicher Aufsicht eingesetzt werden.`
+                question: "Can I breastfeed if I have thyroid disease?",
+                answer: `Yes. Levothyroxine is safe. Antithyroid drugs can also be used in low doses under medical supervision.`
             },
         ],
         img: pregnancyImg
@@ -534,58 +534,58 @@ const blogPosts: BlogPost[] = [
         ],
         faqsEn: [
             {
-                question: "Was ist eine Schilddrüsen-Feinnadelpunktion?",
-                answer: "Dabei handelt es sich um einen einfachen, minimal-invasiven Eingriff. Unter Ultraschallkontrolle entnehme ich mit einer sehr dünnen Nadel eine kleine Zellprobe aus einem Schilddrüsenknoten. Diese wird anschließend von einem spezialisierten Pathologen untersucht, um zu klären, ob der Knoten gutartig oder verdächtig ist."
+                question: "What is a thyroid fine needle biopsy?",
+                answer: "It is a simple and minimally invasive procedure in which I use a very thin needle to take a small sample of cells from a thyroid nodule under ultrasound guidance. The sample is then examined by a specialized pathologist to determine whether the nodule is benign or suspicious."
             },
             {
-                question: "Warum wird die Punktion empfohlen?",
-                answer: `•	Um festzustellen, ob ein Schilddrüsenknoten harmlos oder potenziell bösartig ist.
-                •	Um unnötige Operationen zu vermeiden, wenn der Knoten gutartig ist.
-                •	Um die beste weitere Therapieentscheidung treffen zu können.
+                question: "Why is the biopsy recommended?",
+                answer: `•	To clarify whether a thyroid nodule is harmless or potentially malignant.
+                    •	To avoid unnecessary surgery if the nodule is benign.
+                    •	To guide the best possible treatment strategy.
                 `
             },
             {
-                question: "Wie läuft die Untersuchung ab?",
-                answer: `•	Die Punktion erfolgt stets unter Ultraschallkontrolle.
-                        •	Nach Desinfektion wird mit einer sehr feinen Nadel der Knoten punktiert.
-                        •	Zur Erhöhung der Genauigkeit werden meist mehrere Proben entnommen.
-                        •	Der gesamte Eingriff dauert in der Regel 10–15 Minuten.`
+                question: "How is the procedure performed?",
+                answer: `•	The procedure is done under ultrasound guidance.
+                        •	After disinfection, I insert a very fine needle into the thyroid nodule.
+                        •	Several samples may be taken for accuracy.
+                        •	The entire procedure usually takes about 10–15 minutes.`
             },
             {
-                question: "Ist die Punktion schmerzhaft?",
-                answer: `Die meisten Patient:innen empfinden den Einstich als kaum schmerzhaft – vergleichbar mit einer Blutabnahme.`
+                question: "Is the biopsy painful?",
+                answer: `Most patients find it only mildly uncomfortable, similar to a blood test.`
             },
             {
-                question: "Muss ich mich vorbereiten?",
-                answer: `•	Eine spezielle Vorbereitung ist nicht notwendig.
-                        •	Bitte informieren Sie mich, wenn Sie blutverdünnende Medikamente (z. B. Aspirin, Marcoumar, Eliquis, Xarelto) einnehmen – diese müssen eventuell nach Rücksprache mit Ihrem Hausarzt angepasst werden.
-                        •	Essen und Trinken vor der Untersuchung ist erlaubt.`
+                question: "Do I need to prepare?",
+                answer: `•	No special preparation is needed.
+                        •	Please inform me if you are taking blood-thinning medication (e.g., Aspirin, Eliquis, Marcoumar, Xarelto), as this may need to be adjusted in consultation with your treating physician.
+                        •	You can eat and drink as usual before the procedure.`
             },
             {
-                question: "Welche Risiken gibt es?",
-                answer: `Die Schilddrüsen-FNP gilt als sehr sicher. Gelegentlich können leichte Schmerzen, kleine Blutergüsse oder eine vorübergehende Schwellung auftreten. Schwere Komplikationen sind äußerst selten.`
+                question: "What are the risks?",
+                answer: `The thyroid FNA is very safe. Rare side effects include mild pain, small bruising, or temporary swelling. Serious complications are extremely rare.`
             },
             {
-                question: "Wie zuverlässig ist das Ergebnis?",
-                answer: `•	In ca. 70–80 % der Fälle ergibt sich ein eindeutiges (gutartig oder bösartig) Ergebnis.
-                    •	In 20–30 % kann das Ergebnis unklar sein – dann sind manchmal eine Wiederholung oder weitere Tests notwendig.
-                    •	Insgesamt ist die FNP die verlässlichste Erstuntersuchung zur Abklärung von Schilddrüsenknoten.`
+                question: "How accurate are the results?",
+                answer: `•	In about 70–80% of cases the results are clearly benign or malignant.
+                        •	In about 20–30% the result may be indeterminate and require further tests.
+                        •	Overall, FNA is the most reliable first diagnostic step for thyroid nodules.`
             },
             {
-                question: "Wann liegt das Ergebnis vor?",
-                answer: `Das pathologische Ergebnis ist meist innerhalb von 3–7 Werktagen verfügbar.`
+                question: "When will I get the results?",
+                answer: `The pathology results are usually available within 3–7 working days.`
             },
             {
-                question: "Was passiert nach der Punktion?",
-                answer: `•	Sie können direkt nach der Untersuchung nach Hause gehen.
-                        •	Bitte meiden Sie körperliche Anstrengungen für 24 Stunden.
-                        •	Sollten Sie eine ungewöhnliche Schwellung oder stärkere Schmerzen bemerken (sehr selten), kontaktieren Sie mich bitte umgehend.`
+                question: "What happens afterwards?",
+                answer: `•	You can go home immediately after the biopsy.
+                        •	Please avoid heavy exercise for 24 hours.
+                        •	If you notice unusual swelling or pain (very rare), contact me immediately.`
             },
             {
-                question: "Wie geht es danach weiter?",
-                answer: `•	Gutartiger Befund: Beobachtung und regelmäßige Ultraschallkontrollen.
-                        •	Verdächtiger oder bösartiger Befund: Überweisung zur Operation.
-                        •	Unklarer Befund: Gelegentlich Wiederholung /Kontrolle notwendig.`
+                question: "Next Steps",
+                answer: `•	Benign result: observation with regular ultrasound follow-up.
+                        •	Suspicious or malignant result: referral for surgery or other therapy.
+                        •	Indeterminate result: sometimes a repeat biopsy or additional followup is required.`
             },
         ],
         img: schilddrüsenFeinnadelpunktion
@@ -615,13 +615,13 @@ const blogPosts: BlogPost[] = [
         ],
         faqsEn: [
             {
-                question: "Schilddrüsenhormone steuern Wachstum, Gehirnentwicklung und Stoffwechsel",
-                answer: `•	Zu viel (Hyperthyreose): Unruhe, Gewichtsverlust, Herzrasen, Konzentrationsprobleme.
-                        •	Zu wenig (Hypothyreose): Müdigkeit, Gewichtszunahme, Wachstumsstörung,`
+                question: "Thyroid hormones control growth, brain development, and metabolism",
+                answer: `•	Too much (hyperthyroidism): restlessness, weight loss, rapid heartbeat, poor concentration.
+                        •	Too little (hypothyroidism): tiredness, weight gain, slow growth, learning difficulties.`
             },
             {
-                question: "Eine rasche Behandlung ist entscheidend",
-                answer: `Wir betreuen Kinder (ab 5 Jahren) mit nachgewiesener Schilddrüsenfunktionsstörung, Schilddrüsenknoten, familiärer Belastung oder zur Langzeitnachsorge nach Schilddrüsenoperation.`
+                question: "Fast treatment is essential",
+                answer: `We see children (5+ years) with proven thyroid dysfunction, thyroid nodules, family history of thyroid disease/cancer, and for long-term follow-up after thyroid surgery`
             },
         ],
         img: schilddrüsenerkrankungenBeiKindern
