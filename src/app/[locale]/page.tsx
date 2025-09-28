@@ -20,7 +20,7 @@ export default async function Home({
       <Hero lo={locale} />
       <Termine />
       <Services />
-      <BlogCards />
+      <BlogCards lo={locale} />
       {/* <Faq /> */}
       {/* <About /> */}
     </main>

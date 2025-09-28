@@ -7,6 +7,7 @@ import FaqComponent from '@/components/Faq/Faq'
 import { Link } from '@/i18n/navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons'
+import { getTranslations } from 'next-intl/server'
 
 const blogPostPage = async ({
     params,
@@ -21,6 +22,8 @@ const blogPostPage = async ({
     }
     const { locale } = await params
 
+    const t = await getTranslations("Blog")
+
   return (
     <>
         <section className={styles.blogPost}>
@@ -28,7 +31,8 @@ const blogPostPage = async ({
             <div className="container">
                 <h2 className={styles.postTitle}>
                     {
-                        post.title
+                        locale === "en" ?
+                        post.titleEn : post.title
                     }
                 </h2>
                 <div className={styles.postInfo}>
@@ -53,7 +57,9 @@ const blogPostPage = async ({
         <FaqComponent faqs={locale === "en" ? post.faqsEn : post.faqs}/>
         <Link className={styles.allPostsLink} href={"/blog"}>
             <span>
-                See More Posts
+                {
+                    t("MorePosts")
+                }
             </span>
             <FontAwesomeIcon icon={faArrowCircleRight} />
         </Link>

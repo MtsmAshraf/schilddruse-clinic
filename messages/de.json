@@ -5,6 +5,16 @@
     "OnlineTermine": "Online-Termine",
     "DieOrdination": "Die Ordination"
   },
+  "Footer": {
+    "Pages": {
+      "Heading": "Seiten",
+      "Home": "Home",
+      "Services": "Leistungen",
+      "OnlineTermine": "Online-Termine",
+      "DieOrdination": "Die Ordination"
+    },
+    "Contact": "Kontakt"
+  },
   "BookBtn": {
     "Text":"Termin buchen"
   },
@@ -71,6 +81,14 @@
           "p": "Diagnostik und Therapie von Schilddrüsenerkrankungen bei Kindern (ab 5 Jahren)"
         }
       }
+    },
+    "Contact": {
+      "Heading": "Kontakt"
     }
+  },
+  "Blog": {
+    "Heading": "Blog",
+    "MorePosts": "Weitere Beiträge ansehen",
+    "ReadMore": "Weiterlesen"
   }
 }

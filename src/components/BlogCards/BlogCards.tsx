@@ -6,12 +6,20 @@ import { Link } from '@/i18n/navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
 import MainHeading from '../MainHeading/MainHeading'
+import { useTranslations } from 'next-intl'
 
-const BlogCards = () => {
+const BlogCards = ({
+    lo
+} : {
+    lo: string
+}) => {
+    const t = useTranslations("Blog")
   return (
     <section className={styles.blogCards}>
         <MainHeading>
-            Blog
+            {
+                t("Heading")
+            }
         </MainHeading>
         <div className="container">
             <ul className={styles.cards}>
@@ -37,12 +45,15 @@ const BlogCards = () => {
                                     </div>
                                     <p>
                                         {
-                                            post.brief
+                                            lo === "en" ?
+                                            post.briefEn : post.brief
                                         }
                                     </p>
                                     <Link href={`/blog/${post.id}`}>
                                         <span>
-                                            Read More
+                                            {
+                                                t("ReadMore")
+                                            }
                                         </span>
                                         <FontAwesomeIcon icon={faCircleArrowRight} />
                                     </Link>

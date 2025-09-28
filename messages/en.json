@@ -5,6 +5,16 @@
     "OnlineTermine": "Online Appointments",
     "DieOrdination": "Practice"
   },
+  "Footer": {
+    "Pages": {
+      "Heading": "Pages",
+      "Home": "Home",
+      "Services": "Services",
+      "OnlineTermine": "Online Appointments",
+      "DieOrdination": "Practice"
+    },
+    "Contact": "Contact Us"
+  },
   "BookBtn": {
     "Text": "Book Appointment"
   },
@@ -71,6 +81,15 @@
           "p": "Individuelle Diagnostik und Therapie bei auffälligen Schilddrüsenwerten im Kindesalter"
         }
       }
+    },
+    "Contact": {
+      "Heading": "Contact Us"
     }
+  },
+  "Blog": {
+    "Heading": "Blog",
+    "MorePosts": "See More Posts",
+    "ReadMore": "Read More"
   }
+
 }

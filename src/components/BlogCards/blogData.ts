@@ -16,10 +16,13 @@ export type Faq = {
 export type BlogPost = {
     id: string;
     title: string;
+    titleEn: string;
     brief: string;
+    briefEn: string;
     date: string;
     author: string
     body?: string;
+    bodyEn?: string;
     faqs: Faq[],
     faqsEn: Faq[],
     img: StaticImageData
@@ -30,7 +33,9 @@ const blogPosts: BlogPost[] = [
     {
         id: "1",
         title: "Hashimoto",
+        titleEn: "Hashimoto’s disease",
         brief: "Hashimoto-Thyreoiditis ist eine Autoimmunerkrankung, bei der das Immunsystem die Schilddrüse angreift. Häufig führt dies zu einer Schilddrüsenunterfunktion.",
+        briefEn: "Hashimoto’s thyroiditis is an autoimmune condition where the immune system attacks the thyroid gland, often leading to hypothyroidism (underactive thyroid).",
         date: "Septemper, 2025",
         author: "Dr.in Fairoz Mohammed",
         faqs: [
@@ -127,12 +132,12 @@ const blogPosts: BlogPost[] = [
             {
                 question: "What are the common symptoms?",
                 answer: `• Fatigue and low energy
-• Weight gain or difficulty losing weight
-• Feeling cold
-• Hair loss, dry skin, brittle nails
-• Mood changes (depression, anxiety, irritability)
-• Brain fog or poor concentration
-• Constipation and slow digestion
+                        • Weight gain or difficulty losing weight
+                        • Feeling cold
+                        • Hair loss, dry skin, brittle nails
+                        • Mood changes (depression, anxiety, irritability)
+                        • Brain fog or poor concentration
+                        • Constipation and slow digestion
                     `
             },
             {
@@ -192,7 +197,9 @@ const blogPosts: BlogPost[] = [
     {
         id: "2",
         title: "Morbus Basedow",
+        titleEn: "Graves’ disease (Morbus Basedow)",
         brief: "Morbus Basedow ist eine Autoimmunerkrankung, bei der das Immunsystem die Schilddrüse überstimuliert. Dadurch entsteht eine Überfunktion der Schilddrüse (Hyperthyreose).",
+        briefEn: "Graves’ disease is an autoimmune condition where the immune system overstimulates the thyroid gland, leading to hyperthyroidism (overactive thyroid).",
         date: "Septemper, 2025",
         author: "Dr.in Fairoz Mohammed",
         faqs: [
@@ -300,8 +307,10 @@ const blogPosts: BlogPost[] = [
     },
     {   
         id: "3",
-        title: "Thyroid and pregnancy",
+        title: "Schilddrüse & Schwangerschaft",
+        titleEn: "Thyroid and pregnancy",
         brief: "Die Schilddrüse produziert Hormone (T4 und T3), die für die Entwicklung des Gehirns und des Nervensystems des Babys entscheidend sind – besonders im 1. Trimester, wenn das Kind noch keine eigenen Hormone bilden kann.",
+        briefEn: "The thyroid produces hormones (T4 and T3) essential for the baby’s brain and nervous system development, especially in the first trimester when the baby cannot produce its own hormones.",
         date: "Septemper, 2025",
         author: "Dr.in Fairoz Mohammed",
         faqs: [
@@ -387,7 +396,9 @@ const blogPosts: BlogPost[] = [
     {
         id: "4",
         title: "Schilddrüsen-knoten",
+        titleEn: "Thyroid Nodules",
         brief: "Schilddrüsenknoten sind Gewebeveränderungen in der Schilddrüse. Sie sind sehr häufig und meist gutartig.",
+        briefEn: "Thyroid nodules are growths or lumps within the thyroid gland. They are common and usually benign.",
         date: "Septemper, 2025",
         author: "Dr.in Fairoz Mohammed",
         faqs: [
@@ -473,7 +484,9 @@ const blogPosts: BlogPost[] = [
     {
         id: "5",
         title: "Schilddrüsen-Feinnadelpunktion (FNP / Fine Needle Aspiration – FNA)",
+        titleEn: "Thyroid Fine Needle Biopsy (FNA / Feinnadelpunktion)",
         brief: "In meiner Ordination biete ich die Schilddrüsen-Feinnadelpunktion (FNP) als schonende und zuverlässige Methode an, um unklare Schilddrüsenknoten abzuklären.",
+        briefEn: "At my clinic, I offer thyroid fine needle biopsy (FNA) as a gentle and reliable method to clarify suspicious thyroid nodules.",
         date: "Septemper, 2025",
         author: "Dr.in Fairoz Mohammed",
         faqs: [
@@ -593,14 +606,16 @@ const blogPosts: BlogPost[] = [
     {
         id: "6",
         title: "Schilddrüsenerkrankungen bei Kindern",
+        titleEn: "Thyroid disorders in children",
         brief: "Schilddrüsenhormone steuern Wachstum, Gehirnentwicklung und Stoffwechsel.",
+        briefEn: "Thyroid hormones control growth, brain development, and metabolism.",
         date: "Septemper, 2025",
         author: "Dr.in Fairoz Mohammed",
         body: `
-            Schilddrüsenhormone steuern Wachstum, Gehirnentwicklung und Stoffwechsel.
-                •	Zu viel (Hyperthyreose): Unruhe, Gewichtsverlust, Herzrasen, Konzentrationsprobleme.
-                •	Zu wenig (Hypothyreose): Müdigkeit, Gewichtszunahme, Wachstumsstörung, Lernschwierigkeiten.
-            👉 Eine rasche Behandlung ist entscheidend. Wir betreuen Kinder (ab 5 Jahren) mit nachgewiesener Schilddrüsenfunktionsstörung, Schilddrüsenknoten, familiärer Belastung oder zur Langzeitnachsorge nach Schilddrüsenoperation.
+            Thyroid hormones control growth, brain development, and metabolism.
+            •	Too much (hyperthyroidism): restlessness, weight loss, rapid heartbeat, poor concentration.
+            •	Too little (hypothyroidism): tiredness, weight gain, slow growth, learning difficulties.
+        👉 Fast treatment is essential. We see children (5+ years) with proven thyroid dysfunction, thyroid nodules, family history of thyroid disease/cancer, and for long-term follow-up after thyroid surgery.
         `,
         faqs: [
             {

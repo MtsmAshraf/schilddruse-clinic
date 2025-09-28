@@ -2,12 +2,15 @@ import React from 'react'
 import styles from "./contact.module.css"
 import MainHeading from '../MainHeading/MainHeading'
 import SocialUl from '../SocialUl/SocialUl'
+import { useTranslations } from 'next-intl'
 
 const Contact = ({
     lo
 } : {
     lo: string
 }) => {
+
+    const t = useTranslations("HomePage.Contact")
 
     const classNames = [
         lo === "ar" ? styles.ar : null,
@@ -17,8 +20,9 @@ const Contact = ({
   return (
     <section className={classNames.join(" ")}>
         <MainHeading>
-            {/* {t("Heading")} */}
-            Contact Us
+            {
+                t("Heading")
+            }
         </MainHeading>
         <div className="container">
             <div className={styles.info}>

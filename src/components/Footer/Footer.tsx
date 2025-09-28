@@ -10,39 +10,47 @@ const Footer = ({
 } : {
   lo: string
 }) => {
-  const t = useTranslations("Header")
+  const t = useTranslations("Footer")
   return (
     
     <footer className={lo === "ar" ? styles.footer + " " + styles.ar : styles.footer}>
         <div className={styles.overlay}></div>
         <div className="container">
             <div>
-            <h4>Pages</h4>
+            <h4>
+              {
+                t("Pages.Heading")
+              }
+            </h4>
             <div>
                 <Link href={"/"}>
                   {
-                    t("Home")
+                    t("Pages.Home")
                   }
                 </Link>
                 <Link href={`/services`}>
                   {
-                    t("Services")
+                    t("Pages.Services")
                   }
                 </Link>
                 <Link href={'/online-termine'}>
                   {
-                    t("OnlineTermine")
+                    t("Pages.OnlineTermine")
                   }
                 </Link>
                 <Link href={'/die-ordination'}>
                   {
-                    t("DieOrdination")
+                    t("Pages.DieOrdination")
                   }
                 </Link>
             </div>
             </div>
             <div>
-            <h4>Contact Us</h4>
+            <h4>
+              {
+                t("Contact")
+              }
+              </h4>
             <div className={styles.socials}>
               <a title="Whatsapp" target='_blank' href="https://wa.me/+436701960112">
                   <FontAwesomeIcon icon={faWhatsapp}/>
