@@ -21,6 +21,7 @@ export type BlogPost = {
     author: string
     body?: string;
     faqs: Faq[],
+    faqsEn: Faq[],
     img: StaticImageData
 }
 
@@ -118,6 +119,74 @@ const blogPosts: BlogPost[] = [
                 `
             },
         ],
+        faqsEn: [
+            {
+                question: "What is Hashimoto’s disease?",
+                answer: "Hashimoto’s thyroiditis is an autoimmune condition where the immune system attacks the thyroid gland, often leading to hypothyroidism (underactive thyroid)."
+            },
+            {
+                question: "What are the common symptoms?",
+                answer: `• Fatigue and low energy
+• Weight gain or difficulty losing weight
+• Feeling cold
+• Hair loss, dry skin, brittle nails
+• Mood changes (depression, anxiety, irritability)
+• Brain fog or poor concentration
+• Constipation and slow digestion
+                    `
+            },
+            {
+                question: "How does Hashimoto’s affect the body and life?",
+                answer: "It can slow metabolism, increase cholesterol, affect the heart, muscles, digestion, reproductive system (menstrual cycle, fertility), and strongly influence mood and mental health."
+            },
+            {
+                question: "How is it diagnosed?",
+                answer: "Blood tests: TSH, free T4, and thyroid antibodies (TPO, TG). Sometimes ultrasound of the thyroid."
+            },
+            {
+                question: "Can Hashimoto be managed naturally before starting therapy?",
+                answer: `Yes – lifestyle can make a big difference:
+• Anti-inflammatory diet (fruits, vegetables, whole foods)
+• Reduce processed foods and sugar
+• Correct nutrient deficiencies (Vitamin D, Selenium, Zinc, B12)
+• Stress reduction (yoga, meditation, mindfulness)
+• Regular exercise and good sleep
+• Consider gluten-free if sensitive
+                `
+            },
+            {
+                question: "When is medication necessary?",
+                answer: "If blood tests show significant hypothyroidism, or symptoms strongly affect daily life. The standard therapy is levothyroxine (T4 replacement)."
+            },
+            {
+                question: "Will I live a normal life with Hashimoto?",
+                answer: "Yes – with proper monitoring, healthy lifestyle, and treatment when necessary, most people live full, healthy lives."
+            },
+            {
+                question: "I have a family history of Hashimoto’s. Does that mean I or my children will also develop Hashimoto? How can I manage this risk?",
+                answer: `• Having family members (parents, siblings) with Hashimoto’s or other thyroid autoimmune disease does increase your risk. One study showed that first-degree relatives have a significantly higher likelihood of having thyroid antibodies or developing hypothyroidism due to Hashimoto’s.  
+• But increased risk does not mean it’s certain. Many with family history never develop the disease.
+
+• To manage or possibly reduce risk:
+1. Get screened periodically if symptoms appear (blood tests for TSH, free T4, antibodies).
+
+2. Maintain a healthy lifestyle: balanced diet, avoid excessive iodine, manage stress, regular physical activity.
+
+3. Correction of nutritional deficiencies (e.g. vitamin D, selenium) if present.
+
+4. Avoid environmental triggers (e.g. smoking, high radiation, toxins).
+                `
+            },
+            {
+                question: "Does having Hashimoto mean I’m likely to have other autoimmune diseases as well?",
+                answer: `• Yes. People with Hashimoto’s are more likely than the general population to have or develop other autoimmune disorders. Examples include celiac disease, rheumatoid arthritis, type 1 diabetes, vitiligo and pernicious anemia.  
+
+                • The risk is not overwhelming for everyone, but it is significantly higher.
+
+                • If symptoms of another autoimmune disease appear (digestive issues, skin changes, etc.), discussing screening with your physician is reasonable.
+                `
+            },
+        ],
         img: hashimotoImg
     },
     {
@@ -127,6 +196,7 @@ const blogPosts: BlogPost[] = [
         date: "Septemper, 2025",
         author: "Dr.in Fairoz Mohammed",
         faqs: [
+            
             {
                 question: "Was ist Morbus Basedow?",
                 answer: "Morbus Basedow ist eine Autoimmunerkrankung, bei der das Immunsystem die Schilddrüse überstimuliert. Dadurch entsteht eine Überfunktion der Schilddrüse (Hyperthyreose)."
@@ -176,6 +246,56 @@ const blogPosts: BlogPost[] = [
                 answer: `Mit konsequenter Behandlung und Kontrolle können die meisten Patienten ein normales Leben führen. Manche entwickeln im Verlauf eine Schilddrüsenunterfunktion und benötigen dann dauerhaft Schilddrüsenhormone.`
             }
         ],
+        faqsEn: [
+            {
+                question: " What is Graves’ disease (Morbus Basedow)?",
+                answer: "Graves’ disease is an autoimmune condition where the immune system overstimulates the thyroid gland, leading to hyperthyroidism (overactive thyroid)."
+            },
+            {
+                question: "What are the common symptoms?",
+                answer: `• Weight loss despite normal or increased appetite
+                        • Rapid heartbeat (palpitations)
+                        • Sweating, heat intolerance
+                        • Nervousness, anxiety, irritability
+                        • Shaking hands (tremor)
+                        • Fatigue and muscle weakness
+                        • Enlarged thyroid (goiter)
+                        • Eye changes (Graves’ orbitopathy): bulging eyes, eye irritation, double vision
+                        `
+            },
+            {
+                question: "How is Graves’ disease diagnosed?",
+                answer: `• Blood tests: Low TSH, high free T4/T3, and thyroid antibodies (TRAb).
+                        • Ultrasound of the thyroid.
+                        • Sometimes a radioactive iodine uptake scan.
+                        `
+            },
+            {
+                question: " Is Graves’ disease hereditary?",
+                answer: `A family history increases the risk, but not everyone develops it. It is also influenced by environment and lifestyle.`
+            },
+            {
+                question: "How is it treated?",
+                answer: `• Medication: Antithyroid drugs (e.g. methimazole, carbimazole, propylthiouracil).
+                        • Radioactive iodine therapy (to shrink/ablate the thyroid).
+                        • Surgery: In selected cases.
+                        • Eye symptoms may require additional treatment (lubricating drops, steroids, or surgery).
+                        `
+            },
+            {
+                question: "Can lifestyle changes help?",
+                answer: `Yes – while they don’t replace medical treatment, they may reduce symptoms:
+                        • Avoid smoking (worsens eye disease).
+                        • Reduce stress.
+                        • Eat a balanced diet with enough calcium and vitamin D (protects bone health).
+                        • Regular follow-up with your doctor.
+                        `
+            },
+            {
+                question: "What is the long-term outlook?",
+                answer: `With proper treatment and monitoring, most patients live healthy lives. Some may later develop hypothyroidism and need lifelong thyroid hormone replacement.`
+            }
+        ],
         img: morbusImg
     },
     {   
@@ -185,6 +305,45 @@ const blogPosts: BlogPost[] = [
         date: "Septemper, 2025",
         author: "Dr.in Fairoz Mohammed",
         faqs: [
+            {
+                question: "Warum ist die Schilddrüse in der Schwangerschaft so wichtig?",
+                answer: `Die Schilddrüse produziert Hormone (T4 und T3), die für die Entwicklung des Gehirns und des Nervensystems des Babys entscheidend sind – besonders im 1. Trimester, wenn das Kind noch keine eigenen Hormone bilden kann.`
+            },
+            {
+                question: "Soll ich meine Schilddrüse prüfen lassen, bevor ich schwanger werde?",
+                answer: `Ja. Frauen mit Schilddrüsenerkrankungen oder Risikofaktoren (familiäre Belastung, Autoimmunerkrankungen, Unfruchtbarkeit, Fehlgeburten in der Vorgeschichte) sollten ihre Schilddrüsenfunktion vor der Schwangerschaft testen lassen.`
+            },
+            {
+                question: "Wie verändert die Schwangerschaft die Schilddrüse?",
+                answer: `Der Hormonbedarf steigt. Die Schilddrüse muss stärker arbeiten, und das Schwangerschaftshormon hCG kann die Schilddrüse zusätzlich anregen.`
+            },
+            {
+                question: "Welche Schilddrüsenprobleme können in der Schwangerschaft auftreten?",
+                answer: `• Hypothyreose (Unterfunktion): erhöhtes Risiko für Fehlgeburten, Präeklampsie, Anämie, niedriges Geburtsgewicht und Entwicklungsstörungen beim Kind.
+                        • Hyperthyreose (Überfunktion): erhöhtes Risiko für Frühgeburten, Präeklampsie, niedriges Geburtsgewicht.
+                        • Postpartale Thyreoiditis: vorübergehende Entzündung nach der Geburt mit Über- oder Unterfunktion.
+                        `
+            },
+            {
+                question: "Wie werden Schilddrüsenprobleme in der Schwangerschaft behandelt?",
+                answer: `• Unterfunktion: Levothyroxin ist sicher und notwendig.
+                        • Überfunktion: Thyreostatika werden vorsichtig eingesetzt (Propylthiouracil im 1. Trimester, später Thiamazol).
+                        • Engmaschige Kontrollen mit Bluttests alle 4–6 Wochen sind wichtig.
+                        `
+            },
+            {
+                question: "Was passiert nach der Entbindung?",
+                answer: `• Der Bedarf an Schilddrüsenhormon kann sich ändern.
+                        • Postpartale Thyreoiditis kann Müdigkeit, Stimmungsschwankungen oder Herzklopfen verursachen – oft wird das mit „normalen“ Nachgeburtsbeschwerden verwechselt.
+                        • Frauen mit Schilddrüsenerkrankungen sollten 6–12 Wochen nach der Geburt ihre Werte kontrollieren lassen.
+                        `
+            },
+            {
+                question: "Kann ich mit einer Schilddrüsenerkrankung stillen?",
+                answer: `Ja. Levothyroxin ist unbedenklich. Auch Thyreostatika können in niedriger Dosis unter ärztlicher Aufsicht eingesetzt werden.`
+            },
+        ],
+        faqsEn: [
             {
                 question: "Warum ist die Schilddrüse in der Schwangerschaft so wichtig?",
                 answer: `Die Schilddrüse produziert Hormone (T4 und T3), die für die Entwicklung des Gehirns und des Nervensystems des Babys entscheidend sind – besonders im 1. Trimester, wenn das Kind noch keine eigenen Hormone bilden kann.`
@@ -270,6 +429,45 @@ const blogPosts: BlogPost[] = [
                 answer: `Die meisten Knoten sind harmlos. Nur etwa 5 % sind bösartig, und auch Schilddrüsenkrebs ist in vielen Fällen gut behandelbar.`
             }
         ],
+        faqsEn: [
+            {
+                question: "What are thyroid nodules?",
+                answer: `Thyroid nodules are growths or lumps within the thyroid gland. They are common and usually benign.`
+            },
+            {
+                question: "How common are they?",
+                answer: `Up to one in three adults develop thyroid nodules during their lifetime. Women are more often affected than men.`
+            },
+            {
+                question: "What symptoms may occur?",
+                answer: `•	Often no symptoms at all
+	•	A feeling of pressure or a lump in the throat
+	•	Difficulty swallowing or hoarseness (with larger nodules)
+	•	In rare cases, overactive thyroid symptoms (nervousness, rapid heartbeat, weight loss)`
+            },
+            {
+                question: "How are thyroid nodules diagnosed?",
+                answer: `•	Thyroid ultrasound
+	•	Blood tests (TSH, T3, T4)
+	•	Thyroid scintigraphy (to differentiate “cold” vs. “hot” nodules)
+	•	Fine-needle aspiration biopsy if malignancy is suspected`
+            },
+            {
+                question: "What does “hot” or “cold” nodule mean?",
+                answer: `•	Hot nodules: produce excess hormones → almost always benign.
+	•	Cold nodules: do not produce hormones → sometimes malignant, further testing may be needed.`
+            },
+            {
+                question: "How are nodules treated?",
+                answer: `•	Small, benign nodules: regular monitoring.
+                        •	Overactive nodules: medication, radioactive iodine, or surgery.
+                        •	Suspicious nodules or cancer: surgical removal.`
+            },
+            {
+                question: "What is the prognosis?",
+                answer: `Most nodules are harmless. Only about 5% are malignant, and even thyroid cancer is treatable in many cases.`
+            }
+        ],
         img: thyroidNodulesImg
     },
     {
@@ -279,6 +477,62 @@ const blogPosts: BlogPost[] = [
         date: "Septemper, 2025",
         author: "Dr.in Fairoz Mohammed",
         faqs: [
+            {
+                question: "Was ist eine Schilddrüsen-Feinnadelpunktion?",
+                answer: "Dabei handelt es sich um einen einfachen, minimal-invasiven Eingriff. Unter Ultraschallkontrolle entnehme ich mit einer sehr dünnen Nadel eine kleine Zellprobe aus einem Schilddrüsenknoten. Diese wird anschließend von einem spezialisierten Pathologen untersucht, um zu klären, ob der Knoten gutartig oder verdächtig ist."
+            },
+            {
+                question: "Warum wird die Punktion empfohlen?",
+                answer: `•	Um festzustellen, ob ein Schilddrüsenknoten harmlos oder potenziell bösartig ist.
+                •	Um unnötige Operationen zu vermeiden, wenn der Knoten gutartig ist.
+                •	Um die beste weitere Therapieentscheidung treffen zu können.
+                `
+            },
+            {
+                question: "Wie läuft die Untersuchung ab?",
+                answer: `•	Die Punktion erfolgt stets unter Ultraschallkontrolle.
+                        •	Nach Desinfektion wird mit einer sehr feinen Nadel der Knoten punktiert.
+                        •	Zur Erhöhung der Genauigkeit werden meist mehrere Proben entnommen.
+                        •	Der gesamte Eingriff dauert in der Regel 10–15 Minuten.`
+            },
+            {
+                question: "Ist die Punktion schmerzhaft?",
+                answer: `Die meisten Patient:innen empfinden den Einstich als kaum schmerzhaft – vergleichbar mit einer Blutabnahme.`
+            },
+            {
+                question: "Muss ich mich vorbereiten?",
+                answer: `•	Eine spezielle Vorbereitung ist nicht notwendig.
+                        •	Bitte informieren Sie mich, wenn Sie blutverdünnende Medikamente (z. B. Aspirin, Marcoumar, Eliquis, Xarelto) einnehmen – diese müssen eventuell nach Rücksprache mit Ihrem Hausarzt angepasst werden.
+                        •	Essen und Trinken vor der Untersuchung ist erlaubt.`
+            },
+            {
+                question: "Welche Risiken gibt es?",
+                answer: `Die Schilddrüsen-FNP gilt als sehr sicher. Gelegentlich können leichte Schmerzen, kleine Blutergüsse oder eine vorübergehende Schwellung auftreten. Schwere Komplikationen sind äußerst selten.`
+            },
+            {
+                question: "Wie zuverlässig ist das Ergebnis?",
+                answer: `•	In ca. 70–80 % der Fälle ergibt sich ein eindeutiges (gutartig oder bösartig) Ergebnis.
+                    •	In 20–30 % kann das Ergebnis unklar sein – dann sind manchmal eine Wiederholung oder weitere Tests notwendig.
+                    •	Insgesamt ist die FNP die verlässlichste Erstuntersuchung zur Abklärung von Schilddrüsenknoten.`
+            },
+            {
+                question: "Wann liegt das Ergebnis vor?",
+                answer: `Das pathologische Ergebnis ist meist innerhalb von 3–7 Werktagen verfügbar.`
+            },
+            {
+                question: "Was passiert nach der Punktion?",
+                answer: `•	Sie können direkt nach der Untersuchung nach Hause gehen.
+                        •	Bitte meiden Sie körperliche Anstrengungen für 24 Stunden.
+                        •	Sollten Sie eine ungewöhnliche Schwellung oder stärkere Schmerzen bemerken (sehr selten), kontaktieren Sie mich bitte umgehend.`
+            },
+            {
+                question: "Wie geht es danach weiter?",
+                answer: `•	Gutartiger Befund: Beobachtung und regelmäßige Ultraschallkontrollen.
+                        •	Verdächtiger oder bösartiger Befund: Überweisung zur Operation.
+                        •	Unklarer Befund: Gelegentlich Wiederholung /Kontrolle notwendig.`
+            },
+        ],
+        faqsEn: [
             {
                 question: "Was ist eine Schilddrüsen-Feinnadelpunktion?",
                 answer: "Dabei handelt es sich um einen einfachen, minimal-invasiven Eingriff. Unter Ultraschallkontrolle entnehme ich mit einer sehr dünnen Nadel eine kleine Zellprobe aus einem Schilddrüsenknoten. Diese wird anschließend von einem spezialisierten Pathologen untersucht, um zu klären, ob der Knoten gutartig oder verdächtig ist."
@@ -349,6 +603,17 @@ const blogPosts: BlogPost[] = [
             👉 Eine rasche Behandlung ist entscheidend. Wir betreuen Kinder (ab 5 Jahren) mit nachgewiesener Schilddrüsenfunktionsstörung, Schilddrüsenknoten, familiärer Belastung oder zur Langzeitnachsorge nach Schilddrüsenoperation.
         `,
         faqs: [
+            {
+                question: "Schilddrüsenhormone steuern Wachstum, Gehirnentwicklung und Stoffwechsel",
+                answer: `•	Zu viel (Hyperthyreose): Unruhe, Gewichtsverlust, Herzrasen, Konzentrationsprobleme.
+                        •	Zu wenig (Hypothyreose): Müdigkeit, Gewichtszunahme, Wachstumsstörung,`
+            },
+            {
+                question: "Eine rasche Behandlung ist entscheidend",
+                answer: `Wir betreuen Kinder (ab 5 Jahren) mit nachgewiesener Schilddrüsenfunktionsstörung, Schilddrüsenknoten, familiärer Belastung oder zur Langzeitnachsorge nach Schilddrüsenoperation.`
+            },
+        ],
+        faqsEn: [
             {
                 question: "Schilddrüsenhormone steuern Wachstum, Gehirnentwicklung und Stoffwechsel",
                 answer: `•	Zu viel (Hyperthyreose): Unruhe, Gewichtsverlust, Herzrasen, Konzentrationsprobleme.
