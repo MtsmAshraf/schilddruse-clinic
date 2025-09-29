@@ -9,7 +9,6 @@ export default function BookBtn() {
 
   const t = useTranslations("BookBtn")
 
-    const showModal = useSelector((state: any) => state.showPopupModal.showPopupModal);
     const dispatch = useDispatch();
 
   return <button
