@@ -31,6 +31,16 @@ const BlogCards = ({
                                     <Image loading='lazy' src={post.img.src} alt={post.title} width={200} height={200}></Image>
                                 </Link>
                                 <div className={styles.cardText}>
+                                    {
+                                        post.cardTitle === false ? 
+                                        <h3>
+                                            {
+                                                lo === "en" ? post.titleEn : post.title
+                                            }
+                                        </h3> 
+                                        :
+                                        null
+                                    }
                                     <div>
                                         <h5>
                                             {

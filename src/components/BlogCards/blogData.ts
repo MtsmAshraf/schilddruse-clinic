@@ -17,6 +17,7 @@ export type BlogPost = {
     id: string;
     title: string;
     titleEn: string;
+    cardTitle?: boolean;
     brief: string;
     briefEn: string;
     date: string;
@@ -397,6 +398,7 @@ const blogPosts: BlogPost[] = [
         id: "4",
         title: "Schilddrüsen-knoten",
         titleEn: "Thyroid Nodules",
+        cardTitle: false,
         brief: "Schilddrüsenknoten sind Gewebeveränderungen in der Schilddrüse. Sie sind sehr häufig und meist gutartig.",
         briefEn: "Thyroid nodules are growths or lumps within the thyroid gland. They are common and usually benign.",
         date: "Septemper, 2025",
@@ -485,6 +487,7 @@ const blogPosts: BlogPost[] = [
         id: "5",
         title: "Schilddrüsen-Feinnadelpunktion (FNP / Fine Needle Aspiration – FNA)",
         titleEn: "Thyroid Fine Needle Biopsy (FNA / Feinnadelpunktion)",
+        cardTitle: false,
         brief: "In meiner Ordination biete ich die Schilddrüsen-Feinnadelpunktion (FNP) als schonende und zuverlässige Methode an, um unklare Schilddrüsenknoten abzuklären.",
         briefEn: "At my clinic, I offer thyroid fine needle biopsy (FNA) as a gentle and reliable method to clarify suspicious thyroid nodules.",
         date: "Septemper, 2025",
@@ -605,8 +608,9 @@ const blogPosts: BlogPost[] = [
     },
     {
         id: "6",
-        title: "Schilddrüsenerkrankungen bei Kindern",
+        title: "Schilddrüsen-erkrankungen bei Kindern",
         titleEn: "Thyroid disorders in children",
+        cardTitle: false,
         brief: "Schilddrüsenhormone steuern Wachstum, Gehirnentwicklung und Stoffwechsel.",
         briefEn: "Thyroid hormones control growth, brain development, and metabolism.",
         date: "Septemper, 2025",
