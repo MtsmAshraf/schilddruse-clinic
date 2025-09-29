@@ -19,3 +19,23 @@
         margin-top: 189px;
     }
 }
+.dieOrdination .imgsContainer {
+    background-color: #fff;
+    box-shadow: var(--main-shadow);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+
+    column-count: 3; /* number of columns */
+    column-gap: 20px;   /* no gap between images */
+}
+
+.dieOrdination .imgsContainer img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: var(--main-shadow);
+}
