@@ -20,7 +20,7 @@
     box-shadow: var(--main-shadow);
 }
 @media (max-width: 767px) {
-dinationComponent .imgsContainer {
+.ordinationComponent .imgsContainer {
         column-count: 2; 
     }
 }
