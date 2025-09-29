@@ -10,10 +10,10 @@ const Loader = () => {
     useEffect(() => {
         setTimeout(() => {
             setLoaded(true)
-        }, 300);
+        }, 600);
         setTimeout(() => {
             setHide(true)
-        }, 500);
+        }, 1000);
     },[])
     const classNames = [
         "loading",
