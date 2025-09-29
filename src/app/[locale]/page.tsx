@@ -5,6 +5,7 @@ import styles from "./home.module.css"
 import Loader from "@/components/Loader/Loader";
 import Services from "@/components/Services/Services";
 import Termine from "@/components/Termine/Termine";
+import OrdinationComponent from "@/components/OrdinationComponent/OrdinationComponent";
 
 export default async function Home({
   params
@@ -20,6 +21,7 @@ export default async function Home({
       <Hero lo={locale} />
       <Termine />
       <Services />
+      <OrdinationComponent />
       <BlogCards lo={locale} />
       {/* <Faq /> */}
       {/* <About /> */}
