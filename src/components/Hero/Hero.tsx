@@ -59,7 +59,7 @@ const Hero = ({
             <Swiper
                 loop
                 autoplay={{
-                    delay: 10000
+                    delay: 12000
                 }}
                 slidesPerView= {1}
                 spaceBetween={0}
