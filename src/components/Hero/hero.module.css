@@ -2,7 +2,7 @@
     position: relative;
     isolation: isolate;
     overflow: hidden;
-    min-height: calc(70vh - 70px);
+    min-height: calc(60vh - 70px);
     margin-top: 248px;
     background-color: var(--slider-bg);
 }
@@ -30,7 +30,7 @@
 }
 .hero .slide{
     position: relative;
-    min-height: calc(70vh - 70px);
+    min-height: calc(60vh - 70px);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -65,8 +65,8 @@
     transform: translateY(-50%);
     z-index: 3;
     font-size: 24px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 10px;
     background-color: #00000051;
     color: #fff;
