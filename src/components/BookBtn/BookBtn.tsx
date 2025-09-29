@@ -1,23 +1,20 @@
 "use client"
-import { getCalApi } from "@calcom/embed-react";
 import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
-import { useEffect } from "react";
+import { useDispatch, useSelector } from 'react-redux';
+import { toggleShowPopupModal } from '@/store/showPopupModalSlice';
+
 export default function BookBtn() {
 
   const t = useTranslations("BookBtn")
 
-  useEffect(() => {
-    (async function () {
-      const cal = await getCalApi({"namespace":"first-visit"});
-      cal("ui", {"theme":"light","cssVarsPerTheme":{"light":{"cal-brand":"#1197f0"},"dark":{"cal-brand":"#1197f0"}},"hideEventTypeDetails":true,"layout":"month_view"});
-    })();
-  }, [])
-  return <button data-cal-namespace="first-visit"
-    data-cal-link="moatasim-ashraf-jez60p/first-visit"
+    const showModal = useSelector((state: any) => state.showPopupModal.showPopupModal);
+    const dispatch = useDispatch();
+
+  return <button
     className={"book-btn main"}
-    data-cal-config='{"layout":"month_view","theme":"light"}'
+    onClick={() => dispatch(toggleShowPopupModal())}
   >
     <FontAwesomeIcon icon={faCalendarDays} />
     <span>

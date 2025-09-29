@@ -73,7 +73,7 @@ const Termine = () => {
                     </ul>
                     <p>
                         <span>
-                            Bitte bringen Sie Ihre aktuellen Laborbefunde vom Hausarzt mit (TSH, fT3, fT4, TPO-AK, Tg-AK, TRAK sowie kleines Blutbild)                        
+                            Bitte bringen Sie Ihre aktuellen Laborbefunde vom Hausarzt mit (TSH, fT3, fT4, TPO-AK, Tg-AK, TRAK sowie komplettes Blutbild)                        
                         </span>
                     </p>
                     <p>

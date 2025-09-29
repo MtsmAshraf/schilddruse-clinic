@@ -6,6 +6,8 @@ import Loader from "@/components/Loader/Loader";
 import Services from "@/components/Services/Services";
 import Termine from "@/components/Termine/Termine";
 import OrdinationComponent from "@/components/OrdinationComponent/OrdinationComponent";
+import { Provider } from "react-redux";
+import { store } from "../../store/store"
 
 export default async function Home({
   params
@@ -16,15 +18,17 @@ export default async function Home({
   // const t = useTranslations('HomePage');
   // const t = await getTranslations('HomePage');
   return (
-    <main className={styles.home}>
-      <Loader />
-      <Hero lo={locale} />
-      <Termine />
-      <Services />
-      <OrdinationComponent />
-      <BlogCards lo={locale} />
-      {/* <Faq /> */}
-      {/* <About /> */}
-    </main>
+    <Provider store={store}>
+      <main className={styles.home}>
+        <Loader />
+        <Hero lo={locale} />
+        <Termine />
+        <Services />
+        <OrdinationComponent />
+        <BlogCards lo={locale} />
+        {/* <Faq /> */}
+        {/* <About /> */}
+      </main>
+    </Provider>
   );
 }
