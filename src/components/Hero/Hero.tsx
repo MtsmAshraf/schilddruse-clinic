@@ -67,6 +67,8 @@ const Hero = ({
                     clickable: true,
                     el: `.heroPagination`
                 }}
+                watchSlidesProgress
+                lazyPreloadPrevNext={0}
                 modules={[Navigation, Pagination, Autoplay]}
                 navigation={{
                     nextEl: '.featured-swiper-button-next',

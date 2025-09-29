@@ -5,7 +5,7 @@
 }
 @media (max-width: 1200px) {
     .dieOrdination{
-        /* margin-top: 2482px; */
+        
         margin-top: 239px;
     }
 }
@@ -25,9 +25,10 @@
     border-radius: 10px;
     border: 1px solid #ccc;
     padding: 20px;
-
-    column-count: 3; /* number of columns */
-    column-gap: 20px;   /* no gap between images */
+    width: 800px;
+    max-width: 100%;
+    column-count: 3; 
+    column-gap: 20px;   
 }
 
 .dieOrdination .imgsContainer img {

@@ -3,11 +3,11 @@ import styles from "./die-ordination.module.css"
 import MainHeading from '@/components/MainHeading/MainHeading'
 import Image from 'next/image'
 
-import clinic1 from "../../../../public/images/clinic-1.png"
-import clinic2 from "../../../../public/images/clinic-2.jpeg"
-import clinic3 from "../../../../public/images/clinic-3.jpeg"
-import clinic4 from "../../../../public/images/clinic-4.jpeg"
-import clinic5 from "../../../../public/images/clinic-5.jpeg"
+import clinic1 from "../../../../public/images/clinic-1.webp"
+import clinic2 from "../../../../public/images/clinic-2.webp"
+import clinic3 from "../../../../public/images/clinic-3.webp"
+import clinic4 from "../../../../public/images/clinic-4.webp"
+import clinic5 from "../../../../public/images/clinic-5.webp"
 import { useTranslations } from 'next-intl'
 
 
