@@ -2,7 +2,7 @@
     position: relative;
     isolation: isolate;
     overflow: hidden;
-    min-height: calc(60vh - 70px);
+    min-height: calc(50vh - 70px);
     margin-top: 248px;
     background-color: var(--slider-bg);
 }
@@ -30,7 +30,7 @@
 }
 .hero .slide{
     position: relative;
-    min-height: calc(60vh - 70px);
+    min-height: calc(50vh - 70px);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -84,7 +84,7 @@
 }
 .hero .heroPagination{
     position: absolute;
-    top: 20px;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
@@ -236,15 +236,15 @@
     }
     .hero .slide:not(.main) .text{
         width: 100%;
-        height: calc((70vh - 70px) / 2);;
+        height: calc((50vh - 70px) / 2);;
     }
     .hero .slide:not(.main) .img{
         width: 100%;
         height: 50%;
     }
     .hero .text h2{
-        font-size: 26px;
-        margin-bottom: 10px;
+        font-size: 22px;
+        margin-bottom: 20px;
         text-align: center;
     }
     .hero .text p{
