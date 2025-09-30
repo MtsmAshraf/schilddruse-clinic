@@ -18,6 +18,7 @@
   "BookBtn": {
     "Text":"Termin buchen",
     "Modal": {
+      "Heading": "Besuchsart auswählen",
       "First": "Erstbesuch",
       "FollowUp": "Nachsorge"
     }

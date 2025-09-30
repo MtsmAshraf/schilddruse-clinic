@@ -18,6 +18,7 @@
   "BookBtn": {
     "Text":"Book Appointment",
     "Modal": {
+      "Heading": "Select Visit Type",
       "First": "First Visit",
       "FollowUp": "Follow-up"
     }

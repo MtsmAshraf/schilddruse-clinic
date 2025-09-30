@@ -13,7 +13,7 @@
     width: 100vw;
     height: 100vh;
     background-color: #000;
-    opacity: 0.5;
+    opacity: 0.8;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -43,6 +43,14 @@
     border-radius: 10px;
     border: 1px solid #ccc;
     position: relative;
+}
+.popupModal .content h3{
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.popupModal .content .modalBtns{
     display: flex;
     align-items: center;
     justify-content: center;

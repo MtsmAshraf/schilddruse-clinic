@@ -48,28 +48,35 @@ const PopupModal = () => {
                 <FontAwesomeIcon icon={faXmark} />
             </button>
             <div className={styles.content}>
-                <button data-cal-namespace="first-visit"
-                    data-cal-link="moatasim-ashraf-jez60p/first-visit"
-                    
-                    data-cal-config='{"layout":"month_view","theme":"light"}'
-                >
-                    <span>
-                        {
-                        t("Modal.First")
-                        }
-                    </span>
-                </button>
-                <button data-cal-namespace="follow-up"
-                    data-cal-link="moatasim-ashraf-jez60p/follow-up"
-                    
-                    data-cal-config='{"layout":"month_view","theme":"light"}'
-                >
-                    <span>
-                        {
-                        t("Modal.FollowUp")
-                        }
-                    </span>
-                </button>
+                <h3>
+                    {
+                        t("Modal.Heading")
+                    }
+                </h3>
+                <div className={styles.modalBtns}>
+                    <button data-cal-namespace="first-visit"
+                        data-cal-link="moatasim-ashraf-jez60p/first-visit"
+                        
+                        data-cal-config='{"layout":"month_view","theme":"light"}'
+                    >
+                        <span>
+                            {
+                            t("Modal.First")
+                            }
+                        </span>
+                    </button>
+                    <button data-cal-namespace="follow-up"
+                        data-cal-link="moatasim-ashraf-jez60p/follow-up"
+                        
+                        data-cal-config='{"layout":"month_view","theme":"light"}'
+                    >
+                        <span>
+                            {
+                            t("Modal.FollowUp")
+                            }
+                        </span>
+                    </button>
+                </div>
             </div>
         </div>
   )
