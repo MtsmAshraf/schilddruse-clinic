@@ -45,28 +45,28 @@
       "Heading": "Our Services",
       "Cards": {
         "0": {
-          "Title": "Eine Blutabnahme ist in unserer Ordination möglich",
-          "p": ""
+          "Title": "Blood Sampling",
+          "p": "Blood sampling is available in our clinic"
         },
         "1": {
-          "Title": "Ultraschall Hals",
+          "Title": "Ultrasound neck",
           "p": ""
         },
         "2": {
-          "Title": "Szintigraphie",
+          "Title": "Thyroid Scintigraphy",
           "p": "Abklärung und Behandlung von Funktionsstörungen der Schilddrüse mit modernen nuklearmedizinischen Verfahren"
         },
         "3": {
-          "Title": "Feinnadelpunktion",
-          "p": "Gezielte Gewebeentnahme aus der Schilddrüse zur weiteren Abklärung von Knoten und Gewebeveränderungen"
+          "Title": "Targeted tissue sampling",
+          "p": "Targeted tissue sampling from the thyroid for further evaluation of nodules and tissue changes"
         },
         "4": {
-          "Title": "Abklärung & Behandlung von Funktionsstörungen",
+          "Title": "Evaluation and treatment of functional disorders",
           "p": ""
         },
         "5": {
-          "Title": "Schilddrüse & Schwangerschaft",
-          "p": "achgerechte Betreuung und Kontrolle der Schilddrüsenfunktion bei Kinderwunsch, während der Schwangerschaft sowie nach der Entbindung"
+          "Title": "Thyroid and pregnancy",
+          "p": "professional care and monitoring of thyroid function during pregnancy"
         },
         "6": {
           "Title": "Management of thyroid nodules",
