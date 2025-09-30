@@ -12,6 +12,7 @@ import { Montserrat } from "next/font/google";
 import FloatingContact from "@/components/FloatingContact/FloatingContact";
 import FloatingBooking from "@/components/FloatingBooking/FloatingBooking";
 import Telemedizin from "@/components/Telemedizin/Telemedizin";
+import Prices from "@/components/Prices/Prices";
 
 
 
@@ -75,7 +76,7 @@ export default async function RootLayout({
           <Header lo={locale}></Header>
           {children}
           <Telemedizin />
-          {/* <Contact lo={locale}/> */}
+          <Prices />
           <FloatingBooking />
           <FloatingContact />
           <Footer lo={locale}></Footer>
