@@ -1,7 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  // showPopupModal: window.localStorage.getItem("abdalfttah-academy-theme") ? window.localStorage.getItem("abdalfttah-academy-theme") : "dark",
   showPopupModal: false,
 };
 

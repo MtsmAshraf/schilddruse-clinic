@@ -4,6 +4,7 @@
     color: #fff;
     position: relative;
     isolation: isolate;
+    z-index: 20;
 }
 .footer.ar{
     font-family: "Zain", sans-serif;

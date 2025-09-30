@@ -16,7 +16,11 @@
     "Contact": "Kontakt"
   },
   "BookBtn": {
-    "Text":"Termin buchen"
+    "Text":"Termin buchen",
+    "Modal": {
+      "First": "Erstbesuch",
+      "FollowUp": "Nachsorge"
+    }
   },
   "FloatingContact": {
     "Text": "Kontaktieren Sie uns"

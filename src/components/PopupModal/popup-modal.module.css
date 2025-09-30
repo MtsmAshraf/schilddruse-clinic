@@ -1,0 +1,70 @@
+.popupModal{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    display: none;
+}
+.popupModal.shown{
+    display: block;
+}
+.popupModal .overlay{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.5;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.popupModal button.closeModal{
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%) translateY(-120%);
+    color: #fff;
+    background-color: rgb(227, 0, 0);
+    border-radius: 50%;
+    aspect-ratio: 1;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 22px;
+}
+.popupModal .content{
+    z-index: 2;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.popupModal .content button{
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: var(--main-transition);
+}
+.popupModal .content button:hover,
+.popupModal .content button:focus,
+.popupModal .content button:focus-visible{
+    background-color: var(--main-color);
+    color: #fff;
+}
+@media (max-width: 600px) {
+    .popupModal .content{
+        width: 95vw;
+    }
+    .popupModal .content button{
+        flex: 1;
+    }
+}

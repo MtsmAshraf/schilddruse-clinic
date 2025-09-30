@@ -13,7 +13,10 @@ export default function BookBtn() {
 
   return <button
     className={"book-btn main"}
-    onClick={() => dispatch(toggleShowPopupModal())}
+    onClick={() => {
+      dispatch(toggleShowPopupModal());
+      console.log("CLICKED")
+    }}
   >
     <FontAwesomeIcon icon={faCalendarDays} />
     <span>

@@ -16,7 +16,11 @@
     "Contact": "Contact Us"
   },
   "BookBtn": {
-    "Text": "Book Appointment"
+    "Text":"Book Appointment",
+    "Modal": {
+      "First": "First Visit",
+      "FollowUp": "Follow-up"
+    }
   },
   "FloatingContact": {
     "Text": "Contact Us"
@@ -94,4 +98,5 @@
   "DieOrdination": {
     "Heading": "Practice"
   }
+
 }
