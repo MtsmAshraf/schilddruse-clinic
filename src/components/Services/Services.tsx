@@ -15,6 +15,8 @@ import cardSzint from "../../../public/images/card-szint.png";
 import cardTs from "../../../public/images/card-ts.png";
 import cardUltra from "../../../public/images/card-ultra.png";
 import { Link } from '@/i18n/navigation'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronCircleRight } from '@fortawesome/free-solid-svg-icons'
 
 const Services = () => {
     const t = useTranslations("HomePage.Services")
@@ -71,9 +73,12 @@ const Services = () => {
                     }
                 </p>
                 <Link href={"/blog/7"}>
-                    {
-                        t("ReadMore")
-                    }
+                    <span>
+                        {
+                            t("ReadMore")
+                        }
+                    </span>
+                    <FontAwesomeIcon icon={faChevronCircleRight} />
                 </Link>
             </div>
             <div className={styles.card}>
@@ -120,6 +125,14 @@ const Services = () => {
                         t("Cards.5.p")
                     }
                 </p>
+                <Link href={"/blog/3"}>
+                    <span>
+                        {
+                            t("ReadMore")
+                        }
+                    </span>
+                    <FontAwesomeIcon icon={faChevronCircleRight} />
+                </Link>
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
@@ -180,6 +193,14 @@ const Services = () => {
                         t("Cards.9.p")
                     }
                 </p>
+                <Link href={"/blog/6"}>
+                    <span>
+                        {
+                            t("ReadMore")
+                        }
+                    </span>
+                    <FontAwesomeIcon icon={faChevronCircleRight} />
+                </Link>
             </div>
         </div>
     </section>
