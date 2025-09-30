@@ -9,9 +9,9 @@ import Footer from "@/components/Footer/Footer";
 import icon from "./favicon.ico"
 // import Script from "next/script";
 import { Montserrat } from "next/font/google";
-import Contact from "@/components/Contact/Contact";
 import FloatingContact from "@/components/FloatingContact/FloatingContact";
 import FloatingBooking from "@/components/FloatingBooking/FloatingBooking";
+import Telemedizin from "@/components/Telemedizin/Telemedizin";
 
 
 
@@ -74,7 +74,8 @@ export default async function RootLayout({
         <NextIntlClientProvider>
           <Header lo={locale}></Header>
           {children}
-          <Contact lo={locale}/>
+          <Telemedizin />
+          {/* <Contact lo={locale}/> */}
           <FloatingBooking />
           <FloatingContact />
           <Footer lo={locale}></Footer>

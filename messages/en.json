@@ -110,6 +110,12 @@
     },
     "Contact": {
       "Heading": "Contact Us"
+    },
+    "Telemedizin": {
+      "Heading": "Telemedicine",
+      "p": "Initial consultation and follow-up for therapy adjustment",
+      "span": " for patients who prefer video calls.",
+      "ContactUs": "Contact Us for Telemedicine" 
     }
   },
   "Blog": {

@@ -11,7 +11,7 @@ const LogoHeader = () => {
         <Link href={"/"}>
           <Image src={logo} alt='logo'></Image>
         </Link>
-        <Link href={"#"}>
+        <Link href={"#telemedizin"}>
           Telemedizin
         </Link>
     </div>

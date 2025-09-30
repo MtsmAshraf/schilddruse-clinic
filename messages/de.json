@@ -110,6 +110,12 @@
     },
     "Contact": {
       "Heading": "Kontakt"
+    },
+    "Telemedizin": {
+      "Heading": "Telemedizin",
+      "p": "Erstkonsultation und Verlaufskontrollen zur Therapieanpassung für Patient:innen,",
+      "span": " die die Betreuung per Videosprechstunde bevorzugen.",
+      "ContactUs": "Kontaktieren Sie uns für Telemedizin" 
     }
   },
   "Blog": {
