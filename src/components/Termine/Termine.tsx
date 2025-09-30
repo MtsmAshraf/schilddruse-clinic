@@ -26,18 +26,26 @@ const Termine = () => {
         </MainHeading>
         <div className="container"> 
             <h3>
-                Dr.in Fairoz Mohammed
+                {
+                    t("Emergency.DrName")
+                }
             </h3>
             <p>
-                Wahlärztin, keine Kassen
+                {
+                    t("Emergency.P1")
+                }
             </p>
             <div className={styles.emergency}>
                 <button onClick={() => {setEmergencyContentShown(!emergencyContentShown)}} className={styles.emergencyBtn}>
                     <h2>
-                        Dringender Termin
+                        {
+                            t("Emergency.Btn")
+                        }
                     </h2>
                     <span>
-                        gilt für Montag–Freitag
+                        {
+                            t("Emergency.BtnSpan")
+                        }
                     </span>
                 </button>
                 <div className={emergencyContentShown ? styles.emergencyContent + " " + styles.shown : styles.emergencyContent}>    
@@ -45,44 +53,44 @@ const Termine = () => {
                         <FontAwesomeIcon icon={faXmark} />
                     </button>
                     <p>
-                        Sie können einen schnellen Termin (Mo–Fr) nach Umorganisation erhalten, <span>wenn eine der folgenden Bedingungen zutrifft</span>:
+                        {t("Emergency.P2")}, <span>{t("Emergency.P2Span")}</span>:
                     </p>
                     <ul>
                         <li>
                             <FontAwesomeIcon icon={faPersonPregnant} />
                             <span>
-                                Schwangerschaft
+                                {t("Emergency.Li.0")}
                             </span>
                         </li>
                         <li>
                             <FontAwesomeIcon icon={faChildren} />
                             <span>
-                                Kind mit auffälligen Schilddrüsenwerten
+                                {t("Emergency.Li.1")}
                             </span>
                         </li>
                         <li>
                             <FontAwesomeIcon icon={faSquarePollVertical} />
                             <span>
-                                TSH &lt; 0,1 mIU/L oder TSH &gt; 10 mIU/L
+                                {t("Emergency.Li.2")}
                             </span>
                         </li>
                         <li>
                             <FontAwesomeIcon icon={faExclamationCircle} />
                             <span>
-                                Akute Halsschmerzen oder Schwellung am Hals und auffällige Schilddrüsenwerte
+                                {t("Emergency.Li.3")}
                             </span>
                         </li>
                     </ul>
                     <p>
                         <span>
-                            Bitte bringen Sie Ihre aktuellen Laborbefunde vom Hausarzt mit (TSH, fT3, fT4, TPO-AK, Tg-AK, TRAK sowie komplettes Blutbild)                        
+                            {t("Emergency.P3Span")}
                         </span>
                     </p>
                     <p>
-                        Hinweis: Dieses Angebot gilt an <span>Werktagen (Mo–Fr)</span>
+                        {t("Emergency.P4")} <span>{t("Emergency.P4Span")}</span>
                     </p>
                     <p>
-                        Bitte vereinbaren Sie den Termin über <span>WhatsApp</span>, <span>E-Mail</span> oder <span>SMS</span> und schildern Sie Ihren Fall kurz
+                        {t("Emergency.P5")} <span>WhatsApp</span>, <span>E-Mail</span> {t("Emergency.P52")} <span>SMS</span> {t("Emergency.P53")}
                     </p>
                     <div>
                         <SocialUl />

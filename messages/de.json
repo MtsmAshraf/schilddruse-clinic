@@ -28,6 +28,26 @@
   "HomePage": {
     "OnlineTermine": {
       "Heading": "Online-Termine",
+      "Emergency": {
+        "DrName": "Dr.in Fairoz Mohammed",
+        "P1": "Wahlärztin, keine Kassen",
+        "Btn": "Dringender Termin",
+        "BtnSpan": "gilt für Montag–Freitag",
+        "P2": "Sie können einen schnellen Termin (Mo–Fr) nach Umorganisation erhalten",
+        "P2Span": "wenn eine der folgenden Bedingungen zutrifft",
+        "Li": {
+          "0": "Schwangerschaft",
+          "1": "Kind mit auffälligen Schilddrüsenwerten",
+          "2": "TSH < 0,1 mIU/L oder TSH > 10 mIU/L",
+          "3": "Akute Halsschmerzen oder Schwellung am Hals und auffällige Schilddrüsenwerte"
+        },
+        "P3Span": "Bitte bringen Sie Ihre aktuellen Laborbefunde vom Hausarzt mit (TSH, fT3, fT4, TPO-AK, Tg-AK, TRAK sowie komplettes Blutbild)",
+        "P4": "Hinweis: Dieses Angebot gilt an",
+        "P4Span": "Werktagen (Mo–Fr)",
+        "P5": "Please arrange the appointment via",
+        "P52": "or",
+        "P53": "and briefly describe your case."
+      },
       "Appts": {
         "0": {
           "day": "Mittwochs",

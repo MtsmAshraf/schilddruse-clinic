@@ -28,18 +28,38 @@
   "HomePage": {
     "OnlineTermine": {
       "Heading": "Online appointments",
+      "Emergency": {
+        "DrName": "Dr. Fairoz Mohammed",
+        "P1": "Private doctor, no public health insurance accepted",
+        "Btn": "Urgent appointment",
+        "BtnSpan": "valid Monday–Friday",
+        "P2": "You can get a fast-appointment (Mon–Fri) after schedule reorganization",
+        "P2Span": "if one of the following conditions applies",
+        "Li": {
+          "0": "Pregnancy",
+          "1": "Child with abnormal thyroid values",
+          "2": "TSH < 0.1 mIU/L or TSH > 10 mIU/L",
+          "3": "Acute sore throat or swelling in the neck and abnormal thyroid values"
+        },
+        "P3Span": "Please bring your current lab results from your family doctor (TSH, fT3, fT4, TPO-Ab, Tg-Ab, TRAb as well as a complete blood count)",
+        "P4": "Note: This offer is",
+        "P4Span": "valid on weekdays (Mon–Fri)",
+        "P5": "Bitte vereinbaren Sie den Termin über",
+        "P52": "oder",
+        "P53": "und schildern Sie Ihren Fall kurz"
+      },
       "Appts": {
         "0": {
         "day": "Wendesdays",
         "Uhr": "",
         "address": "Mariahilfer Straße 95/19, Staircase 1, 1060 Vienna (U3 Zieglergasse station)"
-      },
-      "1": {
-        "day": "Fridays",
-        "Uhr": "",
-        "address": "Leegasse 2/8, 1140 Vienna"
+        },
+        "1": {
+          "day": "Fridays",
+          "Uhr": "",
+          "address": "Leegasse 2/8, 1140 Vienna"
+        }
       }
-    }
     },
     "Services": {
       "Heading": "Our Services",
