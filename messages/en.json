@@ -66,23 +66,23 @@
         },
         "5": {
           "Title": "Schilddrüse & Schwangerschaft",
-          "p": "Fachgerechte Betreuung und Kontrolle der Schilddrüsenfunktion während der Schwangerschaft"
+          "p": "achgerechte Betreuung und Kontrolle der Schilddrüsenfunktion bei Kinderwunsch, während der Schwangerschaft sowie nach der Entbindung"
         },
         "6": {
-          "Title": "Beurteilung von Schilddrüsenknoten",
-          "p": "Gründliche Untersuchung und Abklärung von Knoten in der Schilddrüse zur weiteren Diagnostik und Therapieplanung"
+          "Title": "Management of thyroid nodules",
+          "p": "thorough examination and evaluation of nodules in the thyroid for further diagnostics and therapy planning"
         },
         "7": {
-          "Title": "Aufklärung zu Therapieoptionen",
-          "p": "Umfassende Information über mögliche Behandlungen: Operation, Radiojodtherapie oder medikamentöse Therapie"
+          "Title": "Information therapy options",
+          "p": "comprehensive information about possible treatments such as surgery, radioiodine therapy, or medication therapy"
         },
         "8": {
-          "Title": "Nachsorge nach Schilddrüsenoperation",
-          "p": "Langfristige Kontrolle und Begleitung nach einer operativen Entfernung der Schilddrüse"
+          "Title": "Postoperative follow-up after thyroid surgery",
+          "p": "continuous monitoring and support following surgical removal of the thyroid gland"
         },
         "9": {
-          "Title": "Kinder mit Schilddrüsen-funktionsstörungen",
-          "p": "Individuelle Diagnostik und Therapie bei auffälligen Schilddrüsenwerten im Kindesalter"
+          "Title": "Children (from 5 years) with thyroid dysfunction",
+          "p": "individualized diagnostics and therapy for abnormal thyroid values in childhood"
         }
       }
     },
