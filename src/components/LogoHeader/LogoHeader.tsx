@@ -7,9 +7,14 @@ import { Link } from '@/i18n/navigation'
 
 const LogoHeader = () => {
   return (
-    <Link href={"/"} className={styles.logoHeader}>
-        <Image src={logo} alt='logo'></Image>
-    </Link>
+    <div className={styles.logoHeader}>
+        <Link href={"/"}>
+          <Image src={logo} alt='logo'></Image>
+        </Link>
+        <Link href={"#"}>
+          Telemedizin
+        </Link>
+    </div>
   )
 }
 
