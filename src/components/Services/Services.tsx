@@ -14,6 +14,7 @@ import cardPregnancy from "../../../public/images/card-pregnancy.png";
 import cardSzint from "../../../public/images/card-szint.png";
 import cardTs from "../../../public/images/card-ts.png";
 import cardUltra from "../../../public/images/card-ultra.png";
+import { Link } from '@/i18n/navigation'
 
 const Services = () => {
     const t = useTranslations("HomePage.Services")
@@ -27,7 +28,7 @@ const Services = () => {
         <div className="container">
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <Image src={cardBluta} alt='card image'></Image>
+                    <Image src={cardBluta} alt={t("Cards.0.Title")}></Image>
                 </div>
                 <h4>
                     {
@@ -42,7 +43,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <Image src={cardUltra} alt='card image'></Image>
+                    <Image src={cardUltra} alt={t("Cards.1.Title")}></Image>
                 </div>
                 <h4>
                     {
@@ -57,7 +58,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <Image src={cardSzint} alt='card image'></Image>
+                    <Image src={cardSzint} alt={t("Cards.2.Title")}></Image>
                 </div>
                 <h4>
                     {
@@ -69,10 +70,15 @@ const Services = () => {
                         t("Cards.2.p")
                     }
                 </p>
+                <Link href={"/blog/7"}>
+                    {
+                        t("ReadMore")
+                    }
+                </Link>
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <Image src={cardFein} alt='card image'></Image>
+                    <Image src={cardFein} alt={t("Cards.3.Title")}></Image>
                 </div>
                 <h4>
                     {
@@ -87,7 +93,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <Image src={cardTs} alt='card image'></Image>
+                    <Image src={cardTs} alt={t("Cards.4.Title")}></Image>
                 </div>
                 <h4>
                     {
@@ -102,7 +108,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <Image src={cardPregnancy} alt='card image'></Image>
+                    <Image src={cardPregnancy} alt={t("Cards.5.Title")}></Image>
                 </div>
                 <h4>
                     {
@@ -117,7 +123,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <Image src={cardBeur} alt='card image'></Image>
+                    <Image src={cardBeur} alt={t("Cards.6.Title")}></Image>
                 </div>
                 <h4>
                     {
@@ -132,7 +138,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <Image src={cardAuf} alt='card image'></Image>
+                    <Image src={cardAuf} alt={t("Cards.7.Title")}></Image>
                 </div>
                 <h4>
                     {
@@ -147,7 +153,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <Image src={cardNach} alt='card image'></Image>
+                    <Image src={cardNach} alt={t("Cards.8.Title")}></Image>
                 </div>
                 <h4>
                     {
@@ -162,7 +168,7 @@ const Services = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
-                    <Image src={cardKinder} alt='card image'></Image>
+                    <Image src={cardKinder} alt={t("Cards.9.Title")}></Image>
                 </div>
                 <h4>
                     {

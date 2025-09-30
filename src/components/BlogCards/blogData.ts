@@ -7,6 +7,7 @@ import pregnancyImg from "../../../public/images/thyroid-pregnancy.png"
 import thyroidNodulesImg from "../../../public/images/thyroid-nodules.webp"
 import schilddrüsenFeinnadelpunktion from "../../../public/images/slide-thyroid.jpg"
 import schilddrüsenerkrankungenBeiKindern from "../../../public/images/children-blog.webp"
+import Schilddrüsenszintigraphie from "../../../public/images/card-szint.png"
 
 export type Faq = {
     question: string;
@@ -644,6 +645,86 @@ const blogPosts: BlogPost[] = [
             },
         ],
         img: schilddrüsenerkrankungenBeiKindern
+    },
+    {
+        id: "7",
+        title: "Schilddrüsen-szintigraphie",
+        titleEn: "Thyroid Scintigraphy",
+        cardTitle: false,
+        brief: "Die Schilddrüsenszintigraphie ist eine sichere nuklearmedizinische Untersuchung, mit der die Funktion der Schilddrüse sichtbar gemacht wird",
+        briefEn: "A thyroid scintigraphy is a safe nuclear medicine test that shows how your thyroid gland works",
+        date: "Septemper, 2025",
+        author: "Dr.in Fairoz Mohammed",
+        body: ``,
+        faqs: [
+            {
+                question: "Was ist eine Schilddrüsenszintigraphie?",
+                answer: `Die Schilddrüsenszintigraphie ist eine sichere nuklearmedizinische Untersuchung, mit der die Funktion der Schilddrüse sichtbar gemacht wird. Dabei wird eine sehr kleine Menge einer schwach radioaktiven Substanz (meist Technetium-99m) in eine Vene gespritzt. Eine spezielle Kamera (Gammakamera) nimmt anschließend Bilder auf und zeigt, wie die Schilddrüse den Stoff aufnimmt.
+
+                        Diese Untersuchung liefert Informationen, die man mit Bluttests oder Ultraschall allein nicht bekommt:
+                        • Sie zeigt, wie aktiv verschiedene Bereiche der Schilddrüse sind.
+                        • Sie hilft festzustellen, ob ein Knoten zu viel Hormon produziert („heißer Knoten“) oder kaum aktiv ist („kalter Knoten“).
+                        • Sie unterstützt die Entscheidung für die richtige Therapie (z. B. Medikamente, Operation oder Radiojodtherapie).
+                        `
+            },
+            {
+                question: "Ist die Untersuchung gefährlich?",
+                answer: `Nein. Die Strahlenbelastung ist sehr gering – in etwa vergleichbar mit oder sogar niedriger als bei einer normalen Röntgenaufnahme. Nach europäischen Richtlinien gilt die Untersuchung als sicher für Erwachsene und auch für Kinder, wenn sie medizinisch notwendig ist.`
+            },
+            {
+                question: "Warum darf die Untersuchung nicht in der Schwangerschaft durchgeführt werden?",
+                answer: `Während der Schwangerschaft wird jede unnötige Strahlenbelastung für das ungeborene Kind vermieden. Deshalb ist die Schilddrüsenszintigraphie in der Schwangerschaft nicht erlaubt. Bitte informieren Sie uns vor der Untersuchung, wenn Sie schwanger sind oder es sein könnten.`
+            },
+            {
+                question: "Können Kinder eine Schilddrüsenszintigraphie machen?",
+                answer: `Ja. Wenn es medizinisch erforderlich ist, kann die Untersuchung auch bei Kindern durchgeführt werden. Die verabreichte Menge wird dabei sehr genau an das Körpergewicht des Kindes angepasst.`
+            },
+            {
+                question: "Kann ich nach der Untersuchung arbeiten gehen?",
+                answer: `Ja. Nach der Untersuchung können Sie Ihren Alltag und Ihre Arbeit normal fortsetzen. Die Substanz wird innerhalb weniger Stunden über den Urin aus dem Körper ausgeschieden.`
+            },
+            {
+                question: "Was bedeutet „heißer“ oder „kalter“ Knoten?",
+                answer: `• Ein heißer Knoten nimmt mehr Substanz auf als das übrige Schilddrüsengewebe. Er produziert meist zu viele Schilddrüsenhormone und ist fast immer gutartig.
+                        • Ein kalter Knoten nimmt wenig oder gar keine Substanz auf. Die meisten kalten Knoten sind ebenfalls gutartig, in seltenen Fällen kann aber eine weitere Abklärung (z. B. Feinnadelpunktion) notwendig sein.
+                        `
+            },
+        ],
+        faqsEn: [
+            {
+                question: "What is a thyroid scintigraphy?",
+                answer: `A thyroid scintigraphy is a safe nuclear medicine test that shows how your thyroid gland works. A very small amount of a weak radioactive tracer (usually Technetium-99m) is injected into a vein. A special camera (gamma camera) then takes pictures of how the tracer is taken up by the thyroid.
+
+                        This examination provides information that blood tests and ultrasound alone cannot give:
+                        • It shows how active different parts of the thyroid are.
+                        • It helps to find out if a nodule is producing too much thyroid hormone (“hot nodule”) or not active (“cold nodule”).
+                        • It helps in planning treatment options such as medication, surgery, or radioiodine therapy.
+                        `
+            },
+            {
+                question: "Is it dangerous?",
+                answer: `No – the radiation dose is very low, similar to or even less than a normal X-ray examination. According to European guidelines, the test is considered safe for adults and children when medically necessary.`
+            },
+            {
+                question: "Why is it not done in pregnancy?",
+                answer: `During pregnancy, any unnecessary radiation exposure to the unborn child must be avoided. That is why thyroid scintigraphy is contraindicated in pregnancy. If you are pregnant or think you might be, please inform your doctor before the examination.`
+            },
+            {
+                question: "Can children undergo thyroid scintigraphy?",
+                answer: `Yes. Children can have this test if it is medically needed. The tracer dose is carefully adjusted to the child’s body weight.`
+            },
+            {
+                question: "Can I go to work afterwards?",
+                answer: `Yes. After the examination you can return to your normal daily activities, including work. The tracer leaves the body naturally through the urine within a few hours.`
+            },
+            {
+                question: "What does “hot” and “cold” nodule mean?",
+                answer: `• A hot nodule takes up more tracer than the surrounding thyroid tissue. It usually produces excess thyroid hormone and is almost always benign.
+                        • A cold nodule takes up little or no tracer. Most cold nodules are also benign, but a small percentage may need further clarification (for example, by fine needle biopsy).
+                        `
+            },
+        ],
+        img: Schilddrüsenszintigraphie
     },
 ]
 
