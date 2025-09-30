@@ -116,6 +116,26 @@
       "p": "Erstkonsultation und Verlaufskontrollen zur Therapieanpassung für Patient:innen,",
       "span": " die die Betreuung per Videosprechstunde bevorzugen.",
       "ContactUs": "Kontaktieren Sie uns für Telemedizin" 
+    },
+    "Prices": {
+      "Heading": "Unsere Preise",
+      "Cards": {
+        "0": {
+          "H3": "Erstuntersuchung",
+          "P": "(30–40 Minuten)"
+        },
+        "1": {
+          "H3": "Kontrolluntersuchung",
+          "P": "(20-30 Minuten)"
+        },
+        "2": {
+          "H3": "Feinnadelpunktion der Schilddrüse+ Ultraschal"
+        },
+        "3": {
+          "H3": "Telemedizin",
+          "P": "(30 Minuten)"
+        }
+      }
     }
   },
   "Blog": {

@@ -1,19 +1,27 @@
 import React from 'react'
 import styles from "./prices.module.css"
 import MainHeading from '../MainHeading/MainHeading'
+import { useTranslations } from 'next-intl'
 
 const Prices = () => {
+    const t = useTranslations("HomePage.Prices")
   return (
     <section className={styles.prices}>
         <MainHeading>
-            Our Prices
+            {
+                t("Heading")
+            }
         </MainHeading>
         <div className='container'>
             <div className={styles.card}>
                 <h3>
-                    First visit
+                    {
+                        t("Cards.0.H3")
+                    }
                 <p>
-                    30–40 minutes
+                    {
+                        t("Cards.0.P")
+                    }
                 </p>
                 </h3>
                 <span>
@@ -22,9 +30,13 @@ const Prices = () => {
             </div>
             <div className={styles.card}>
                 <h3>
-                    Follow-up visit
+                    {
+                        t("Cards.1.H3")
+                    }
                 <p>
-                    30–40 minutes
+                    {
+                        t("Cards.1.P")
+                    }
                 </p>
                 </h3>
                 <span>
@@ -33,7 +45,9 @@ const Prices = () => {
             </div>
             <div className={styles.card}>
                 <h3>
-                    Fine-needle aspiration + Ultrasound (thyroid biopsy)
+                    {
+                        t("Cards.2.H3")
+                    }
                 </h3>
                 <span>
                     €250
@@ -41,9 +55,13 @@ const Prices = () => {
             </div>
             <div className={styles.card}>
                 <h3>
-                    Telemedicine
+                    {
+                        t("Cards.3.H3")
+                    }
                 <p>
-                    30 minutes
+                    {
+                        t("Cards.3.P")
+                    }
                 </p>
                 </h3>
                 <span>

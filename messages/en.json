@@ -116,6 +116,26 @@
       "p": "Initial consultation and follow-up for therapy adjustment",
       "span": " for patients who prefer video calls.",
       "ContactUs": "Contact Us for Telemedicine" 
+    },
+    "Prices": {
+      "Heading": "Our Prices",
+      "Cards": {
+        "0": {
+          "H3": "First visit",
+          "P": "(30–40 minutes)"
+        },
+        "1": {
+          "H3": "Follow-up visit",
+          "P": "(20-30 minutes)"
+        },
+        "2": {
+          "H3": "Fine-needle aspiration+Ultrasound (thyroid biopsy)"
+        },
+        "3": {
+          "H3": "Telemedicine",
+          "P": "(30 minutes)"
+        }
+      }
     }
   },
   "Blog": {
