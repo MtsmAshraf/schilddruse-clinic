@@ -2,8 +2,9 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import styles from "./floating-contact.module.css"
-import { faComments, faCommentSms, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faComments, faCommentSms, faEnvelope, faVideo } from '@fortawesome/free-solid-svg-icons'
 import { useTranslations } from 'next-intl'
+import { Link } from '@/i18n/navigation'
 
 
 const FloatingContact = () => {
@@ -45,6 +46,19 @@ const FloatingContact = () => {
                         href="sms:+436701960112">
                         <FontAwesomeIcon icon={faCommentSms}/>
                     </a>
+                </li>
+                <li>
+                    <Link  
+                        title={t("Telemedizin")}
+                        href={"#telemedizin"}
+                        >
+                            <FontAwesomeIcon icon={faVideo}/>
+                            <span>
+                                {
+                                    t("Telemedizin")
+                                }
+                            </span>
+                    </Link>
                 </li>
             </ul>
         </div>

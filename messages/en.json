@@ -24,7 +24,8 @@
     }
   },
   "FloatingContact": {
-    "Text": "Contact Us"
+    "Text": "Contact Us",
+    "Telemedizin": "Telemedicine"
   },
   "HomePage": {
     "OnlineTermine": {

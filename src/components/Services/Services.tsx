@@ -95,6 +95,14 @@ const Services = () => {
                         t("Cards.3.p")
                     }
                 </p>
+                <Link href={"/blog/5"}>
+                    <span>
+                        {
+                            t("ReadMore")
+                        }
+                    </span>
+                    <FontAwesomeIcon icon={faChevronCircleRight} />
+                </Link>
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>
@@ -148,6 +156,14 @@ const Services = () => {
                         t("Cards.6.p")
                     }
                 </p>
+                <Link href={"/blog/4"}>
+                    <span>
+                        {
+                            t("ReadMore")
+                        }
+                    </span>
+                    <FontAwesomeIcon icon={faChevronCircleRight} />
+                </Link>
             </div>
             <div className={styles.card}>
                 <div className={styles.cardIcon}>

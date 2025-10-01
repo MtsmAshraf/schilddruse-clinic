@@ -30,8 +30,8 @@
     height: 100%;
 }
 .header .bars{
-    background-color: var(--main-color);
-    color: #fff;
+    color: var(--main-color);
+    background-color: #fff;
     width: 25px;
     height: 25px;
     aspect-ratio: 1;
