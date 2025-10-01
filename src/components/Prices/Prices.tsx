@@ -1,18 +1,30 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import styles from "./prices.module.css"
-import MainHeading from '../MainHeading/MainHeading'
 import { useTranslations } from 'next-intl'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons'
 
 const Prices = () => {
     const t = useTranslations("HomePage.Prices")
+    const [pricesShown, setPricesShown] = useState(false)
+    const classNames = [
+        'container',
+        pricesShown ? styles.shown : ""
+    ]
   return (
     <section className={styles.prices}>
-        <MainHeading>
-            {
-                t("Heading")
-            }
-        </MainHeading>
-        <div className='container'>
+        <button
+            onClick={() => {setPricesShown(!pricesShown)}}
+        >
+            <span>
+                {
+                    t("Heading")
+                }
+            </span>
+            <FontAwesomeIcon icon={faChevronCircleDown} style={{ transform: pricesShown ? `rotateZ(180deg)` : `rotate(0)` }}/>
+        </button>
+        <div className={classNames.join(" ")}>
             <div className={styles.card}>
                 <h3>
                     {
