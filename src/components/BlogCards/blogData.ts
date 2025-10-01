@@ -612,36 +612,123 @@ const blogPosts: BlogPost[] = [
         title: "Schilddrüsen-erkrankungen bei Kindern",
         titleEn: "Thyroid disorders in children",
         cardTitle: false,
-        brief: "Schilddrüsenhormone steuern Wachstum, Gehirnentwicklung und Stoffwechsel.",
-        briefEn: "Thyroid hormones control growth, brain development, and metabolism.",
+        brief: "Die Schilddrüse produziert Hormone, die für Wachstum, Gehirnreifung, Stoffwechsel und Herz-Kreislauf-Funktion entscheidend sind. Leitlinien betonen, dass eine unbehandelte Störung im Kindesalter die Entwicklung dauerhaft beeinträchtigen kann.",
+        briefEn: "The thyroid produces hormones essential for growth, brain development, metabolism, and heart function. Even mild disturbances can have long-term effects on a child’s development if left untreated.",
         date: "Septemper, 2025",
         author: "Dr.in Fairoz Mohammed",
-        body: `
-            Thyroid hormones control growth, brain development, and metabolism.
-            •	Too much (hyperthyroidism): restlessness, weight loss, rapid heartbeat, poor concentration.
-            •	Too little (hypothyroidism): tiredness, weight gain, slow growth, learning difficulties.
-        👉 Fast treatment is essential. We see children (5+ years) with proven thyroid dysfunction, thyroid nodules, family history of thyroid disease/cancer, and for long-term follow-up after thyroid surgery.
-        `,
+        body: ``,
         faqs: [
             {
-                question: "Schilddrüsenhormone steuern Wachstum, Gehirnentwicklung und Stoffwechsel",
-                answer: `•	Zu viel (Hyperthyreose): Unruhe, Gewichtsverlust, Herzrasen, Konzentrationsprobleme.
-                        •	Zu wenig (Hypothyreose): Müdigkeit, Gewichtszunahme, Wachstumsstörung,`
+                question: "Warum ist die Schilddrüse bei Kindern so wichtig?",
+                answer: `Die Schilddrüse produziert Hormone, die für Wachstum, Gehirnreifung, Stoffwechsel und Herz-Kreislauf-Funktion entscheidend sind. Leitlinien betonen, dass eine unbehandelte Störung im Kindesalter die Entwicklung dauerhaft beeinträchtigen kann.`,
             },
             {
-                question: "Eine rasche Behandlung ist entscheidend",
-                answer: `Wir betreuen Kinder (ab 5 Jahren) mit nachgewiesener Schilddrüsenfunktionsstörung, Schilddrüsenknoten, familiärer Belastung oder zur Langzeitnachsorge nach Schilddrüsenoperation.`
+                question: "Ab welchem Alter können Schilddrüsenprobleme auftreten?",
+                answer: `• Bereits bei Neugeborenen (angeborene Hypothyreose). Deshalb wird in Europa standardmäßig ein Neugeborenen-Screening (TSH im Fersenblut) durchgeführt.
+                        • Im Kindes- und Jugendalter treten Erkrankungen häufiger bei Autoimmunerkrankungen (Hashimoto, Morbus Basedow) oder familiärer Belastung auf.
+                        `,
+            },
+            {
+                question: "Welche Symptome sind laut Leitlinien Warnsignale?",
+                answer: `• Unterfunktion (Hypothyreose): Wachstumsverzögerung, verlangsamte geistige Entwicklung, Müdigkeit, Gewichtszunahme, Verstopfung, trockene Haut, Konzentrationsschwäche.
+                        • Überfunktion (Hyperthyreose): Nervosität, Schlaflosigkeit, Zittern, Herzrasen, ungewollter Gewichtsverlust und Schwitzen.
+                        • Knoten/Vergrößerung: sichtbare Schwellung am Hals, Schluckbeschwerden oder Druckgefühl.
+                        `,
+            },
+            {
+                question: "Wann ist eine Therapie notwendig?",
+                answer: `Die Therapieentscheidung richtet sich nach den Leitlinien:
+                        • Angeborene Hypothyreose: sofortige Therapie mit L-Thyroxin (innerhalb der ersten 2 Wochen nach Geburt).
+                        • Autoimmunthyreopathie (Hashimoto): Therapie bei nachgewiesener Hypothyreose. Bei normaler Funktion oft zunächst nur Kontrollen.
+                        • Morbus Basedow: Therapie mit Thiamazol, ggf. Radiojod oder Operation im Jugendalter bei Therapieversagen.
+                        • Knoten: Abklärung per Ultraschall, ggf. Feinnadelpunktion bei suspektem Befund.
+                        `,
+            },
+            {
+                question: "Welche Untersuchungen sind empfohlen?",
+                answer: `• Labor: TSH, fT4, ggf. fT3, Antikörper (TPO-AK, Tg-AK, TRAK).
+                        • Ultraschall: zur Beurteilung von Größe, Struktur und Knoten.
+                        • Szintigraphie: nur bei unklarer Funktion oder Knoten mit atypischem Befund.
+                        • Feinnadelpunktion: bei suspekten Knoten nach europäischem Leitlinien-Algorithmus.
+                        `,
+            },
+            {
+                question: "Ist die Erkrankung heilbar oder chronisch?",
+                answer: `• Angeborene Hypothyreose: meist lebenslange Therapie erforderlich.
+                        • Hashimoto-Thyreoiditis: chronisch, Behandlung nach Funktionslage.
+                        • Morbus Basedow: kann spontan remittieren, aber Rezidivrate hoch, daher längerfristige Kontrollen nötig.
+                        • Knoten: oft gutartig, aber bei Kindern ist die Abklärung besonders wichtig, da das Risiko für Malignität höher ist als bei Erwachsenen.
+                        `,
+            },
+            {
+                question: "Hat die Schilddrüse Einfluss auf die schulische Leistung?",
+                answer: `Ja. Studien zeigen, dass unbehandelte Hypo- oder Hyperthyreose die Konzentration, Gedächtnisleistung und das Verhalten deutlich beeinträchtigen können. Leitlinien empfehlen daher eine frühzeitige Abklärung bei schulischen Leistungseinbrüchen in Verbindung mit körperlichen Symptomen`,
+            },
+            {
+                question: "Behandeln Sie auch Kinder in Ihrer Ordination?",
+                answer: `Ja, entsprechend den europäischen Leitlinien betreuen wir Kinder ab 5 Jahren mit:
+                        • Schilddrüsenfunktionsstörungen
+                        • Schilddrüsenknoten
+                        • Familiärer Vorbelastung
+                        • Langzeitbetreuung nach Operation oder Radiojodtherapie
+                        `,
             },
         ],
         faqsEn: [
             {
-                question: "Thyroid hormones control growth, brain development, and metabolism",
-                answer: `•	Too much (hyperthyroidism): restlessness, weight loss, rapid heartbeat, poor concentration.
-                        •	Too little (hypothyroidism): tiredness, weight gain, slow growth, learning difficulties.`
+                question: "Why is the thyroid important in children?",
+                answer: `The thyroid produces hormones essential for growth, brain development, metabolism, and heart function. Even mild disturbances can have long-term effects on a child’s development if left untreated.`
             },
             {
-                question: "Fast treatment is essential",
-                answer: `We see children (5+ years) with proven thyroid dysfunction, thyroid nodules, family history of thyroid disease/cancer, and for long-term follow-up after thyroid surgery`
+                question: "At what age can thyroid problems occur?",
+                answer: `• Newborns: Congenital hypothyroidism can be present at birth. In Europe, every newborn undergoes a newborn screening test (heel prick test for TSH) to detect this early.
+                        • Children & Adolescents: Thyroid diseases can appear later, often due to autoimmune conditions (Hashimoto’s thyroiditis, Graves’ disease) or family history.
+                        `
+            },
+            {
+                question: "What symptoms should raise concern?",
+                answer: `• Hypothyroidism (underactive thyroid): growth delay, slowed mental development, tiredness, weight gain, constipation, dry skin, poor concentration.
+                        • Hyperthyroidism (overactive thyroid): nervousness, restlessness, sleep problems, weight loss, rapid heartbeat und sweating .
+                        • Nodules/goiter: visible neck swelling, swallowing problems, or a feeling of pressure.
+                        `
+            },
+            {
+                question: "When is treatment necessary?",
+                answer: `European guidelines recommend treatment based on the specific condition:
+                        • Congenital hypothyroidism: immediate L-thyroxine treatment (within the first 2 weeks of life).
+                        • Hashimoto’s thyroiditis: treatment if hypothyroidism develops; otherwise, regular monitoring.
+                        • Graves’ disease: first-line treatment with antithyroid drugs (e.g., methimazole); in resistant cases, surgery or radioiodine therapy may be considered in older children/adolescents.
+                        • Nodules: ultrasound evaluation and, if suspicious, fine-needle aspiration biopsy.
+                        `
+            },
+            {
+                question: "How are thyroid problems diagnosed in children?",
+                answer: `• Blood tests: TSH, free T4, sometimes free T3, and thyroid antibodies (TPO-Ab, Tg-Ab, TRAb).
+                        • Ultrasound: to assess size, structure, and nodules.
+                        • Scintigraphy: used selectively in unclear cases or to evaluate nodules.
+                        • Fine-needle aspiration biopsy: when nodules show suspicious ultrasound features.
+                        `
+            },
+            {
+                question: "Are thyroid disorders curable or lifelong?",
+                answer: `• Congenital hypothyroidism: usually lifelong therapy.
+                        • Hashimoto’s thyroiditis: chronic, often requiring long-term treatment if hypothyroidism occurs.
+                        • Graves’ disease: may go into remission, but relapses are common, requiring long-term follow-up.
+                        • Nodules: usually benign in children but require careful evaluation, as the risk of malignancy is higher than in adults.
+                        `
+            },
+            {
+                question: "Can thyroid problems affect school performance?",
+                answer: `Yes. Both hypo- and hyperthyroidism can significantly affect concentration, memory, and behavior. Guidelines recommend thyroid testing when unexplained school difficulties occur alongside physical symptoms`
+            },
+            {
+                question: "Do you treat children in your practice?",
+                answer: `Yes. In line with European guidelines, we provide care for children from the age of 5 years with:
+                        • Thyroid dysfunction
+                        • Thyroid nodules or enlargement
+                        • Family history of thyroid disease or cancer
+                        • Long-term follow-up after thyroid surgery or radioiodine therapy
+                        `
             },
         ],
         img: schilddrüsenerkrankungenBeiKindern
