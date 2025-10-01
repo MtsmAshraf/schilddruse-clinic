@@ -1,0 +1,22 @@
+.datenschutz{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 248px;
+    font-size: 22px;
+}
+@media (max-width: 1200px) {
+    .datenschutz{
+        margin-top: 239px;
+    }
+}
+@media (max-width: 992px) {
+    .datenschutz{
+        margin-top: 239px;
+    }
+}
+@media (max-width: 767px) {
+    .datenschutz{
+        margin-top: 189px;
+        font-size: 18px;
+    }
+}
