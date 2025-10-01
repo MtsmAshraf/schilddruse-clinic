@@ -43,6 +43,10 @@
     padding: 5px 30px;
     border-radius: 10px;
     max-width: calc(100vw - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 .mainHeading.inverted h2{
     color: var(--bg-color);

@@ -3,6 +3,8 @@ import MainHeading from '../MainHeading/MainHeading'
 import styles from "./telemedizin.module.css"
 import SocialUl from '../SocialUl/SocialUl'
 import { useTranslations } from 'next-intl'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faVideo } from '@fortawesome/free-solid-svg-icons'
 
 const Telemedizin = () => {
     const t = useTranslations("HomePage.Telemedizin")
@@ -12,6 +14,7 @@ const Telemedizin = () => {
                 {
                     t("Heading")
                 }
+                <FontAwesomeIcon icon={faVideo} />
             </MainHeading>
             <div className="container">
                 <p>
