@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import MainHeading from '../MainHeading/MainHeading'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChildren, faClock, faExclamationCircle, faLocationPin, faPersonPregnant, faSquarePollVertical, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { faChevronCircleDown, faChevronUp, faChildren, faClock, faExclamationCircle, faLocationPin, faPersonPregnant, faSquarePollVertical } from '@fortawesome/free-solid-svg-icons'
 import styles from "./termine.module.css"
 import BookBtn from '../BookBtn/BookBtn'
 import { useTranslations } from 'next-intl'
@@ -47,10 +47,11 @@ const Termine = () => {
                             t("Emergency.BtnSpan")
                         }
                     </span>
+                    <FontAwesomeIcon icon={faChevronCircleDown} style={{ transform:  emergencyContentShown ? `translate(50%,-50%) rotateZ(180deg)` : `translate(50%,-50%) rotate(0)` }}/>
                 </button>
                 <div className={emergencyContentShown ? styles.emergencyContent + " " + styles.shown : styles.emergencyContent}>    
                     <button onClick={() => {setEmergencyContentShown(false)}}  className={styles.closeContent}>
-                        <FontAwesomeIcon icon={faXmark} />
+                        <FontAwesomeIcon icon={faChevronUp} />
                     </button>
                     <p>
                         {t("Emergency.P2")}, <span>{t("Emergency.P2Span")}</span>:
