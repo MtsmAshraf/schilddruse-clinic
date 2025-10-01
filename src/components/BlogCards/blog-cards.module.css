@@ -99,3 +99,6 @@
 .blogCards .cards .card .cardText a:hover{
     gap: 20px;
 }
+.blogCards .cards .card .cardText a svg{
+    font-size: 20px;
+}

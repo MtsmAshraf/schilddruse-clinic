@@ -74,6 +74,7 @@
 .services .card a svg{
     transition: var(--main-transition);
     color: #fff;
+    font-size: 20px;
 }
 .services .card a:hover{
     gap: 20px;

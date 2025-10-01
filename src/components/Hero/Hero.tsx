@@ -110,7 +110,7 @@ const Hero = ({
                 <SwiperSlide className={styles.slide}>
                         <div className={styles.text}>
                             <h2 className='stagger-text'>
-                                Schilddrüse bei Kinderwunsch, während der Schwanger-schaft und nach der Geburt
+                                Schilddrüse bei Kinderwunsch, während der Schwangerschaft und nach der Geburt
                             </h2>
                         </div>
                     <div className={styles.img}>

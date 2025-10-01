@@ -6,6 +6,7 @@ import Loader from "@/components/Loader/Loader";
 import Services from "@/components/Services/Services";
 import OrdinationComponent from "@/components/OrdinationComponent/OrdinationComponent";
 import Termine from "@/components/Termine/Termine";
+import Telemedizin from "@/components/Telemedizin/Telemedizin";
 
 export default async function Home({
   params
@@ -24,6 +25,7 @@ export default async function Home({
         <Services />
         <OrdinationComponent />
         <BlogCards lo={locale} />
+        <Telemedizin />
         {/* <Faq /> */}
         {/* <About /> */}
       </main>

@@ -11,7 +11,6 @@ import icon from "./favicon.ico"
 import { Montserrat } from "next/font/google";
 import FloatingContact from "@/components/FloatingContact/FloatingContact";
 import FloatingBooking from "@/components/FloatingBooking/FloatingBooking";
-import Telemedizin from "@/components/Telemedizin/Telemedizin";
 import Prices from "@/components/Prices/Prices";
 
 
@@ -75,7 +74,6 @@ export default async function RootLayout({
         <NextIntlClientProvider>
           <Header lo={locale}></Header>
           {children}
-          <Telemedizin />
           <Prices />
           <FloatingBooking />
           <FloatingContact />
