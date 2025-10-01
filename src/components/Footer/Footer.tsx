@@ -20,52 +20,49 @@ const Footer = ({
     <footer className={lo === "ar" ? styles.footer + " " + styles.ar : styles.footer}>
         <div className={styles.overlay}></div>
         <div className="container">
-            <div>
-            <h4>
-              {
-                t("Pages.Heading")
-              }
-            </h4>
-            <div>
-                <Link href={"/"}>
-                  {
-                    t("Pages.Home")
-                  }
-                </Link>
-                <Link href={`/services`}>
-                  {
-                    t("Pages.Services")
-                  }
-                </Link>
-                <Link href={'/online-termine'}>
-                  {
-                    t("Pages.OnlineTermine")
-                  }
-                </Link>
-                <Link href={'/die-ordination'}>
-                  {
-                    t("Pages.DieOrdination")
-                  }
-                </Link>
-            </div>
-            </div>
-            <div>
-            <h4>
-              {
-                t("Contact")
-              }
+            <div className={styles.footerSocialLinks}>
+              <h4>
+                {
+                  t("Info")
+                }
               </h4>
-            <div className={styles.socials}>
-              <a title="Whatsapp" target='_blank' href="https://wa.me/+436701960112">
-                  <FontAwesomeIcon icon={faWhatsapp}/>
-              </a>
-              <a title="Gmail" target='_blank' href="mailto:schilddruese.mohammed@outlook.com?subject=Mail-From-Schilddrüse-website">
-                  <FontAwesomeIcon icon={faEnvelope}/>
-              </a>
-              <a title="SMS" target='_blank' href="sms:+436701960112">
-                  <FontAwesomeIcon icon={faCommentSms}/>
-              </a>
+              <div>
+                <address>
+                  Dr.med.univ. Fairoz Mohammed. Mariahilfer Str. 95, 1060 Wien
+                </address>
+                <p>
+                  Telefon: 
+                    <a href="tel:+436701960112 " target='_blank'>
+                      +43 670 1960112
+                    </a>
+                </p>
+                <p>
+                  Email: 
+                    <a href="mailto:office@schilddruesemohammed.at?subject=Mail-From-Schilddrüse-website" target='_blank'>
+                      office@schilddruesemohammed.at
+                    </a>
+                </p>
+                <a href="https://www.schilddruesemohammed.at">
+                  www.schilddruesemohammed.at    
+                </a>
+                <p>
+                  Bank Austria: 
+                  <span>
+                    IBAN: AT821200010046435458. <br /> BIC: BKAUATWWXXX
+                  </span>
+                  <br />
+                  <b>
+                    (Bitte geben Sie bei Überweisungen im Betreff immer die Nummer der Honorarnote an.)
+                  </b>
+                </p>
+              </div>
             </div>
+            <div className={styles.pages}>
+              <div>
+                <Link href={"/datenschutz"}>
+                  Datenschutz
+                </Link>
+              </div>
             </div>
         </div>
         <div className={styles.copyright}>
