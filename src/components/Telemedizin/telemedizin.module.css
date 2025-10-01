@@ -20,6 +20,9 @@
     border-radius: 6px;
     color: #fff;
 }
+.telemedizin > :nth-child(2) p{
+    font-size: 20px;
+}
 .telemedizin > :nth-child(2) p span{
     font-weight: bold;
 }

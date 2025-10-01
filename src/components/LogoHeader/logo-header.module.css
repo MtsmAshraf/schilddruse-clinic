@@ -24,6 +24,10 @@
     font-weight: bold;
     box-shadow: var(--main-shadow);
     transition: var(--main-transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 .logoHeader a:nth-of-type(2):hover{
     background-color: var(--main-color);

@@ -18,6 +18,7 @@ const Telemedizin = () => {
                     {
                         t("p")
                     }
+                    <br />
                     <span>
                         {
                             t("span")
