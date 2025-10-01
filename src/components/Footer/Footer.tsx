@@ -2,9 +2,6 @@
 import React from 'react'
 import styles from "./footer.module.css"
 import { Link } from '@/i18n/navigation'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCommentSms, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { useTranslations } from 'next-intl'
 import { Provider } from 'react-redux'
 import { store } from '@/store/store'
