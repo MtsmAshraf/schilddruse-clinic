@@ -7,6 +7,7 @@ import { faArrowRight, faBars } from '@fortawesome/free-solid-svg-icons'
 import VerticalNav from '../VerticalNav/VerticalNav'
 import { usePathname } from 'next/navigation'
 import LogoHeader from '../LogoHeader/LogoHeader'
+import LangSwitch from '../LangSwitch/LangSwitch'
 
 
 const Header = ({
@@ -29,6 +30,7 @@ const Header = ({
             </a> */}
             <Nav lo={lo}></Nav>
             <div className={styles.smCtrl}>
+              <LangSwitch lo={lo} />
               <button className={styles.bars} onClick={() => {setShowVNav(!showVNav)}}>
                   <FontAwesomeIcon icon={faBars} />
               </button>
