@@ -55,7 +55,7 @@
 }
 .blogPost .postImg{
     width: 100%;
-    /* aspect-ratio: 5/3; */
+    aspect-ratio: 2/1;
     overflow: hidden;
     display: flex;
     align-items: center;
