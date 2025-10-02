@@ -28,7 +28,7 @@ const Footer = ({
                   Dr.med.univ. Fairoz Mohammed. Mariahilfer Str. 95, 1060 Wien
                 </address>
                 <p>
-                  Telefon: 
+                  {t("Phone")}: 
                     <a href="tel:+436701960112 " target='_blank'>
                       +43 670 1960112
                     </a>
@@ -49,7 +49,7 @@ const Footer = ({
                   </span>
                   <br />
                   <b>
-                    (Bitte geben Sie bei Überweisungen im Betreff immer die Nummer der Honorarnote an.)
+                    {t("Note")}
                   </b>
                 </p>
               </div>
@@ -57,7 +57,7 @@ const Footer = ({
             <div className={styles.pages}>
               <div>
                 <Link href={"/datenschutz"}>
-                  Datenschutz
+                  {t("Datenschutz")}
                 </Link>
               </div>
             </div>

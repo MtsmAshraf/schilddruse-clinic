@@ -6,14 +6,10 @@
     "DieOrdination": "Die Ordination"
   },
   "Footer": {
-    "Pages": {
-      "Heading": "Seiten",
-      "Home": "Home",
-      "Services": "Leistungen",
-      "OnlineTermine": "Online-Termine",
-      "DieOrdination": "Die Ordination"
-    },
-    "Info": "Information"
+    "Info": "Information",
+    "Phone": "Telefon",
+    "Note": "(Bitte geben Sie bei Überweisungen im Betreff immer die Nummer der Honorarnote an.)",
+    "Datenschutz": "Datenschutz"
   },
   "BookBtn": {
     "Text":"Termin buchen",
@@ -146,5 +142,8 @@
   },
   "DieOrdination": {
     "Heading": "Die Ordination"
+  },
+  "Datenschutz": {
+    "Heading": "Datenschutz"
   }
 }
