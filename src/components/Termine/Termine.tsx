@@ -101,11 +101,15 @@ const Termine = () => {
             <div className={styles.appts}>
                 <div className={styles.apptOne}>
                     <div className={styles.img}>
-                        <Image src={centerLogo} alt='Gruppenpraxis Medizin Mariahilf logo'></Image>
+                        <a href="https://www.medizinmariahilf.at/wahlordination/" target='_blank'>
+                            <Image src={centerLogo} alt='Gruppenpraxis Medizin Mariahilf logo'></Image>
+                        </a>
                     </div>
-                    <h4>
-                        Gruppenpraxis Medizin Mariahilf
-                    </h4>
+                    <a href="https://www.medizinmariahilf.at/wahlordination/" target='_blank'>
+                        <h4>
+                            Gruppenpraxis Medizin Mariahilf
+                        </h4>
+                    </a>
                     <p>
                         <FontAwesomeIcon icon={faClock} />
                         <span>

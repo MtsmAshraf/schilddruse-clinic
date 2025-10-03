@@ -3,7 +3,10 @@
     "Home": "Home",
     "Services": "Services",
     "OnlineTermine": "Online Appointments",
-    "DieOrdination": "Practice"
+    "DieOrdination": "Practice",
+    "Pages": "Pages",
+    "ContactUs": "Contact Us",
+    "Language": "Language"
   },
   "Footer": {
     "Info": "Information",
