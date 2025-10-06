@@ -109,6 +109,7 @@ section{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    font-size: 20px;
 }
 .book-btn svg{
   font-size: 20px;

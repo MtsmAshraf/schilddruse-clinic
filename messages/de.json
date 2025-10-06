@@ -60,7 +60,8 @@
           "Uhr": "Uhr",
           "address": "Leegasse 2/8, 1140 Wien"
         }
-      }
+      },
+      "Book": "Termin buchen"
     },
     "Services": {
       "Heading": "Unsere Leistungen",
