@@ -18,8 +18,6 @@ const VerticalNav = ({
     const t = useTranslations("Header")
     return (
     <div className={shown ? styles.verticalNav + " " + styles.shown : styles.verticalNav}>
-        {/* <h3>Language</h3> */}
-        {/* <LangSwitch lo={lo}></LangSwitch> */}
         <h3>
             {
                 t("Pages")
