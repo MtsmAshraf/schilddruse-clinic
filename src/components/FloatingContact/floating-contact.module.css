@@ -95,14 +95,21 @@
 @media (max-width: 767px) {
     .floatingContact{
         top: calc(50% + 110px);
+        width: 40px;
     }
-    .floatingContact h4,
     .floatingContact li:nth-of-type(4) a{
         transform: translateX(calc(100% - 40px));
     }
-    .floatingContact h4:hover,
     .floatingContact li:nth-of-type(4) a:hover{
         transform: translateX(0px);
+    }
+    .floatingContact h4{
+        margin-right: auto;
+        margin-left: auto;
+        /* transform: translateX(calc(100% - 40px)); */
+    }
+    .floatingContact h4:hover{
+        transform: translateX(calc(-100% + 40px));
     }
     .floatingContact a{
         font-size: 20px;

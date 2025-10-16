@@ -40,14 +40,14 @@
           "0": "Schwangerschaft",
           "1": "Kind mit auffälligen Schilddrüsenwerten",
           "2": "TSH < 0,1 mIU/L oder TSH > 10 mIU/L",
-          "3": "Akute Halsschmerzen oder Schwellung am Hals und auffällige Schilddrüsenwerte"
+          "3": "Akute Halsschmerzen oder Schwellung am Hals mit auffälligen Schilddrüsenwerten"
         },
         "P3Span": "Bitte bringen Sie Ihre aktuellen Laborbefunde vom Hausarzt mit (TSH, fT3, fT4, TPO-AK, Tg-AK, TRAK sowie komplettes Blutbild)",
         "P4": "Hinweis: Dieses Angebot gilt an",
         "P4Span": "Werktagen (Mo–Fr)",
-        "P5": "Please arrange the appointment via",
-        "P52": "or",
-        "P53": "and briefly describe your case."
+        "P5": "Bitte vereinbaren Sie den Termin über",
+        "P52": "oder",
+        "P53": ", in der Sie kurz Ihre Krankengeschichte schildern, damit ein Termin festgelegt werden kann"
       },
       "Appts": {
         "0": {

@@ -73,6 +73,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 20;
 }
 .hero .swiper > button:first-of-type{
     left: 50%;
