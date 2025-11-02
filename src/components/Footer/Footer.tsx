@@ -25,7 +25,7 @@ const Footer = ({
               </h4>
               <div>
                 <address>
-                  Dr.med.univ. Fairoz Mohammed. Mariahilfer Str. 95, 1060 Wien
+                  Drin med.univ. Fairoz Mohammed Mariahilfer Straße 95, Top 19- 1060, Wien
                 </address>
                 <p>
                   {t("Phone")}: 
@@ -35,12 +35,12 @@ const Footer = ({
                 </p>
                 <p>
                   Email: 
-                    <a href="mailto:office@schilddruesemohammed.at?subject=Mail-From-Schilddrüse-website" target='_blank'>
-                      office@schilddruesemohammed.at
+                    <a href="mailto:office@schilddruesenmedizin.at?subject=Mail-From-Schilddrüse-website" target='_blank'>
+                      office@schilddruesenmedizin.at
                     </a>
                 </p>
-                <a href="https://www.schilddruesemohammed.at">
-                  www.schilddruesemohammed.at    
+                <a href="https://www.schilddruesenmedizin.at">
+                  www.schilddruesenmedizin.at    
                 </a>
                 <p>
                   Bank Austria: 

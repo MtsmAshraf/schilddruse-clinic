@@ -37,7 +37,7 @@ const Prices = () => {
                 </p>
                 </h3>
                 <span>
-                    €200
+                    €180 
                 </span>
             </div>
             <div className={styles.card}>

@@ -123,7 +123,7 @@ const Termine = () => {
                         </span>
                     </h5>
                     <div className={styles.btns}>
-                        <Link href="/" className='book-btn'>
+                        <Link href="https://www.meinarztonline.at/app/api/onlineBookingFrame/320506" target='_blank' className='book-btn'>
                             <FontAwesomeIcon icon={faCalendarDays} />
                             <span>
                                 {

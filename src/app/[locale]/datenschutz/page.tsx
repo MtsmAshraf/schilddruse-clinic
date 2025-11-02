@@ -68,10 +68,10 @@ const Datenschutz = async ({
                         <h4>Contact:</h4>
                         Dr. Fairoz Mohammed <br />
                         Specialist in Nuclear Medicine and Thyroid <br />
-                        Mariahilfer Str. 95, 1060 Vienna <br />
-                        www.schilddruesemohammed.at <br />
-                        Email: <a href="mailto:office@schilddruesemohammed.at?subject=Mail-From-Schilddrüse-website" target='_blank'>
-                                office@schilddruesemohammed.at
+                        Mariahilfer Str. 95, Top 19- 1060, 1060 Vienna <br />
+                        www.schilddruesenmedizin.at <br />
+                        Email: <a href="mailto:office@schilddruesenmedizin.at?subject=Mail-From-Schilddrüse-website" target='_blank'>
+                                office@schilddruesenmedizin.at
                             </a>
                         <br />
 
@@ -124,9 +124,9 @@ const Datenschutz = async ({
                         Dr.in med. univ. Fairoz Mohammed <br />
                         Fachärztin für Nuklearmedizin und Schilddrüse <br />
                         Mariahilfer Str. 95, 1060 Wien <br />
-                        www.schilddruesemohammed.at <br />
-                        E-Mail: <a href="mailto:office@schilddruesemohammed.at?subject=Mail-From-Schilddrüse-website" target='_blank'>
-                                office@schilddruesemohammed.at
+                        www.schilddruesenmedizin.at <br />
+                        E-Mail: <a href="mailto:office@schilddruesenmedizin.at?subject=Mail-From-Schilddrüse-website" target='_blank'>
+                                office@schilddruesenmedizin.at
                             </a>
                         <br />
 

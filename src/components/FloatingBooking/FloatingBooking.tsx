@@ -9,7 +9,7 @@ export default function FloatingBooking() {
   const t = useTranslations("BookBtn")
   
   return(
-    <Link href="/" className={styles.floatingBooking + " " + "book-btn"}>
+    <Link href="https://www.meinarztonline.at/app/api/onlineBookingFrame/320506" target="_blank" className={styles.floatingBooking + " " + "book-btn"}>
       <FontAwesomeIcon icon={faCalendarDays} />
       <span>
         {

@@ -110,11 +110,11 @@ const Hero = ({
                 <SwiperSlide className={styles.slide}>
                         <div className={styles.text}>
                             <h2 className='stagger-text'>
-                                Schilddrüse bei Kinderwunsch, während der Schwangerschaft und nach der Geburt
+                                Betreuung der Schilddrüse bei Kinderwunsch, in der Schwangerschaft und nach der Geburt
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={pregnantImg} alt='Schilddrüse bei Kinderwunsch, während der Schwanger-schaft und nach der Geburt Image'></Image>
+                        <Image src={pregnantImg} alt='Betreuung der Schilddrüse bei Kinderwunsch, in der Schwangerschaft und nach der Geburt'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -122,11 +122,11 @@ const Hero = ({
                 <SwiperSlide className={styles.slide}>
                         <div className={styles.text}>
                             <h2>
-                                Schilddrüse und Veränderungen von Gewicht und Stimmung
+                                Schilddrüse – Einfluss auf Gewicht und Stimmung
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={fatImg} alt='childdrüse und Veränderungen von Gewicht und Stimmung Image'></Image>
+                        <Image src={fatImg} alt='Schilddrüse – Einfluss auf Gewicht und Stimmung'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -138,7 +138,7 @@ const Hero = ({
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={bigNeckImg} alt='Halsschmerzen und Schilddrüsenhor-monstörungen Image'></Image>
+                        <Image src={bigNeckImg} alt='Halsschmerzen und Schilddrüsenhor-monstörungen'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -146,11 +146,11 @@ const Hero = ({
                 <SwiperSlide className={styles.slide}>
                         <div className={styles.text}>
                             <h2>
-                                Besprechung und Erklärung von Schilddrüsen-Labortests
+                                Ausführliche Besprechung und Erklärung Ihrer Schilddrüsen-Laborwerte
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={butterFlies} alt='Besprechung und Erklärung von Schilddrüsen-Labortests Image'></Image>
+                        <Image src={butterFlies} alt='Ausführliche Besprechung und Erklärung Ihrer Schilddrüsen-Laborwerte'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -158,11 +158,11 @@ const Hero = ({
                 <SwiperSlide className={styles.slide}>
                         <div className={styles.text}>
                             <h2>
-                                Abklärung von Schilddrüsen-knoten
+                                Abklärung und Beurteilung von Schilddrüsenknoten
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={innerImg} alt='Abklärung von Schilddrüsen-knoten Image'></Image>
+                        <Image src={innerImg} alt='Abklärung und Beurteilung von Schilddrüsenknoten'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -170,11 +170,11 @@ const Hero = ({
                 <SwiperSlide className={styles.slide}>
                         <div className={styles.text}>
                             <h2>
-                                Konsultation vor und nach einer Schilddrüsen-operation
+                                Beratung und Betreuung vor und nach einer Schilddrüsenoperation
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={oldImg} alt='Konsultation vor und nach einer Schilddrüsen-operation Image'></Image>
+                        <Image src={oldImg} alt='Beratung und Betreuung vor und nach einer Schilddrüsenoperation'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -182,11 +182,11 @@ const Hero = ({
                 <SwiperSlide className={styles.slide}>
                         <div className={styles.text}>
                             <h2>
-                                Feinnadelbiopsie bei Bedarf
+                                Feinnadelpunktion der Schilddrüse und Halslymphknoten
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={thyroid} alt='Feinnadelbiopsie bei Bedarf Image'></Image>
+                        <Image src={thyroid} alt='Feinnadelpunktion der Schilddrüse und Halslymphknoten'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
@@ -194,11 +194,11 @@ const Hero = ({
                 <SwiperSlide className={styles.slide}>
                         <div className={styles.text}>
                             <h2>
-                                Schilddrüsen-erkrankungen bei Kindern
+                                Abklärung und Behandlung von Schilddrüsenerkrankungen bei Kindern ab 5 Jahren
                             </h2>
                         </div>
                     <div className={styles.img}>
-                        <Image src={childrenImg} alt='Schilddrüsenerkrankungen bei Kindern Image'></Image>
+                        <Image src={childrenImg} alt='Abklärung und Behandlung von Schilddrüsenerkrankungen bei Kindern ab 5 Jahren'></Image>
                     </div>
                     <div className={styles.overlay}>
                     </div>
