@@ -12,7 +12,7 @@ const SocialUl = () => {
             </a>
         </li>
         <li>
-            <a title="Gmail" target='_blank' href="mailto:office@schilddruesemohammed.at?subject=Mail-From-Schilddrüse-website">
+            <a title="Gmail" target='_blank' href="mailto:office@schilddruesenmedizin.at?subject=Mail-From-Schilddrüse-website">
                 <FontAwesomeIcon icon={faEnvelope}/>
             </a>
         </li>
