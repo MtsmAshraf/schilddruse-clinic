@@ -1,6 +1,5 @@
 "use client"
 import React, { useState } from 'react'
-import MainHeading from '../MainHeading/MainHeading'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarDays, faChevronCircleDown, faChevronUp, faChildren, faClock, faExclamationCircle, faLocationPin, faPersonPregnant, faSquarePollVertical } from '@fortawesome/free-solid-svg-icons'
 import styles from "./termine.module.css"
@@ -9,7 +8,6 @@ import Image from 'next/image'
 
 import centerLogo from "../../../public/images/center-logo.png"
 import SocialUl from '../SocialUl/SocialUl'
-import Link from 'next/link'
 
 const Termine = () => {
 
@@ -17,11 +15,11 @@ const Termine = () => {
     const [emergencyContentShown, setEmergencyContentShown] = useState(false)
   return (
     <section  className={styles.termine}>
-        <MainHeading>
+        {/* <MainHeading>
             {
                 t("Heading")
             }
-        </MainHeading>
+        </MainHeading> */}
         <div className="container"> 
             <h3>
                 {
@@ -33,6 +31,16 @@ const Termine = () => {
                     t("Emergency.P1")
                 }
             </p>
+            <div className={styles.book}>
+                <a href="https://www.meinarztonline.at/app/api/onlineBookingFrame/320506" target='_blank' className='book-btn'>
+                    <FontAwesomeIcon icon={faCalendarDays} />
+                    <span>
+                        {
+                            t("Book")
+                        }
+                    </span>
+                </a>
+            </div>
             <div className={styles.emergency}>
                 <button onClick={() => {setEmergencyContentShown(!emergencyContentShown)}} className={styles.emergencyBtn}>
                     <h2>
@@ -123,14 +131,14 @@ const Termine = () => {
                         </span>
                     </h5>
                     <div className={styles.btns}>
-                        <Link href="https://www.meinarztonline.at/app/api/onlineBookingFrame/320506" target='_blank' className='book-btn'>
+                        <a href="https://www.meinarztonline.at/app/api/onlineBookingFrame/320506" target='_blank' className='book-btn'>
                             <FontAwesomeIcon icon={faCalendarDays} />
                             <span>
                                 {
                                     t("Book")
                                 }
                             </span>
-                        </Link>
+                        </a>
                     </div>
                     <div className={styles.location}>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.4954545057676!2d16.346496200000004!3d48.197072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d078b9f7daadd%3A0xf4cc95071955a277!2sMedizin%20Mariahilf!5e0!3m2!1sen!2seg!4v1758353796303!5m2!1sen!2seg" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>

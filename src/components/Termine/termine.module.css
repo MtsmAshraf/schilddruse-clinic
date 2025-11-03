@@ -4,10 +4,27 @@
     text-shadow: var(--text-shadow);
     font-size: 34px;
 }
-.termine > :nth-child(2) > p{
+.termine > :nth-child(1) > p{
     text-align: center;
     font-weight: bold;
     margin-top: 10px;
+}
+.termine > :nth-child(1) > .book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.termine > :nth-child(1) > .book a{
+    box-shadow: var(--main-shadow);
+    padding: 10px 20px;
+}
+.termine > :nth-child(1) > .book a span{
+    font-size: 26px;
+}
+.termine > :nth-child(1) > .book a svg{
+    font-size: 30px;
 }
 .termine .emergency .emergencyBtn{
     margin: 20px auto;
@@ -189,7 +206,7 @@
     gap: 10px;
     margin-top: 20px;
 }
-.termine .btns button{
+.termine .btns a{
     box-shadow: var(--main-shadow);
 }
 .termine .location {
