@@ -25,7 +25,7 @@ const Footer = ({
               </h4>
               <div>
                 <address>
-                  Drin med.univ. Fairoz Mohammed Mariahilfer Straße 95, Top 19- 1060, Wien
+                  Drin med.univ. Fairoz Mohammed, Mariahilfer Straße 95, 3.Stock, Tür 19- 1060, Wien
                 </address>
                 <p>
                   {t("Phone")}: 

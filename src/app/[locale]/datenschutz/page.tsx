@@ -68,7 +68,7 @@ const Datenschutz = async ({
                         <h4>Contact:</h4>
                         Dr. Fairoz Mohammed <br />
                         Specialist in Nuclear Medicine and Thyroid <br />
-                        Mariahilfer Str. 95, Top 19- 1060, 1060 Vienna <br />
+                        Mariahilfer Straße 95, 3.Stock, Tür 19- 1060, Wien <br />
                         www.schilddruesenmedizin.at <br />
                         Email: <a href="mailto:office@schilddruesenmedizin.at?subject=Mail-From-Schilddrüse-website" target='_blank'>
                                 office@schilddruesenmedizin.at
