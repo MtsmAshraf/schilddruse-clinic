@@ -8,6 +8,7 @@ import clinic2 from "../../../public/images/clinic-2.webp"
 import clinic3 from "../../../public/images/clinic-3.webp"
 import clinic4 from "../../../public/images/clinic-4.webp"
 import clinic5 from "../../../public/images/clinic-5.webp"
+import doctorImg from "../../../public/images/doctor-img.png"
 import { useTranslations } from 'next-intl'
 
 
@@ -21,6 +22,7 @@ const OrdinationComponent = () => {
         }
         </MainHeading>
         <div className={styles.imgsContainer + " " + "container"}>
+        <Image src={doctorImg} alt='Doctor Fairoz Image'></Image>
         <Image src={clinic2} alt='clinic'></Image>
         <Image src={clinic3} alt='clinic'></Image>
         <Image src={clinic4} alt='clinic'></Image>
