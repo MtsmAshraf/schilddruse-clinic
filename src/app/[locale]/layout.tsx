@@ -11,7 +11,7 @@ import icon from "./favicon.ico"
 import { Montserrat } from "next/font/google";
 import FloatingContact from "@/components/FloatingContact/FloatingContact";
 import FloatingBooking from "@/components/FloatingBooking/FloatingBooking";
-import Prices from "@/components/Prices/Prices";
+ import Prices from "@/components/Prices/Prices";
 
 
 

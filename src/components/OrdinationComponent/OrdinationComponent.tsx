@@ -8,6 +8,7 @@ import clinic2 from "../../../public/images/clinic-2.webp"
 import clinic3 from "../../../public/images/clinic-3.webp"
 import clinic4 from "../../../public/images/clinic-4.webp"
 import clinic5 from "../../../public/images/clinic-5.webp"
+import clinic6 from "../../../public/images/clinic-6-QR.jpeg"
 import doctorImg from "../../../public/images/doctor-img.png"
 import { useTranslations } from 'next-intl'
 
@@ -28,6 +29,7 @@ const OrdinationComponent = () => {
         <Image src={clinic4} alt='clinic'></Image>
         <Image src={clinic5} alt='clinic'></Image>
         <Image src={clinic1} alt='clinic'></Image>
+        <Image src={clinic6} alt='clinic facebook page QR code'></Image>
         </div>
     </section>
   )
