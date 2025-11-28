@@ -6,7 +6,7 @@
     padding: 20px;
     width: 800px;
     max-width: 97%;
-    column-count: 3; 
+    column-count: 1; 
     column-gap: 20px;   
 }
 
@@ -21,6 +21,6 @@
 }
 @media (max-width: 767px) {
 .ordinationComponent .imgsContainer {
-        column-count: 2; 
+        /* column-count: 2;  */
     }
 }

@@ -22,8 +22,8 @@ export default async function Home({
         <Loader />
         <Hero lo={locale} />
         <Termine />
-        <Services />
         <OrdinationComponent />
+        <Services />
         <BlogCards lo={locale} />
         <Telemedizin />
         {/* <Faq /> */}
