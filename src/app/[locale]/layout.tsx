@@ -12,7 +12,7 @@ import { Montserrat } from "next/font/google";
 import FloatingContact from "@/components/FloatingContact/FloatingContact";
 import FloatingBooking from "@/components/FloatingBooking/FloatingBooking";
  import Prices from "@/components/Prices/Prices";
-import { Analytics } from "@vercel/analytics/next";
+// import { Analytics } from "@vercel/analytics/next";
 
 
 
@@ -80,7 +80,7 @@ export default async function RootLayout({
           <FloatingContact />
           <Footer lo={locale}></Footer>
         </NextIntlClientProvider>
-        <Analytics />
+        {/* <Analytics /> */}
       </body>
     </html>
   );
